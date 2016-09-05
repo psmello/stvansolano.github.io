@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Esteban Solano G.</title>
+  <subtitle>Senior Software Engineer | Xamarin MVP, MCP &amp; MCSD</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://stvansolano.github.io/"/>
+  <updated>2016-09-05T21:19:20.234Z</updated>
+  <id>http://stvansolano.github.io/</id>
+  
+  <author>
+    <name>Esteban Solano G.</name>
+    <email>stvansolano@outlook.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Getting your next mobile app connected with Azure Mobile Apps</title>
+    <link href="http://stvansolano.github.io/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/"/>
+    <id>http://stvansolano.github.io/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/</id>
+    <published>2016-08-15T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.234Z</updated>
+    
+    <content type="html"><![CDATA[<p>New to <em>Azure</em>? Need a backend for your mobile app? Here here are key considerations and tips for start developing mobile apps with Azure Mobile Apps.</p>
+<a id="more"></a>
+<p>In a world of mobile-connected devices, one of the primary components for your app is a backend, capable of providing security, availability and scalability according to your requirements, audience and/or storage. Instead of doing everything on the user’s device, your app might choose to rely certain responsabilities like complex business-processes and time-consuming tasks without compromising the user security and device’s memory.</p>
+<h2 id="Meet-Azure-Mobile-Apps"><a href="#Meet-Azure-Mobile-Apps" class="headerlink" title="Meet Azure Mobile Apps:"></a>Meet Azure Mobile Apps:</h2><p><em>Azure Mobile Apps</em> is a set of cloud services that allows you to quickly build and run mobile backends with a set of <em>RESTful and OData service</em>s through a set of <em>SDKs</em> for connecting programming different stacks including <em>JavaScript</em>, C#, <em>Objective-C</em>, <em>Swift</em>, <em>Java</em>, <em>Cordova</em> and more, which provides a wide-open development yard across web, hybrid and native platforms.</p>
+<p><img src="/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/preview.png" alt="Azure Apps" title="Azure Mobile Services"></p>
+<p>This is extremely important for organizations moving from <em>on-promises</em> environments to <em>cloud services</em> and new app opportunities that require highly-available cloud solutions and common mobile features including:</p>
+<ul>
+<li>Push notifications</li>
+<li>Offline-availability</li>
+<li>Social integrations</li>
+<li>Backend-offline sync</li>
+<li>Auth. </li>
+<li>And more.</li>
+</ul>
+<h2 id="Connection-awareness-and-offline-sync"><a href="#Connection-awareness-and-offline-sync" class="headerlink" title="Connection awareness and offline sync."></a>Connection awareness and offline sync.</h2><p>Handling device-disconnected situations is an important feature to prevent your apps to stop working and be useless for your users when your device is offline. Even better, resilent services allow applications to be aware of losing connectivity and sync with your backend when connection is back. There are some cloud products that support this feature including CouchBase’s <a href="http://www.couchbase.com/nosql-databases/couchbase-mobile" target="_blank" rel="external">Mobile</a>, Google’s <a href="https://www.firebase.com/" target="_blank" rel="external">Firebase</a>, Amazon’s <a href="https://aws.amazon.com/es/cognito/" target="_blank" rel="external">Cognito</a> and Azure as well.</p>
+<p>With Azure Mobile Apps, you can take advantage of offline and sync features by having:</p>
+<ul>
+<li>End-to-end <em>JavaScript/.Net</em> based systems.</li>
+<li>Highly-extensible backend with more recent <em>Asp.Net Core</em> / <em>NodeJS</em> features.</li>
+<li>Corporate Sign-On and Active-Directory integrations.</li>
+<li>On-premises extensibility into the cloud.</li>
+<li>And more.</li>
+</ul>
+<p><strong>Note:</strong><br>Azure Mobile Apps was previously known as <em>Azure Mobile Services</em>, which has been renamed these days for transitioning to <em>Azure App Service</em>. If you have already been using Azure Mobile Services we recommend you to take look on the transition notes <a href="https://azure.microsoft.com/en-us/blog/transition-of-azure-mobile-services/" target="_blank" rel="external">here</a>.</p>
+<h2 id="Getting-started-with-Mobile-and-Azure"><a href="#Getting-started-with-Mobile-and-Azure" class="headerlink" title="Getting started with Mobile and Azure."></a>Getting started with Mobile and Azure.</h2><p>In a nutshell, <em>Azure App Service</em> allows to define mobile backends in two ways:</p>
+<ul>
+<li>Easy Tables (No-code APIs)</li>
+<li>Full Azure Mobile Apps Backends (NodeJS/.Net)</li>
+</ul>
+<p>Here the steps for start using <em>Easy Tables</em> and easily set up a mobile backend in minutes:</p>
+<h3 id="1-Setup-the-Mobile-App-from-Azure-portal"><a href="#1-Setup-the-Mobile-App-from-Azure-portal" class="headerlink" title="1. Setup the Mobile App from Azure portal."></a>1. Setup the Mobile App from Azure portal.</h3><p>From Azure Portal you can go to <strong>New -&gt; Web + Mobile -&gt; Mobile App</strong> to start creating your mobile backend and choose the public Azure URL for it:</p>
+<p><a href="/2016/08/15//2016/08/15/Getting-your-next-app--with-azure-mobile-apps/1.setup.png"><img src="/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/1.setup.png" alt="1.setup"></a></p>
+<h3 id="2-Define-your-Easy-Tables-schema"><a href="#2-Define-your-Easy-Tables-schema" class="headerlink" title="2. Define your Easy Tables schema."></a>2. Define your Easy Tables schema.</h3><p>From the Azure portal you can setup your table schema quickly and define the fields that you need to store:</p>
+<p><a href="/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/2.NewTableSettings.png"><img src="/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/2.NewTableSettings.png" alt="2.NewTableSettings"></a></p>
+<p>By default, the No-code APIs rely on <em>Azure Table Storage</em>, which you can eventually swap into any other <em>SQL/NoSQL</em> persistance of your choice supported by Azure.</p>
+<h3 id="3-Start-using-the-REST-endpoint"><a href="#3-Start-using-the-REST-endpoint" class="headerlink" title="3. Start using the REST endpoint."></a>3. Start using the REST endpoint.</h3><p>You can bring your favorite REST debugging tool for testing your no-code API and start GET, PUT, UPDATE and DELETE actions.</p>
+<p><a href="/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/3.PostJSON.png"><img src="/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/3.PostJSON.png" alt="3.PostJSON"></a><br>Make sure to include the <em>ZUMO-API-VERSION</em> header with the proper version (2.0.0) to the REST debugging tool of your choice (which is <em>Postman</em> in this case).</p>
+<h2 id="Tips-for-connecting-it-to-your-mobile-app"><a href="#Tips-for-connecting-it-to-your-mobile-app" class="headerlink" title="Tips for connecting it to your mobile app"></a>Tips for connecting it to your mobile app</h2><ol>
+<li>Bring the proper SDK for your platform (<em>Swift</em>, <em>Java</em>, <em>Cordova</em>, <em>Xamarin</em>)</li>
+<li>Configure your client instance (URL) in your app and map your DTOs <em>(Data-Transfer Objects)</em></li>
+<li>Start using it</li>
+</ol>
+<p><strong> - Bring the <em>SDK</em> for your mobile app.</strong><br><a href="/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/package.png"><img src="/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/package.png" alt="package"></a></p>
+<p><strong> - Configuring your app and <em>DTOs</em> </strong><br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">namespace</span> YourNextMobileApp</div><div class="line">&#123;</div><div class="line">    <span class="keyword">using</span> Microsoft.WindowsAzure.MobileServices;</div><div class="line">    <span class="keyword">using</span> Newtonsoft.Json;</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">class</span> Contact</div><div class="line">    &#123;</div><div class="line">    	[JsonProperty(<span class="string">"Id"</span>)]</div><div class="line">    	<span class="keyword">public</span> <span class="built_in">string</span> Id &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line"></div><div class="line">    	[JsonProperty(<span class="string">"Name"</span>)]</div><div class="line">    	<span class="keyword">public</span> <span class="built_in">string</span> Name &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line"></div><div class="line">    	[JsonProperty(<span class="string">"Phone"</span>)]</div><div class="line">    	<span class="keyword">public</span> <span class="built_in">string</span> Phone &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line"></div><div class="line">    	[Version] </div><div class="line">    	<span class="keyword">public</span> <span class="built_in">string</span> Version &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p><strong>- Tip: Abstract <em>Mobile Services</em> with your own <em>ICloudService</em> to be used through your app.</strong><br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> interface ICloudService</div><div class="line">&#123;</div><div class="line">    Repository&lt;Contact&gt; Contacts &#123; get; &#125;</div><div class="line">    </div><div class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Initialize</span><span class="params">()</span></span>;</div><div class="line">&#125;</div><div class="line">    </div><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> AzureCloudService : ICloudService</div><div class="line">&#123;</div><div class="line">    <span class="keyword">private</span> IMobileServiceClient <span class="number">_</span>client;</div><div class="line"></div><div class="line">    <span class="keyword">public</span> Repository&lt;Contact&gt; Contacts &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Initialize</span><span class="params">()</span></span></div><div class="line">    &#123;</div><div class="line">        <span class="number">_</span>client = <span class="keyword">new</span> MobileServiceClient(APP.KEYS.BACKEND_URL);</div><div class="line"></div><div class="line">        Contacts = <span class="keyword">new</span> Repository&lt;Contact&gt;(<span class="number">_</span>client);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>By Abstracting your Azure implementation it gets easier for mocking and keep dependencies down through your app.</p>
+<p><strong> -Then the <em>Factory</em> implementation</strong></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">namespace</span> YourNextMobileApp</div><div class="line">&#123;</div><div class="line">    <span class="keyword">using</span> Microsoft.WindowsAzure.MobileServices;</div><div class="line">    <span class="keyword">using</span> System.Collections.Generic;</div><div class="line">    <span class="keyword">using</span> System.Threading.Tasks;</div><div class="line">    <span class="keyword">using</span> System;</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">class</span> Repository&lt;T&gt;</div><div class="line">    	where T : <span class="keyword">class</span></div><div class="line">    &#123;</div><div class="line">        IMobileServiceClient <span class="number">_</span>proxy;</div><div class="line"></div><div class="line">        <span class="keyword">protected</span> IMobileServiceTable&lt;T&gt; Table &#123; get; <span class="keyword">private</span> <span class="built_in">set</span>; &#125;</div><div class="line">        <span class="keyword">protected</span> Logger Logger &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="title">Repository</span><span class="params">(IMobileServiceClient proxy)</span></span></div><div class="line">        &#123;</div><div class="line">        	<span class="number">_</span>proxy = proxy;</div><div class="line">            Table = <span class="number">_</span>proxy.GetTable&lt;T&gt;();</div><div class="line"></div><div class="line">            Logger = <span class="keyword">new</span> Logger();</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="keyword">public</span> async Task&lt;IEnumerable&lt;T&gt;&gt; Get() </div><div class="line">        &#123;</div><div class="line">            var empty = <span class="keyword">new</span> T[<span class="number">0</span>];</div><div class="line"></div><div class="line">            <span class="keyword">try</span></div><div class="line">            &#123;</div><div class="line">                <span class="keyword">return</span> await Table.ToEnumerableAsync();</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">catch</span> (Exception ex)</div><div class="line">            &#123;</div><div class="line">                Logger.Trace(ex);</div><div class="line">                <span class="keyword">return</span> empty;</div><div class="line">            &#125;</div><div class="line">       &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>Additional <em>Repository</em> classes can be added layer and keep it organized.</p>
+<p><strong> -Tip: Keeping your mobile app responsive with <em>async</em> calls</strong></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> async <span class="keyword">void</span> <span class="title">FetchAsync</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    var result = await Repository.Get();</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (result.Any())</div><div class="line">    &#123;</div><div class="line">    	foreach (Contact singleItem in result)</div><div class="line">    	&#123;</div><div class="line">            <span class="number">_</span>observable.Add(<span class="keyword">new</span> ContactViewModel (singleItem));</div><div class="line">    	&#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong> -Demo: Fetching the data (Android / Google Maps)</strong><br><a href="/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/demo.png"><img src="/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/demo.png" alt="demo"></a></p>
+<h2 id="Easy-Tables-vrs-Azure-Mobile-Apps-When-to-choose"><a href="#Easy-Tables-vrs-Azure-Mobile-Apps-When-to-choose" class="headerlink" title="Easy Tables vrs. Azure Mobile Apps - When to choose?"></a><em>Easy Tables vrs. Azure Mobile Apps</em> - When to choose?</h2><p>While Azure <em>Easy Tables</em> are quick and powerful, the underlying backend relies on a <em>NodeJS</em> implementation, which might not worry you about at least you want to extend it with <em>JavaScript</em>. Alternatively, you can provide your own C#-based Mobile backend on existing Azure SDK tooling and extend your API implementation as needed. </p>
+<p>Here are some key-considerations for choosing between Azure Easy Tables and Azure Mobile Apps with a .Net/NodeJS backend:</p>
+<p><strong> + Pros of Easy Tables:</strong></p>
+<ul>
+<li>Rely on Azure Cloud with minimum configuration.</li>
+<li>Quick backends deployed in minutes.</li>
+<li>Quickly jump into the SDK for getting more features with your favorite language.</li>
+<li>Recommended for App-first scenarios with minimum backend dependencies.</li>
+</ul>
+<p><strong> - Cons of Easy Tables:</strong></p>
+<ul>
+<li>Limited custom-logic and customizations.</li>
+<li>Might make your app heavy with too much client-side processing.</li>
+<li>Object-relationships cannot and should not be handled in Easy Tables.</li>
+<li>Extra-operations and custom business-logic will need additional tweaks on NodeJS backend (<em>JavaScript</em>).</li>
+</ul>
+<p>In the other side, a fully Azure Mobile App backend allows you to bring additional logic-layers that be extended with your own backend code with <em>NodeJS / Asp.Net Core</em> and host it on Azure.</p>
+<p><strong> + Pros of Azure mobile-backend implementations:</strong></p>
+<ul>
+<li>Built your own service with Azure flavored features.</li>
+<li>Supporting latest Asp.Net Core / NodeJS features.</li>
+<li>Bring on your existing services and extend them on Cloud</li>
+</ul>
+<p><strong> - Cons of Azure mobile-backend implementations:</strong></p>
+<ul>
+<li>SDKs still being developed (be aware of breaking changes)</li>
+<li>Requires deeper understanding of Azure building-blocks.</li>
+</ul>
+<h2 id="Wrapping-up"><a href="#Wrapping-up" class="headerlink" title="Wrapping up."></a>Wrapping up.</h2><p>So far, we explored some of the basics of bringing Azure Mobile Services into your next mobile app. As we saw, you can start with <em>Easy Tables</em> in minutes as a way of setting up a mobile backend right out the door directly from the Azure Portal and start using the <em>REST/OData</em> endpoints directly from your app.</p>
+<p>Also, we examined some of the scenarios when you might need or not your own coded backend, and some key considerations before transitioning from <em>Easy Tables</em> to a full <em>Azure Mobile App</em> backend in case you need it.</p>
+<p>By using one or the other, you can take the <em>Azure Mobile SDKs</em> available to your development stack and start right the way with a lot features out-the-box for mobile apps including offline-sync and social integrations. </p>
+<p>Hopefully those tips can help you to take important features from your Azure box and  help you to try or decide to use Azure for your next mobile app or not. </p>
+<p><em>Happy coding!</em></p>
+<h2 id="Recommended-resources"><a href="#Recommended-resources" class="headerlink" title="Recommended resources:"></a>Recommended resources:</h2><p><strong>- Xamarin - Mobile apps with .Net and Azure</strong></p>
+<ul>
+<li><a href="http://www.avantica.net/blog/2015/12/02/azure-microsoft-solution-for-cloud-computing/" target="_blank" rel="external">Azure, Microsoft solution for Cloud Computing</a></li>
+<li><a href="http://www.avantica.net/blog/2016/01/21/xamarin-4-has-everything-you-need-to-create-great-mobile-apps/" target="_blank" rel="external">Xamarin 4 has everything you need to create great mobile apps!</a></li>
+<li><a href="http://www.avantica.net/blog/2015/11/02/get-started-with-xamarin-test-cloud/" target="_blank" rel="external">Get started with Xamarin Test Cloud</a></li>
+<li><a href="https://blog.xamarin.com/getting-started-azure-mobile-apps-easy-tables/" target="_blank" rel="external">Getting started with Azure Easy Tables</a></li>
+<li><a href="https://blog.xamarin.com/add-a-backend-to-your-app-in-10-minutes/" target="_blank" rel="external">Add a backend to your app in 10 minutes</a></li>
+<li><a href="https://developer.xamarin.com/guides/cross-platform/azure/" target="_blank" rel="external">Azure + Xamarin documentation</a></li>
+</ul>
+<p><strong>- Azure documentation links</strong></p>
+<ul>
+<li><a href="https://azure.microsoft.com/en-us/documentation/services/app-service/" target="_blank" rel="external">https://azure.microsoft.com/en-us/documentation/services/app-service/</a></li>
+<li><a href="https://azure.microsoft.com/en-us/documentation/learning-paths/appservice-mobileapps/" target="_blank" rel="external">https://azure.microsoft.com/en-us/documentation/learning-paths/appservice-mobileapps/</a></li>
+<li><a href="https://azure.microsoft.com/en-us/documentation/articles/app-service-value-prop-what-is/" target="_blank" rel="external">https://azure.microsoft.com/en-us/documentation/articles/app-service-value-prop-what-is/</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;New to &lt;em&gt;Azure&lt;/em&gt;? Need a backend for your mobile app? Here here are key considerations and tips for start developing mobile apps with Azure Mobile Apps.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
+    
+      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+    
+      <category term="Backend" scheme="http://stvansolano.github.io/blog/tags/Backend/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Introducción a Material Design - Google</title>
+    <link href="http://stvansolano.github.io/2016/08/07/Introduccion-a-Material-Design-Google/"/>
+    <id>http://stvansolano.github.io/2016/08/07/Introduccion-a-Material-Design-Google/</id>
+    <published>2016-08-07T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.246Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>Material Design</em> es un conjunto de especificaciones de Google para el desarrollo de interfaces gráficas para una experiencia unificada entre plataformas y tamaños de dispositivos.</p>
+<a id="more"></a>
+<p><img src="/2016/08/07/Introduccion-a-Material-Design-Google/preview.png" alt="Google Material Design"></p>
+<p>Está basado en la metáfora <em>Material</em> donde se incorporan elementos de luz, sombra y realidad táctil, y ha sido ampliamente incorporada a los productos de Google de manera consistente en web, escritorio y móviles (Android).</p>
+<p>¿Quieres verlo en acción? Acompáñanos el próximo Martes 16 de Agosto de 2016 a una charla en donde aprenderemos sobre Material Design.</p>
+<h2 id="Sobre-el-Meetup-Material-Design-Filosofia-de-diseno-para-la-mejora-de-UI-UX"><a href="#Sobre-el-Meetup-Material-Design-Filosofia-de-diseno-para-la-mejora-de-UI-UX" class="headerlink" title="Sobre el Meetup - Material Design: Filosofía de diseño para la mejora de UI / UX"></a>Sobre el Meetup - Material Design: Filosofía de diseño para la mejora de UI / UX</h2><p>En esta ocasión hablaremos sobre los fundamentos de <em>Material Design</em>, el cual permite diseñar interfaces de usuario de una forma sencilla y mejorar la experiencia de usuario en nuestras aplicaciones. Estos fundamentos aplican tanto para diseñadores como desarrolladores, con el fin de que el proceso de diseño e implementación sea más sencillo y de mayor calidad.</p>
+<p>Adicionalmente, analizaremos la implementación de Material Design en una aplicación móvil mediante el uso de la librería de diseño de <em>Google</em>, los diferentes componentes que provee y cómo el uso de estas librerías simplifica el diseño e implementación de una aplicación.</p>
+<p><em>Expositor:</em> Julio Muñoz de <a href="http://www.avantica.net/" target="_blank" rel="external">@Avantica</a></p>
+<p><strong>Fecha:</strong> Martes 16 de agosto, 6:30pm.<br><strong>Lugar:</strong> Avantica Technologies, San Pedro, Costa Rica.</p>
+<h3 id="AGENDA"><a href="#AGENDA" class="headerlink" title="AGENDA:"></a>AGENDA:</h3><ul>
+<li>Introducción a conceptos de UI / UX y la importancia en aplicaciones móviles.</li>
+<li>Introducción y principios de <em>Material Design</em>.</li>
+<li>Herramientas y Frameworks para la implementación de Material Design</li>
+<li>Diseño de Aplicaciones en Android (Diferentes tamaños y densidades de pantalla, tipografía, iconografía, navegación, etc)</li>
+<li>Elementos fundamentales y guías de diseño enfocadas en Android</li>
+<li>Demo de aplicación Android (Google Design Library, Animations and transitions, Toolbar, Recycler View, Parallax Scrolling, Elevation)</li>
+</ul>
+<p>Más info y reservación en el <a href="http://meetu.ps/2ZkDC2" target="_blank" rel="external">Meetup de Mobile CR Developers</a>.</p>
+<p><em>Evento gratuito. Cupo limitado.</em></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;Material Design&lt;/em&gt; es un conjunto de especificaciones de Google para el desarrollo de interfaces gráficas para una experiencia unificada entre plataformas y tamaños de dispositivos.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+    
+      <category term="Spanish/English" scheme="http://stvansolano.github.io/blog/tags/Spanish-English/"/>
+    
+      <category term="UX / UI" scheme="http://stvansolano.github.io/blog/tags/UX-UI/"/>
+    
+      <category term="Google" scheme="http://stvansolano.github.io/blog/tags/Google/"/>
+    
+      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bases de datos móviles: Realm como alternativa a SQLite</title>
+    <link href="http://stvansolano.github.io/2016/07/09/Invitacion-Bases-de-datos-moviles-Realm-como-alternativa-a-SQLite/"/>
+    <id>http://stvansolano.github.io/2016/07/09/Invitacion-Bases-de-datos-moviles-Realm-como-alternativa-a-SQLite/</id>
+    <published>2016-07-09T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.246Z</updated>
+    
+    <content type="html"><![CDATA[<p>Exploramos <a href="https://realm.io/" target="_blank" rel="external">Realm</a>, una alternativa de base de datos móviles disponible para <em>Swift, Objective-C, Java, React Native,</em> y <em>Xamarin</em>, el cual nos permite almacenar datos de manera local en el móvil y recuperarlos mediante consultas de una manera rápida y sencilla.</p>
+<a id="more"></a>
+<p><img src="/2016/07/09/Invitacion-Bases-de-datos-moviles-Realm-como-alternativa-a-SQLite/preview.png" alt="Real como alternativa a SQLite"></p>
+<p>Si bien SQLite es la alternativa más común en las base de datos móviles, Realm promete ser “una mejor base de datos portátil”, capaz de sustituir y superar a SQLite en facilidad y rendimiento. </p>
+<p>Acompáñanos al próximo Meetup de Mobile CR Developers, comparte y aprende los conceptos básicos de cómo configurar el uso Realm y utilizarlo en nuestras aplicaciones móviles. Habrá demos, código abierto, rifa entre los participantes y más. Cortesía de nuestros patrocinadores.</p>
+<p><a href="http://meetu.ps/e/BNn8w/8t9HH/d" target="_blank" rel="external">¿Vas a este meetup? Confirma tu asistencia <strong><strong><em>aquí</em></strong></strong>.</a></p>
+<p><a href="http://www.meetup.com/Costa-Rica-Mobile-Developers" target="_blank" rel="external"><img src="/2016/07/09/Invitacion-Bases-de-datos-moviles-Realm-como-alternativa-a-SQLite/logo.jpeg" alt="CR Mobile Develoeprs"></a></p>
+<p><em>Presentado por:</em> Carlos Méndez. </p>
+<h2 id="SQLite-vrs-Realm-¿Cual-utilizar-Una-comparativa"><a href="#SQLite-vrs-Realm-¿Cual-utilizar-Una-comparativa" class="headerlink" title="SQLite vrs. Realm. ¿Cuál utilizar? Una comparativa."></a>SQLite vrs. Realm. ¿Cuál utilizar? Una comparativa.</h2><p>Tras la llegada de Realm a Xamarin con la promesa de una opción de base de datos sencilla y sobretodo con mejor rendimiento que el resto de opciones (incluida SQLite, la opción más usada y extendida), la duda es obvia… ¿cuál usar? Por <em>Javier Suárez</em>. <a href="http://geeks.ms/jsuarez/2016/06/28/xamarin-comparativa-de-sqlite-y-realm/" target="_blank" rel="external">Leer más.</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Exploramos &lt;a href=&quot;https://realm.io/&quot;&gt;Realm&lt;/a&gt;, una alternativa de base de datos móviles disponible para &lt;em&gt;Swift, Objective-C, Java, React Native,&lt;/em&gt; y &lt;em&gt;Xamarin&lt;/em&gt;, el cual nos permite almacenar datos de manera local en el móvil y recuperarlos mediante consultas de una manera rápida y sencilla.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Realm" scheme="http://stvansolano.github.io/blog/tags/Realm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ganadores de la rifa - Reu de Xamarins Semana TICs en U-Latina de Costa Rica</title>
+    <link href="http://stvansolano.github.io/2016/07/07/Ganadores-de-la-rifa-Reu-de-Xamarins-Semana-TICs-Ulatina/"/>
+    <id>http://stvansolano.github.io/2016/07/07/Ganadores-de-la-rifa-Reu-de-Xamarins-Semana-TICs-Ulatina/</id>
+    <published>2016-07-07T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.230Z</updated>
+    
+    <content type="html"><![CDATA[<p>El pasado Martes 28 de junio de 2016, tuvimos el gusto de participar en la Semana TICs en la Universidad Latina de Costa Rica con la charla <em>“Introducción al desarrollo móvil con Xamarin”</em>. A continuación los ganadores de la rifa. ¡Felicidades y muchas gracias por asistir!</p>
+<a id="more"></a>
+<p><strong>Premios y ganadores de la actividad </strong></p>
+<ul>
+<li>1 Libro de Xamarin<em>*. </em>(Ganadora: <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/members/206858547/" target="_blank" rel="external">Candy Mejías Portuguez</a>)</li>
+<li>1 Camiseta (Ganador: <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/members/206861965/" target="_blank" rel="external">Carlos Murillo</a>)</li>
+<li>1 <em>“monito”</em> de nuestras reuniones de Xamarin <em>(Ganador: <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/members/187057674/" target="_blank" rel="external">Carlos Mendez</a>)</em></li>
+</ul>
+<p><em>Libro impreso “Creating Mobile Apps with Xamarin Forms” de <em>*Charles Petzold</em></em></p>
+<p><img src="/2016/07/07/Ganadores-de-la-rifa-Reu-de-Xamarins-Semana-TICs-Ulatina/preview.png" alt="Ganadores de la rifa"></p>
+<p>Los ganadores pueden pasar a retirar su premio a partir del Lunes 11 de Julio de 2016 en las oficinas de <em>Avantica</em> en los Yoses. Les dejo por el link de la actividad en Meetup + fotos <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/events/232114331/" target="_blank" rel="external">aquí</a>.</p>
+<h2 id="Avantica-Technologies"><a href="#Avantica-Technologies" class="headerlink" title="Avantica Technologies"></a>Avantica Technologies</h2><p><em>Contacto:</em> Jorge Lépiz.<br>Email: <a href="mailto:jorge.lepiz@avantica.net" target="_blank" rel="external">jorge.lepiz@avantica.net</a> ó <a href="mailto:stvansolano@outlook.com" target="_blank" rel="external">stvansolano@outlook.com</a><br>Teléfono: 2283-9100 ext.1132 (Pueden coordinar la visita con tiempo con Jorge).<br>Horario: De Lunes a Viernes de 9am a 6pm.<br>Dirección: Los Yoses, San Pedro, San José.<br>Edificio Santiagomillas (detrás de Automercado Los Yoses), 6to piso.</p>
+<p>Si no te has registrado aún, te invito a nuestro meetup: <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers" target="_blank" rel="external">Mobile CR Developers</a>. ¡Nos vemos en la próxima.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;El pasado Martes 28 de junio de 2016, tuvimos el gusto de participar en la Semana TICs en la Universidad Latina de Costa Rica con la charla &lt;em&gt;“Introducción al desarrollo móvil con Xamarin”&lt;/em&gt;. A continuación los ganadores de la rifa. ¡Felicidades y muchas gracias por asistir!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Rifa" scheme="http://stvansolano.github.io/blog/tags/Rifa/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Resumen - Code Camp de Xamarin.Forms + Patrones de navegación móvil</title>
+    <link href="http://stvansolano.github.io/2016/06/21/Resumen-Code-Camp-de-Xamarin-Forms-Patrones-de-navegacion-movil-Costa-Rica/"/>
+    <id>http://stvansolano.github.io/2016/06/21/Resumen-Code-Camp-de-Xamarin-Forms-Patrones-de-navegacion-movil-Costa-Rica/</id>
+    <published>2016-06-21T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.254Z</updated>
+    
+    <content type="html"><![CDATA[<p>El pasado sábado 18 de Junio de 2016 tuvimos un <em>Code Camp</em> de Xamarin.Forms con el objetivo de conocer los principales patrones de navegación móvil en general y su implementación con Xamarin.Forms.</p>
+<a id="more"></a>
+<p>¡Muchas gracias a la U Fidelitas por recibirnos y a todos por participar! Les dejo por acá el resumen y los recursos vistos.</p>
+<p><img src="/2016/06/21/Resumen-Code-Camp-de-Xamarin-Forms-Patrones-de-navegacion-movil-Costa-Rica/preview.png" alt="Patrones de Navegación Móvil"></p>
+<ul>
+<li>Link del evento y fotos. <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/events/231931864/" target="_blank" rel="external">Aquí.</a></li>
+<li>Diapositivas de la sesión. <a href="https://speakerdeck.com/stvansolano/patrones-de-navegacion-moviles-con-xamarin-costa-rica-mobile-developers" target="_blank" rel="external">Aquí</a></li>
+<li>Código fuente del <em>live coding</em> en GitHub. <a href="https://github.com/stvansolano/xamarin-forms-navigation" target="_blank" rel="external">Aquí.</a></li>
+</ul>
+<p>En los próximos días estaré incluyendo más ejemplos de navegación en el repo con resto de patrones y añadiendole <a href="https://www.hockeyapp.net/features/" target="_blank" rel="external">HockeyApp</a> para despliegue contínuo. Si quisieras ver la app en acción o no has instalado Xamarin aún y quieres probarlo, <a href="mailto:stvansolano@outlook.com" target="_blank" rel="external">envíame</a> un correo para incluirte como parte del grupo de usuarios y puedas probar la aplicación.</p>
+<h2 id="Proximas-sesiones"><a href="#Proximas-sesiones" class="headerlink" title="Próximas sesiones."></a>Próximas sesiones.</h2><p>No olvides registrarte en la próxima sesión <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/events/231566487/" target="_blank" rel="external">en línea</a>, así como las próximas sesiones y <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/polls/1220494/" target="_blank" rel="external">votar/sugerir</a> por tus temas de preferencia.</p>
+<p>Si vas para la próxima meetup o bien no has instalado Xamarin aún, te dejo un artículo con lo que necesitas preparar <a href="/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/">aquí</a>.</p>
+<p>¡Invita a tus amig@s! Nos vemos en la proxima.</p>
+<p><br><script async class="speakerdeck-embed" data-id="dc23fa16b8a244f1bbb1bd9167301f85" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;El pasado sábado 18 de Junio de 2016 tuvimos un &lt;em&gt;Code Camp&lt;/em&gt; de Xamarin.Forms con el objetivo de conocer los principales patrones de navegación móvil en general y su implementación con Xamarin.Forms.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Open Source" scheme="http://stvansolano.github.io/blog/tags/Open-Source/"/>
+    
+      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Recommended Asp.Net Core Links for June 2016</title>
+    <link href="http://stvansolano.github.io/2016/06/01/Recommended-Asp-Net-Core-Links-for-June-2016/"/>
+    <id>http://stvansolano.github.io/2016/06/01/Recommended-Asp-Net-Core-Links-for-June-2016/</id>
+    <published>2016-06-01T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.250Z</updated>
+    
+    <content type="html"><![CDATA[<p>Here is a list of recommended links for developing Asp.Net Core apps for June 2016<br><a id="more"></a></p>
+<p><img src="/2016/06/01/Recommended-Asp-Net-Core-Links-for-June-2016/preview.png" alt="Get ASP.NET Core"></p>
+<h3 id="Introduction-to-Net-Core-amp-Asp-Net-Core"><a href="#Introduction-to-Net-Core-amp-Asp-Net-Core" class="headerlink" title="Introduction to .Net Core &amp; Asp.Net Core."></a>Introduction to .Net Core &amp; Asp.Net Core.</h3><ul>
+<li>.Net Core Intro. <a href="https://gooroo.io/GoorooThink/Article/16732/Introduction-to-NET-Core/22177" target="_blank" rel="external">Link</a></li>
+<li>Asp.Net Core now available for download. <a href="http://mspoweruser.com/asp-net-core-rc2-now-available-download/" target="_blank" rel="external">Link</a></li>
+<li>Documentation. <a href="https://docs.asp.net/en/latest/" target="_blank" rel="external">Link</a></li>
+<li>Source code on GitHub. <a href="https://dotnet.github.io/" target="_blank" rel="external">Link</a></li>
+<li>Debugging Asp.Net Core RC2 with VS Code. <a href="http://codeclimber.net.nz/archive/2016/05/20/How-to-debug-NET-Core-RC2-app-with-Visual-Studio.aspx" target="_blank" rel="external">Link</a></li>
+<li>Learn Asp.Net MVC + Pluralsight videos. <a href="http://www.asp.net/mvc" target="_blank" rel="external">Link</a></li>
+</ul>
+<h3 id="Upgrading-your-Asp-Net-Core-projects"><a href="#Upgrading-your-Asp-Net-Core-projects" class="headerlink" title="Upgrading your Asp.Net Core projects"></a>Upgrading your Asp.Net Core projects</h3><ul>
+<li>Announced .Net Core RC2. <a href="https://blogs.msdn.microsoft.com/dotnet/2016/05/16/announcing-net-core-rc2/" target="_blank" rel="external">Link</a></li>
+<li>RC2 Migration guide. <a href="https://ievangelist.github.io/blog/migrating-to-rc2/" target="_blank" rel="external">Link</a></li>
+<li>Krestrel Urls with RC2. <a href="http://benfoster.io/blog/how-to-configure-kestrel-urls-in-aspnet-core-rc2" target="_blank" rel="external">Link</a></li>
+<li>Converting an Asp.Net Core RC1 to RC2. <a href="https://wildermuth.com/2016/05/17/Converting-an-ASP-NET-Core-RC1-Project-to-RC2" target="_blank" rel="external">Link</a></li>
+</ul>
+<h3 id="OmniSharp"><a href="#OmniSharp" class="headerlink" title="OmniSharp"></a>OmniSharp</h3><ul>
+<li>OmniSharp: .Net and IntelliSense on any platform with your editor. <a href="www.omnisharp.net">Link</a></li>
+<li>Making Cross-platform .NET a Reality and a pleasure. <a href="http://www.hanselman.com/blog/OmniSharpMakingCrossplatformNETARealityAndAPleasure.aspx" target="_blank" rel="external">Link</a></li>
+</ul>
+<h3 id="Debugging-Asp-Net-Core-apps"><a href="#Debugging-Asp-Net-Core-apps" class="headerlink" title="Debugging Asp.Net Core apps"></a>Debugging Asp.Net Core apps</h3><p><a href="http://zablo.net/blog/post/run-and-debug-asp-net-core-rc2-ubuntu-16-04" target="_blank" rel="external">Run and debug Asp.Net Core on Ubuntu</a></p>
+<h3 id="Yeoman-and-sub-generators"><a href="#Yeoman-and-sub-generators" class="headerlink" title="Yeoman and sub-generators"></a>Yeoman and sub-generators</h3><ul>
+<li>Meet Yeoman. <a href="http://yeoman.io/" target="_blank" rel="external">Link</a></li>
+<li>Yeoman generators. <a href="ttp://yeoman.io/generators/" target="_blank" rel="external">Link</a></li>
+</ul>
+<h3 id="Spanish-links"><a href="#Spanish-links" class="headerlink" title="Spanish links"></a>Spanish links</h3><ul>
+<li>6 cambios destacables en Asp.Net Core RC2. <a href="http://www.variablenotfound.com/2016/05/6-cambios-destacables-en-aspnet-core-rc2.html" target="_blank" rel="external">Link</a></li>
+</ul>
+<h3 id="Asp-Net-Core-Workshop-amp-Costa-Rica-Community"><a href="#Asp-Net-Core-Workshop-amp-Costa-Rica-Community" class="headerlink" title="Asp.Net Core Workshop &amp; Costa Rica Community"></a>Asp.Net Core Workshop &amp; Costa Rica Community</h3><ul>
+<li>Asp.Net Core Workshop source code. <a href="https://github.com/stvansolano/AspnetCoreWorkshop" target="_blank" rel="external">Link</a></li>
+<li>Mobile Costa Rica .Net Developers. <a href="http://www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/" target="_blank" rel="external">Link</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Here is a list of recommended links for developing Asp.Net Core apps for June 2016&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="ASP.NET" scheme="http://stvansolano.github.io/blog/tags/ASP-NET/"/>
+    
+      <category term="Web Apps" scheme="http://stvansolano.github.io/blog/tags/Web-Apps/"/>
+    
+      <category term="Web API" scheme="http://stvansolano.github.io/blog/tags/Web-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Woot. I&#39;m now (ahora soy) Xamarin MVP! Costa Rica</title>
+    <link href="http://stvansolano.github.io/2016/05/27/I-m-now-Xamarin-MVP-Soy-Xamarin-MVP-Costa-Rica/"/>
+    <id>http://stvansolano.github.io/2016/05/27/I-m-now-Xamarin-MVP-Soy-Xamarin-MVP-Costa-Rica/</id>
+    <published>2016-05-27T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.238Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong> Special thanks in Spanish </strong><br>El día de hoy <a href="https://blog.xamarin.com/welcome-the-newest-xamarin-mvps/" target="_blank" rel="external">he sido reconocido</a> como MVP <em>(Most Valuable Professional)</em> por parte de Xamarin, siendo primer MVP para la región de Centroamérica y el Caribe. ¡Muchas gracias a todos por su apoyo en la comunidad Xamarin!</p>
+<a id="more"></a>
+<p><img src="/2016/05/27/I-m-now-Xamarin-MVP-Soy-Xamarin-MVP-Costa-Rica/MVP-Badge2.png" alt="I&#39;m Xamarin MVP!"></p>
+<p>Quiero agradecer profundamente a todos quienes me han apoyado durante este tiempo con esta iniciativa 100% abierta y que han permitido espacio para que el grupo de la Comunidad Xamarin en Costa Rica haya podido crecer y pasar muy buenos ratos a lo largo de las sesiones, ya sea programando, aclarando dudas entre aulas, pasillos o bien compartiendo pizza con el grupo y aprendiendo sobre diferentes temas de software en general y otros tantos temas.</p>
+<h2 id="¡Participa-con-nosotros"><a href="#¡Participa-con-nosotros" class="headerlink" title="¡Participa con nosotros!"></a>¡Participa con nosotros!</h2><p>Si no te has unido aún al grupo, te invitamos participar con nosotros, a compartir o bien iniciar tu aprendizaje y experiencias en temas sobre desarrollo móvil. No importa si eres ya desarrollador profesional, o si estás dando tus primeros pasos hacia el la creación de aplicaciones móviles, ¡únete y comparte!.</p>
+<p>Link del grupo: <a href="http://www.meetup.com/es-ES/Xamarin-Costa-Rica-Mobile-NET-Developer-Group" target="_blank" rel="external">Mobile CR .NET Developers</a></p>
+<p>¡Nos vemos en la próxima!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt; Special thanks in Spanish &lt;/strong&gt;&lt;br&gt;El día de hoy &lt;a href=&quot;https://blog.xamarin.com/welcome-the-newest-xamarin-mvps/&quot;&gt;he sido reconocido&lt;/a&gt; como MVP &lt;em&gt;(Most Valuable Professional)&lt;/em&gt; por parte de Xamarin, siendo primer MVP para la región de Centroamérica y el Caribe. ¡Muchas gracias a todos por su apoyo en la comunidad Xamarin!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="MVP" scheme="http://stvansolano.github.io/blog/tags/MVP/"/>
+    
+      <category term="Open Source" scheme="http://stvansolano.github.io/blog/tags/Open-Source/"/>
+    
+      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>¿Qué llevar a la próxima sesión de la comunidad Xamarin?</title>
+    <link href="http://stvansolano.github.io/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/"/>
+    <id>http://stvansolano.github.io/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/</id>
+    <published>2016-05-15T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.250Z</updated>
+    
+    <content type="html"><![CDATA[<p>¿Tienes todo listo para comenzar a desarrollar con Xamarin? ¿Vas para a la próxima sesión del grupo? Te dejo por acá una lista con lo que debes tener en cuenta para desarrollar tus apps.<br><a id="more"></a></p>
+<p><img src="/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/smartphone.jpg" alt="Taller Xamarin Costa Rica"></p>
+<h2 id="Si-vas-a-la-Charla"><a href="#Si-vas-a-la-Charla" class="headerlink" title="Si vas a la Charla."></a>Si vas a la Charla.</h2><p>Normalmente no es requerido llevar equipo, pero puedes llevarlo si fuera de interés o bien quieres mostrar algún código, aplicación o aclarar dudas. Al final de la charla disponemos de tiempo para ver lo que necesites.</p>
+<h2 id="Si-vas-al-Taller"><a href="#Si-vas-al-Taller" class="headerlink" title="Si vas al Taller."></a>Si vas al Taller.</h2><p>No es obligatorio llevar computador. Puedes seguir la sesión, aclarar tus dudas en el momento y seguir los ejercicios guiados. En ocasiones disponemos de algún laboratorio de parte del huésped o bien puedes traer tu laptop su prefieres. En todo caso, puedes revisar los recursos de instalación de lo que necesitas para desarrollar:</p>
+<h3 id="Recursos-de-instalacion"><a href="#Recursos-de-instalacion" class="headerlink" title="Recursos de instalación."></a>Recursos de instalación.</h3><p>Si llevas una Mac necesitarás:</p>
+<ul>
+<li><a href="https://www.xamarin.com/download" target="_blank" rel="external">Xamarin Studio para Mac.</a></li>
+<li>Emulador Android con al menos un dispositivo instalado. Puedes descargar <a href="https://www.genymotion.com/" target="_blank" rel="external">Genymotion</a> (disponibles para Windows y Mac) o algún otro emulador de Android.</li>
+<li>Android SDK al día y/o XCode para iOS.</li>
+</ul>
+<p>Si llevas compu Windows, asegúrate que tienes los últimos paquetes y herramientas al día de la siguiente lista:</p>
+<ul>
+<li><a href="(https://www.xamarin.com/download">Xamarin Studio</a> / <a href="https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx" target="_blank" rel="external">Visual Studio Community 2015 o superior.</a></li>
+<li><a href="http://go.microsoft.com/fwlink/?LinkID=699386" target="_blank" rel="external">Visual Studio Update 3.</a></li>
+<li><a href="https://www.xamarin.com/download" target="_blank" rel="external">Visual Studio Tools for Xamarin (4.1.1 o superior).</a></li>
+<li>Android SDK al día</li>
+<li>Windows Apps SDK (si te interesa desarrollar apps de UWP)</li>
+</ul>
+<p>Adicionalmente, puedes bajar el código fuente de alguno de los repos de <a href="https://github.com/stvansolano/MobileWorkshop" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="¿Que-mas-llevar-Opcional"><a href="#¿Que-mas-llevar-Opcional" class="headerlink" title="¿Qué más llevar? (Opcional)"></a>¿Qué más llevar? (Opcional)</h2><ul>
+<li>Cable USB</li>
+<li>Teléfono Android <a href="https://developer.xamarin.com/guides/android/getting_started/installation/set_up_device_for_development/" target="_blank" rel="external">habilitado para desarrollo.</a></li>
+<li><em>Driver</em> de tu teléfono instalado (lo cual te habilita conectarte mediante USB, normalmente se encuentra disponible en internet según el modelo de tu teléfono)</li>
+</ul>
+<h2 id="¿Dudas-problemas-con-la-instalacion-Contactame"><a href="#¿Dudas-problemas-con-la-instalacion-Contactame" class="headerlink" title="¿Dudas, problemas con la instalación? Contáctame."></a>¿Dudas, problemas con la instalación? Contáctame.</h2><p>Si tuvieras algún inconveniente con lo anterior puedes contactarme a mi <a href="mailto:stvansolano@outlook.com" target="_blank" rel="external">correo</a> y podemos revisarlo.</p>
+<p>No olvides registrarte en el grupo de la comunidad <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/" target="_blank" rel="external">Mobile CR Developers</a> y regístrate para la próxima sesión.</p>
+<p>¡Nos vemos en la próxima!</p>
+<h2 id="Recursos-adicionales"><a href="#Recursos-adicionales" class="headerlink" title="Recursos adicionales"></a>Recursos adicionales</h2><ul>
+<li><a href="https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/debug-on-device/" target="_blank" rel="external">Cómo depurar aplicaciones Android</a></li>
+<li><a href="https://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/" target="_blank" rel="external">Cómo depurar aplicaciones iOS</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;¿Tienes todo listo para comenzar a desarrollar con Xamarin? ¿Vas para a la próxima sesión del grupo? Te dejo por acá una lista con lo que debes tener en cuenta para desarrollar tus apps.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
+    
+      <category term="Charla" scheme="http://stvansolano.github.io/blog/tags/Charla/"/>
+    
+      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
+    
+      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
+    
+      <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Opened discussion: Xamarin Yeoman generator (yo xamarin)</title>
+    <link href="http://stvansolano.github.io/2016/05/10/Opened-discussion-Xamarin-Yeoman-generator-yo-xamarin-in-Xamarin-Forums/"/>
+    <id>http://stvansolano.github.io/2016/05/10/Opened-discussion-Xamarin-Yeoman-generator-yo-xamarin-in-Xamarin-Forums/</id>
+    <published>2016-05-10T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.250Z</updated>
+    
+    <content type="html"><![CDATA[<p>Can we expect Xamarin tools to be open-source and allow more scaffolding tools like Yeoman besides VS/XS IDE standard tools?</p>
+<a id="more"></a>
+<p>I’m a big fan of <a href="http://yeoman.io/" target="_blank" rel="external">Yeoman</a> and it is been used hugely for scaffolding (not only) ASP.NET Core apps even from Linux with its easier to follow CLI. </p>
+<p>Since Xamarin tools are being open-source and scaffolding apps are becoming more easier from Windows and OSX to me it might be definitely an interesting step to provide some sort of Xamarin tooling for Linux.</p>
+<h2 id="Introducing-Yeoman-generator-for-Xamarin"><a href="#Introducing-Yeoman-generator-for-Xamarin" class="headerlink" title="Introducing Yeoman generator for Xamarin"></a>Introducing Yeoman generator for Xamarin</h2><p><img src="/2016/05/10/Opened-discussion-Xamarin-Yeoman-generator-yo-xamarin-in-Xamarin-Forums/preview.png" alt="Yeoman + Xamarin"></p>
+<p>Looking at the Yeoman site list there is one Xamarin generator by <em>Christopher Pateman</em> which might be good step to go into that way. </p>
+<pre><code>yo xamarin
+</code></pre><p>Summarized, my questions in the Forum were: </p>
+<ul>
+<li><em>Will be an official way to contribute to this?</em></li>
+<li><em>Is there any possible support from Xamarin team to make it standardized?</em></li>
+</ul>
+<p>Hopefully this is something we can get answered soon and if makes sense, will bring a five-star player for existing Xamarin toolset.</p>
+<p>You can follow up my discussion <a href="http://forums.xamarin.com/discussion/66463/xamarin-yeoman-generator-discussion-yo-xamarin" target="_blank" rel="external">here</a> and bring your thoughts. Also, feel free to contact me and discuss it.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Can we expect Xamarin tools to be open-source and allow more scaffolding tools like Yeoman besides VS/XS IDE standard tools?&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Open Source" scheme="http://stvansolano.github.io/blog/tags/Open-Source/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Resumen Sesión #10 - Comunidad Xamarin Costa Rica</title>
+    <link href="http://stvansolano.github.io/2016/04/30/Resumen-Sesion-10-Build-Evolve-Comunidad-Xamarin-Costa-Rica/"/>
+    <id>http://stvansolano.github.io/2016/04/30/Resumen-Sesion-10-Build-Evolve-Comunidad-Xamarin-Costa-Rica/</id>
+    <published>2016-04-30T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.254Z</updated>
+    
+    <content type="html"><![CDATA[<p>¡Celebramos la sesión #10 de la Comunidad Xamarin Costa Rica! En esta ocasión en la sede de la Universidad Estatal a Distancia (UNED) en Cartago. Muchas gracias a tod@s por acompañarnos.<br><a id="more"></a></p>
+<p>¡Xamarin para todos! Les comparto el resumen de la actividad y la presentación utilizada el día de la charla.</p>
+<h2 id="Recapitulamos-el-MS-Build-y-Xamarin-Evolve-2016"><a href="#Recapitulamos-el-MS-Build-y-Xamarin-Evolve-2016" class="headerlink" title="Recapitulamos el MS //Build y Xamarin Evolve 2016"></a>Recapitulamos el MS //Build y Xamarin Evolve 2016</h2><ul>
+<li>Principales anuncios del //Build 2016.</li>
+<li>Principales anuncios de Xamarin Evolve 2016.</li>
+<li>Recapitulación del grupo de Meetup y próximos eventos. </li>
+<li>Demo de HockeyApp con Xamarin.Forms.</li>
+<li>Rifa entre los participantes con la app de la rifa. (<a href="https://github.com/stvansolano/lucky-winner/tree/web" target="_blank" rel="external">Código fuente en GitHub</a>)</li>
+</ul>
+<h2 id="Link-del-Meetup"><a href="#Link-del-Meetup" class="headerlink" title="Link del Meetup"></a>Link del Meetup</h2><p><a href="http://www.meetup.com/es-ES/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/229939818/" target="_blank" rel="external">http://www.meetup.com/es-ES/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/229939818/</a></p>
+<p>¡Inscríbete <a href="http://www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group" target="_blank" rel="external">aquí</a> y nos vemos en la próxima!</p>
+<h2 id="Presentacion-de-la-Charla"><a href="#Presentacion-de-la-Charla" class="headerlink" title="Presentación de la Charla"></a>Presentación de la Charla</h2><p><br></p>
+<script async class="speakerdeck-embed" data-id="a1d27bc113f5432da73f65488229ab47" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;¡Celebramos la sesión #10 de la Comunidad Xamarin Costa Rica! En esta ocasión en la sede de la Universidad Estatal a Distancia (UNED) en Cartago. Muchas gracias a tod@s por acompañarnos.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Open Source" scheme="http://stvansolano.github.io/blog/tags/Open-Source/"/>
+    
+      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Xamarin Evolve 2016 + //Build recap: ¡Xamarin para todos!</title>
+    <link href="http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/"/>
+    <id>http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/</id>
+    <published>2016-03-18T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.266Z</updated>
+    
+    <content type="html"><![CDATA[<p>¡Xamarin para todos! Si te perdiste los últimos meetups de la Comunidad Xamarin Costa Rica o bien quieres estar al tanto de las novedades de Xamarin del pasado <a href="https://twitter.com/search?q=%23build2016&amp;src=typd" target="_blank" rel="external">#Build2016</a>, te invitamos al próximo meetup para recapitular sobre los cambios anunciados recientemente para Xamarin y cómo Microsoft encaja en la historia.</p>
+<a id="more"></a>
+<p>Además, abarcaremos lo más destacado del próximo <a href="https://evolve.xamarin.com/" target="_blank" rel="external">Xamarin Evolve 2016</a> el cual será 100% dedicado al desarrollo de apps con Xamarin.</p>
+<p>Si alguna vez has querido empezar a crear aplicaciones móviles con Xamarin / .NET, no hay mejor momento para empezar que ahora! <a href="https://www.xamarin.com/download" target="_blank" rel="external">Descargalo aquí</a>.</p>
+<p>Acompáñanos, comparte y aprende a desarrollar tus primeras apps con Xamarin. Tendremos pizza, bebidas, rifas entre los participantes y más! Cortesía de nuestros patrocinadores. </p>
+<p>Live streaming del Xamarin Evolve <a href="https://blog.xamarin.com/join-the-xamarin-evolve-2016-live-stream" target="_blank" rel="external">aquí</a></p>
+<p><strong>¡No te lo pierdas!</strong> <em>Cupo limitado</em>.</p>
+<p>Reservar <a href="http://www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/229939818/" target="_blank" rel="external"><strong>aquí</strong></a></p>
+<p><a href="https://blog.xamarin.com/xamarin-for-all/" target="_blank" rel="external">Más sobre la noticia</a></p>
+<p><img src="./2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/invitation.png" alt="Invitation - Invitación"></p>
+<p><strong>Transcript:</strong></p>
+<p>Xamarin for everyone! If you missed our latest meetups or you want to catch-up from latest <a href="https://twitter.com/search?q=%23build2016&amp;src=typd" target="_blank" rel="external">#Build2016</a> announcements, we invite you to the next meetup to recap on the changes recently announced for Xamarin and how Microsoft fits into the story. Additionally, we will cover the highlights of next <a href="https://evolve.xamarin.com/" target="_blank" rel="external">Xamarin Evolve 2016</a> which is 100% dedicated to developing apps with Xamarin.</p>
+<p>If you’ve ever wanted to start creating mobile applications with Xamarin / .NET, there is no better time to start than now! <a href="https://www.xamarin.com/download" target="_blank" rel="external">Download it here</a>.</p>
+<p>Join us, share and learn to develop your first apps with Xamarin. We’ll have pizza, drinks, raffles among participants and more! Courtesy of our sponsors.</p>
+<p>Xamarin Evolve Live streaming <a href="https://blog.xamarin.com/join-the-xamarin-evolve-2016-live-stream" target="_blank" rel="external">here</a></p>
+<p>Do not miss it! Limited availability. </p>
+<p>RSVP <a href="http://www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/229939818/" target="_blank" rel="external"><strong>here</strong></a></p>
+<p><a href="https://blog.xamarin.com/xamarin-for-all/" target="_blank" rel="external">About the Xamarin adquisition</a></p>
+<p><strong>IMPORTANT:</strong> This event will be held in spanish</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;¡Xamarin para todos! Si te perdiste los últimos meetups de la Comunidad Xamarin Costa Rica o bien quieres estar al tanto de las novedades de Xamarin del pasado &lt;a href=&quot;https://twitter.com/search?q=%23build2016&amp;amp;src=typd&quot;&gt;#Build2016&lt;/a&gt;, te invitamos al próximo meetup para recapitular sobre los cambios anunciados recientemente para Xamarin y cómo Microsoft encaja en la historia.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Open Source" scheme="http://stvansolano.github.io/blog/tags/Open-Source/"/>
+    
+      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Charla: Desarrollo de aplicaciones móviles con Xamarin y C#/.Net</title>
+    <link href="http://stvansolano.github.io/2016/02/18/Invitacion-Charla-de-C-Sharp-Net-y-Xamarin-Universidad-Fidelitas-Costa-Rica/"/>
+    <id>http://stvansolano.github.io/2016/02/18/Invitacion-Charla-de-C-Sharp-Net-y-Xamarin-Universidad-Fidelitas-Costa-Rica/</id>
+    <published>2016-02-18T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.246Z</updated>
+    
+    <content type="html"><![CDATA[<p>El próximo 9 de marzo de 2016 estaremos realizando una charla sobre desarrollo de aplicaciones nativas para iOS, Android y Windows Phone (Universal) con C#./Net en la Universidad Fidélitas. ¡No te la pierdas!</p>
+<a id="more"></a>
+<p><strong>Registro:</strong> <a href="http://www.meetup.com/es-ES/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/228750851/" target="_blank" rel="external">Meetup</a></p>
+<p>Participa en la Comunidad Xamarin Costa Rica y aprende a construir, probar, monitorear y acelerar el desarrollo de aplicaciones para iOS, Android y Windows (Universal) Phone de manera nativa con tus conocimientos en C#/.Net y Xamarin.Participa</p>
+<p><a href="http://www.meetup.com/es-ES/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/228521961/" target="_blank" rel="external"><img src="/2016/02/18/Invitacion-Charla-de-C-Sharp-Net-y-Xamarin-Universidad-Fidelitas-Costa-Rica/invitacion.png" alt="Invitación"></a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;El próximo 9 de marzo de 2016 estaremos realizando una charla sobre desarrollo de aplicaciones nativas para iOS, Android y Windows Phone (Universal) con C#./Net en la Universidad Fidélitas. ¡No te la pierdas!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
+    
+      <category term="Charla" scheme="http://stvansolano.github.io/blog/tags/Charla/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ASP.NET Core 1.0 Talks Costa Rica - Invitación</title>
+    <link href="http://stvansolano.github.io/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/"/>
+    <id>http://stvansolano.github.io/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/</id>
+    <published>2016-02-09T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.230Z</updated>
+    
+    <content type="html"><![CDATA[<p>El próximo 17 y 27 de febrero de 2016 estaré realizando una serie de charlas sobre desarrollo <em>ASP.NET Core 1.0</em> y Xamarin en las oficinas de Microsoft Costa Rica en Escazú y el Colegio Universitario de Cartago. ¡Quedan cordialmente invitados!</p>
+<a id="more"></a>
+<h2 id="Sobre-ASP-NET-Core-1-0"><a href="#Sobre-ASP-NET-Core-1-0" class="headerlink" title="Sobre ASP.NET Core 1.0:"></a>Sobre ASP.NET Core 1.0:</h2><p>ASP.NET Core 1.0 (anteriormente <em>ASP.NET 5</em> o <em>vNext</em>) incorpora nuevos cambios y mejoras para el desarrollo web y la posibilidad de desarrollar aplicaciones ASP.NET en Linux y OSX, así como la integración a las herramientas más comunes hoy en día para desarrollo web incluyendo <em>NodeJS</em>, <em>Bower</em> y <em>Gulp</em>. </p>
+<p>Conoce más sobre <em>Yeoman</em>, la famosa herramienta de generación de código para <em>NodeJS</em> y aprende a combinarla con Gulp, Bower para crear aplicaciones web con HTML, CSS y JavaScript de forma rápida y sencilla sin salir de tu editor de texto favorito.</p>
+<p><strong>MVC 6 con yeoman/bower/gulp</strong><br><em>Organiza:</em> <em>CR Developers .Net</em><br><strong>Fecha:</strong> Miércoles 17 de febrero de 2016<br><strong>Lugar:</strong> Escazú, Plaza Roble edificio el Patio, piso 2, San José<br>Registro: <a href="http://www.meetup.com/es-ES/Costa-Rica-Developers-NET/events/228701572/" target="_blank" rel="external">Meetup</a></p>
+<p><strong>Xamarin + ASP.NET Core: Servicios REST con Web API</strong><br><em>Organiza:</em> <em>Xamarin Mobile .Net Dev Group</em><br><strong>Fecha:</strong> Sábado 27 de febrero de 2016<br><strong>Lugar:</strong> Sala de Reuniones, Biblioteca del Colegio Universitario de Cartago<br>Registro: <a href="http://www.meetup.com/es-ES/Costa-Rica-Developers-NET/events/228701572/" target="_blank" rel="external">Meetup</a></p>
+<p>Tendremos demos, código abierto y rifas entre todos los asistentes a ambas charlas. Los ganadores serán anunciados el sábado 27 de febrero.</p>
+<p><a href="http://www.meetup.com/es-ES/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/228521961/" target="_blank" rel="external"><img src="/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/preview.png" alt="Invitación"></a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;El próximo 17 y 27 de febrero de 2016 estaré realizando una serie de charlas sobre desarrollo &lt;em&gt;ASP.NET Core 1.0&lt;/em&gt; y Xamarin en las oficinas de Microsoft Costa Rica en Escazú y el Colegio Universitario de Cartago. ¡Quedan cordialmente invitados!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="ASP.NET" scheme="http://stvansolano.github.io/blog/tags/ASP-NET/"/>
+    
+      <category term="Web Apps" scheme="http://stvansolano.github.io/blog/tags/Web-Apps/"/>
+    
+      <category term="Yeoman" scheme="http://stvansolano.github.io/blog/tags/Yeoman/"/>
+    
+      <category term="HTML5" scheme="http://stvansolano.github.io/blog/tags/HTML5/"/>
+    
+      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
+    
+      <category term="Web API" scheme="http://stvansolano.github.io/blog/tags/Web-API/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Xamarin 4 Workshop code now available!</title>
+    <link href="http://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/"/>
+    <id>http://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/</id>
+    <published>2016-02-06T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.266Z</updated>
+    
+    <content type="html"><![CDATA[<p>Here is the source-code links and additional resources for the Xamarin 4 Worshop that I presented on January 13th, 2006. Thanks everyone for attending!</p>
+<a id="more"></a>
+<h1 id="Xamarin-4-Workshop"><a href="#Xamarin-4-Workshop" class="headerlink" title="Xamarin 4 Workshop"></a>Xamarin 4 Workshop</h1><h2 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h2><p>System requirements:<br><a href="https://developer.xamarin.com/guides/xamarin-forms/getting-started/installation/" target="_blank" rel="external">https://developer.xamarin.com/guides/xamarin-forms/getting-started/installation/</a></p>
+<h2 id="Getting-Xamarin-installed"><a href="#Getting-Xamarin-installed" class="headerlink" title="Getting Xamarin installed"></a>Getting Xamarin installed</h2><p>Install Xamarin platform.</p>
+<ul>
+<li><p>For Windows/Mac: <a href="https://xamarin.com/download" target="_blank" rel="external">https://xamarin.com/download</a></p>
+</li>
+<li><p>Or you can get it by installing Visual Studio 2015</p>
+</li>
+</ul>
+<p>Visual Studio 2015: <a href="https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx" target="_blank" rel="external">https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx</a></p>
+<h3 id="Recommended-Emulators-for-Android"><a href="#Recommended-Emulators-for-Android" class="headerlink" title="Recommended Emulators for Android"></a>Recommended Emulators for Android</h3><p><a href="https://xamarin.com/android-player" target="_blank" rel="external">Xamarin Android Player</a></p>
+<p><a href="https://www.genymotion.com/#!/download" target="_blank" rel="external">Genymotion</a></p>
+<h2 id="Developing-a-Xamarin-Forms-app-from-scratch"><a href="#Developing-a-Xamarin-Forms-app-from-scratch" class="headerlink" title="Developing a Xamarin.Forms app from scratch"></a>Developing a Xamarin.Forms app from scratch</h2><p>In Visual Studio:<br>– <em>New Project -&gt; Installed -&gt; Visual C# -&gt; Cross-Platform -&gt; Blank App (Xamarin.Forms Portable)</em></p>
+<p>In Xamarin Studio:<br>– <em>File -&gt; New -&gt; Solution -&gt; Cross-platform -&gt; App -&gt; Xamarin.Forms App (Use Portable Class Library)</em></p>
+
+<p>Let’s inspect the App.cs main code that which is responsible for supporting the UI for all the platforms running our app:</p>
+<p>By doing so will get:</p>
+<ul>
+<li>A Xamarin.Forms project for sharing XAML/C# code between platforms</li>
+<li>Android project referencing Xamarin.Forms</li>
+<li>iOS project</li>
+<li>UWP project</li>
+</ul>
+<p>Let’s set the project structure to be used later in this tutorial:</p>
+
+<h2 id="Hello-World-Xamarin-Forms"><a href="#Hello-World-Xamarin-Forms" class="headerlink" title="Hello World, Xamarin.Forms!"></a>Hello World, Xamarin.Forms!</h2> 
+<p>This is the single code shared across those platforms:</p>
+
+<h2 id="Adding-more-pages-to-the-app-with-MasterDetailPage"><a href="#Adding-more-pages-to-the-app-with-MasterDetailPage" class="headerlink" title="Adding more pages to the app with MasterDetailPage"></a>Adding more pages to the app with MasterDetailPage</h2><ul>
+<li>Adding a Menu</li>
+<li>Basic Controls page</li>
+<li>Introducing App.xaml</li>
+<li>Customizing your app (<strong>aka</strong> ResourceDictionary/Styles)</li>
+<li></li>
+</ul>
+<h2 id="Additional-resources-amp-links"><a href="#Additional-resources-amp-links" class="headerlink" title="Additional resources &amp; links."></a>Additional resources &amp; links.</h2><ul>
+<li><a href="https://blog.xamarin.com/introducing-xamarin-4/" target="_blank" rel="external">Introducing Xamarin 4</a></li>
+<li><a href="https://developer.xamarin.com/guides/xamarin-forms/controls/" target="_blank" rel="external">Xamarin Forms Reference</a></li>
+<li><a href="https://developer.xamarin.com/guides/cross-platform/getting_started/beginning_a_xamarin_trial/" target="_blank" rel="external">Getting Xamarin license</a></li>
+<li><a href="https://testcloud.xamarin.com/" target="_blank" rel="external">Xamarin Test Cloud</a></li>
+<li><a href="https://blog.xamarin.com/introduction-to-android-material-design/" target="_blank" rel="external">Adding Material Design to Xamarin Apps</a></li>
+<li><a href="http://xamarin.meetup.com/es-ES/" target="_blank" rel="external">Comunidad Xamarin Costa Rica Mobile .Net Dev Group</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Here is the source-code links and additional resources for the Xamarin 4 Worshop that I presented on January 13th, 2006. Thanks everyone for attending!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
+    
+      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
+    
+      <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Resumen - Arquitectura REST y servicios móviles</title>
+    <link href="http://stvansolano.github.io/2016/02/01/Resumen-Arquitectura-REST-y-servicios-moviles/"/>
+    <id>http://stvansolano.github.io/2016/02/01/Resumen-Arquitectura-REST-y-servicios-moviles/</id>
+    <published>2016-02-01T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.254Z</updated>
+    
+    <content type="html"><![CDATA[<p>Resumen de la charla del pasado 30 de enero de 2016 sobre arquitectura REST y servicios web con Xamarin. ¡Gracias a todos por acompañarnos!</p>
+<a id="more"></a>
+<h2 id="Sobre-REST-y-servicios-web"><a href="#Sobre-REST-y-servicios-web" class="headerlink" title="Sobre REST y servicios web"></a>Sobre REST y servicios web</h2><p><em>REST</em> es el acrónimo para <em>Representational State Transfer</em>, el cual es un estilo de arquitectura de software altamente utilizado hoy en día para crear aplicaciones distribuidas y modeladas alrededor de la especificación HTTP.</p>
+<p><em>REST</em> sigue la anatomía de la web para acceder recursos disponibles en internet por medio de <em>representaciones</em> (aka HTML, JSON, XML o algún otro) por medio de acciones o <em>verbos HTTP</em>. Esto nos permite crear servicios que resultan fáciles de entender, representar y construir aplicaciones capaces de interactuar el servicio web (o API, <em>Application Programming Interface</em>) en el cual podemos encapsular ya sean datos, lógica de negocio y otros recursos.</p>
+<h2 id="Sobre-la-Solucion"><a href="#Sobre-la-Solucion" class="headerlink" title="Sobre la Solución:"></a>Sobre la Solución:</h2><p>En esta ocasión desarrollé una pequeña aplicación móvil capaz de conectarse via REST a una base de datos <em>NoSQL</em> hospedado en <em>Firebase</em> (Google) y realizar las operaciones <em>CRUD</em> básicas (Create, Read, Update y Delete). </p>
+<p>En resumen el proyecto contiene:</p>
+<ul>
+<li>Una aplicación portable de forma nativa a iOS, Android y UWP con el framework Xamarin.Forms (~90% del código C#/.NET compartido entre las plataformas)</li>
+<li>Llamadas <em>REST</em> hacia Firebase (Base de Datos NoSQL hospedada en la nube + API REST)</li>
+<li>Algunos elementos de Material Design específicos para la aplicación en Android</li>
+</ul>
+<h2 id="Plugins-adicionales"><a href="#Plugins-adicionales" class="headerlink" title="Plugins adicionales:"></a>Plugins adicionales:</h2><ul>
+<li><strong>Json.Net</strong>: Serialización/deserialization de objetos con JSON rápida y sencilla.</li>
+<li><strong>Xam.Plugin.Connectivity (Network Connectivity Plugin)</strong>: Plugin de Xamarin para determinar el estado de la conexión a internet en todo momento.</li>
+<li><strong>ModernHttpClient</strong>: Plugin optimizado para conexiones HTTP en iOS, Android y UWP </li>
+<li><strong>Microsoft.Net.Http</strong>: Librería portable realizar llamadas HTTP de manera centralizada y re-utilizable en iOS, Android y UWP</li>
+<li><strong>Android Support Library</strong>: Complemento adicional para soporte de elementos de <em>Material Design</em></li>
+</ul>
+<h2 id="Links-del-codigo-y-recursos-adicionales"><a href="#Links-del-codigo-y-recursos-adicionales" class="headerlink" title="Links del código y recursos adicionales:"></a>Links del código y recursos adicionales:</h2><ul>
+<li>Código fuente disponible en mi cuenta de GitHub (stvansolano):<br>  <a href="https://github.com/stvansolano/MobileWorkshop/tree/web-services" target="_blank" rel="external">/MobileWorkshop/web-services</a></li>
+<li>Generar <em>DTOs</em> a partir de <em>JSON</em>:<br>  <a href="http://json2csharp.com/" target="_blank" rel="external">http://json2csharp.com/</a></li>
+<li>Más sobre <em>Firebase</em> y su <em>REST API</em>:<br>  <a href="https://www.firebase.com/" target="_blank" rel="external">https://www.firebase.com/</a><br>  <a href="https://www.firebase.com/docs/rest/api/" target="_blank" rel="external">Firebase REST API</a></li>
+<li>Estructura JSON:<br>  <a href="https://xamarin-workshop.firebaseio.com/Categories.json" target="_blank" rel="external">Xamarin-Workshop.firebase.io.com</a></li>
+<li>Curso de <em>REST</em> de <em>Pluralsight</em> <em>recomendado</em> y disponible de forma gratuita para la Comunidad:<br>  <a href="https://app.pluralsight.com/library/courses/building-securing-restful-api-aspdotnet" target="_blank" rel="external">Building and Securing RESTful APIs</a></li>
+<li>Lecturas adicionales de Xamarin University:<br>  <a href="https://university.xamarin.com/lightninglectures/oauth-and-openid-connect-in-mobile" target="_blank" rel="external">OAuth and OpenID Connect</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Resumen de la charla del pasado 30 de enero de 2016 sobre arquitectura REST y servicios web con Xamarin. ¡Gracias a todos por acompañarnos!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
+    
+      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Workshop de Xamarin 4 en BrainStation</title>
+    <link href="http://stvansolano.github.io/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/"/>
+    <id>http://stvansolano.github.io/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/</id>
+    <published>2016-01-04T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.254Z</updated>
+    
+    <content type="html"><![CDATA[<p>El próximo Miércoles 13 de Enero de 2016 estaré presentando un Workshop de desarrollo de aplicaciones nativas con C# / .Net y Xamarin de manera gratuita con la empresa <a href="http://www.brainstation.io/" target="_blank" rel="external">BrainStation</a> Costa Rica. ¡Únete al evento!</p>
+<a id="more"></a>
+<h2 id="Xamarin-4-Desarrollo-de-aplicaciones-moviles-nativas-con-C-Net"><a href="#Xamarin-4-Desarrollo-de-aplicaciones-moviles-nativas-con-C-Net" class="headerlink" title="Xamarin 4: Desarrollo de aplicaciones móviles nativas con C# / .Net"></a>Xamarin 4: Desarrollo de aplicaciones móviles nativas con C# / .Net</h2><p>Te invitamos a unirte a esta actividad, participa en la celebración de la más reciente versión de Xamarin 4 y aprende a construir, probar, monitorear y acelerar el desarrollo de aplicaciones móviles de forma nativa con sus conocimientos en C# y .Net</p>
+<p><a href="http://www.brainstation.io/event/-201614162753" target="_blank" rel="external"><img src="/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/invitation.png" alt="Invitación"></a></p>
+<p>Tendremos demos de aplicaciones, código abierto y rifas entre los asistentes.</p>
+<p><strong>IMPORTANTE</strong>: El cupo es limitado y recomendamos traer computadora (NO es indispensable). Te dejamos la invitación por acá para el registro de la actividad. </p>
+<p>NO HABRÁ RSVP en Meetup en esta ocasión, ya que deberán registrarse y confirmar su espacio directamente con BrainStation por motivos de logística del evento.</p>
+<p><strong>Registro:</strong> <a href="http://www.brainstation.io/event/-201614162753" target="_blank" rel="external">http://www.brainstation.io/event/-201614162753</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;El próximo Miércoles 13 de Enero de 2016 estaré presentando un Workshop de desarrollo de aplicaciones nativas con C# / .Net y Xamarin de manera gratuita con la empresa &lt;a href=&quot;http://www.brainstation.io/&quot;&gt;BrainStation&lt;/a&gt; Costa Rica. ¡Únete al evento!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
+    
+      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
+    
+      <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Xamarin 4 has everything you need to create great mobile apps!</title>
+    <link href="http://stvansolano.github.io/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/"/>
+    <id>http://stvansolano.github.io/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/</id>
+    <published>2015-12-01T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.270Z</updated>
+    
+    <content type="html"><![CDATA[<p>Let’s take a look into some of the features and enhancements included in Xamarin 4.0 for developing cross-platform applications including Android, iOS and UWP (Universal Windows Apps). </p>
+<a id="more"></a>
+<h2 id="Introducing-Xamarin-Forms-2-0"><a href="#Introducing-Xamarin-Forms-2-0" class="headerlink" title="Introducing Xamarin Forms 2.0"></a>Introducing Xamarin Forms 2.0</h2><p>This time I made a simple app called <em>“Lucky Winner”</em> for randomly select a person from a list of participants using the commonly used <em>System.Random</em> class for random numbers just like any other .Net program. </p>
+<p>Here are some screenshots of the app running on different platforms:</p>
+<img src="/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/preview.png" alt="Apps preview" title="Apps preview">
+<p>You can download the full source for this app from my GitHub repository <a href="https://github.com/stvansolano/lucky-winner" target="_blank" rel="external">here</a>.</p>
+<h2 id="Developing-a-Xamarin-Forms-app-from-scratch"><a href="#Developing-a-Xamarin-Forms-app-from-scratch" class="headerlink" title="Developing a Xamarin.Forms app from scratch"></a>Developing a Xamarin.Forms app from scratch</h2><p>By installing Xamarin Platform and geting a valid/trial license you will be able to create a PCL (Portable Class Library) that contains most of the code for you to be shared and compile native apps for Android, iOS and UWP. </p>
+<p>So let’s pick the Xamarin.Forms template from the available list inside Visual Studio:</p>
+<img src="/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/setup.png" alt="Cross-platform app template" title="Cross-platform app template">
+<p>By doing so will get:</p>
+<ul>
+<li>A Xamarin.Forms project for sharing XAML/C# code between platforms</li>
+<li>Android project referencing Xamarin.Forms</li>
+<li>iOS project</li>
+<li>UWP project</li>
+</ul>
+<p>If you are familiar with MVVM, XAML and C# it will be quite familiar to easily include Pages, ViewModels, Views in your project just like the following.</p>
+<img src="/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/structure.png" alt="Project structure" title="Project structure">
+<h2 id="Building-User-Interfaces-with-MVVM-in-a-cross-platform-way"><a href="#Building-User-Interfaces-with-MVVM-in-a-cross-platform-way" class="headerlink" title="Building User Interfaces with MVVM, in a cross-platform way"></a>Building User Interfaces with MVVM, in a cross-platform way</h2><p>Let’s take a look at the XAML code used for defining the list of participants:<br><br></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line"><span class="tag">&lt;<span class="name">ListView</span> <span class="attr">x:Name</span>=<span class="string">"PlayersSelector"</span></span></div><div class="line">          <span class="attr">ItemsSource</span>=<span class="string">"&#123;Binding Path=Players&#125;"</span></div><div class="line">          <span class="attr">SeparatorColor</span>=<span class="string">"Gray"</span></div><div class="line">          <span class="attr">SelectedItem</span>=<span class="string">"&#123;Binding Path=Winner, Mode=TwoWay&#125;"</span>&gt;</div><div class="line">	<span class="tag">&lt;<span class="name">ListView.ItemTemplate</span>&gt;</span></div><div class="line">	    <span class="tag">&lt;<span class="name">DataTemplate</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">ViewCell</span>&gt;</span></div><div class="line">    	        <span class="tag">&lt;<span class="name">ViewCell.ContextActions</span>&gt;</span></div><div class="line">		   	<span class="tag">&lt;<span class="name">ToolbarItem</span> <span class="attr">Command</span>=<span class="string">"&#123;Binding DeleteCommand&#125;"</span> <span class="attr">Text</span>=<span class="string">"Borrar"</span> /&gt;</span></div><div class="line">	        <span class="tag">&lt;/<span class="name">ViewCell.ContextActions</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">Grid</span>&gt;</span></div><div class="line">		    <span class="tag">&lt;<span class="name">StackLayout</span> <span class="attr">Orientation</span>=<span class="string">"Horizontal"</span></span></div><div class="line">		        	<span class="attr">HorizontalOptions</span>=<span class="string">"Start"</span>&gt;</div><div class="line">			<span class="tag">&lt;<span class="name">Image</span> <span class="attr">IsVisible</span>=<span class="string">"&#123;Binding Path=IsWinner&#125;"</span></span></div><div class="line">			       <span class="attr">Source</span>=<span class="string">"Prize.png"</span></div><div class="line">			       <span class="attr">HeightRequest</span>=<span class="string">"25"</span> <span class="attr">WidthRequest</span>=<span class="string">"25"</span> /&gt;</div><div class="line">			       </div><div class="line">		       	<span class="tag">&lt;<span class="name">Label</span> <span class="attr">Text</span>=<span class="string">"¡GANADOR!"</span></span></div><div class="line">		       	    <span class="attr">IsVisible</span>=<span class="string">"&#123;Binding Path=IsWinner&#125;"</span></div><div class="line">					<span class="attr">TextColor</span>=<span class="string">"Red"</span></div><div class="line">					<span class="attr">FontAttributes</span>=<span class="string">"Bold"</span></div><div class="line">					<span class="attr">VerticalTextAlignment</span>=<span class="string">"Center"</span></div><div class="line">					/&gt;</div><div class="line">						</div><div class="line">				<span class="tag">&lt;<span class="name">Label</span> <span class="attr">Text</span>=<span class="string">"&#123;Binding Path=PlayerName&#125;"</span></span></div><div class="line">					<span class="attr">VerticalTextAlignment</span>=<span class="string">"Center"</span></div><div class="line">				/&gt;</div><div class="line">		    <span class="tag">&lt;/<span class="name">StackLayout</span>&gt;</span></div><div class="line">		    <span class="tag">&lt;<span class="name">Button</span> <span class="attr">HorizontalOptions</span>=<span class="string">"End"</span> </span></div><div class="line">		    	    <span class="attr">Command</span>=<span class="string">"&#123;Binding Path=DeleteCommand&#125;"</span></div><div class="line">			    <span class="attr">Text</span>=<span class="string">"x"</span> /&gt;</div><div class="line">	       <span class="tag">&lt;/<span class="name">Grid</span>&gt;</span></div><div class="line">	       <span class="tag">&lt;/<span class="name">ViewCell</span>&gt;</span></div><div class="line">	  <span class="tag">&lt;/<span class="name">DataTemplate</span>&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">ListView.ItemTemplate</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ListView</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>The <em>Binding</em> element acts like the glue between your View and ViewModels for allowing you to have clear separation of concerns between them. Other common features supported for Xamarin.Forms with MVVM include <em>Two-way binding</em>, <em>Command Pattern</em> and <em>Value Converters</em>. </p>
+<h2 id="Getting-a-lucky-winner-with-C-just-like-in-any-other-program"><a href="#Getting-a-lucky-winner-with-C-just-like-in-any-other-program" class="headerlink" title="Getting a lucky winner with C# just like in any other program."></a>Getting a lucky winner with C# just like in any other program.</h2><p>Remember how to generate a random number in C# but not sure how do get it done for a mobile app? No worries! You can use standard System core features in C# (even 6.0 features) plus other cool features including lamda expressions, delegates, actions, Linq and async operations.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Play</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    ...</div><div class="line">    var random = <span class="keyword">new</span> Random(DateTime.Now.Millisecond);</div><div class="line">    </div><div class="line">    var lucky = random.Next(<span class="number">0</span>, ViewModel.Players.Count);</div><div class="line">    var selectedPlayer = ViewModel.Players.ElementAtOrDefault(lucky);</div><div class="line">    </div><div class="line">    <span class="keyword">if</span> (selectedPlayer != <span class="keyword">null</span>)</div><div class="line">    &#123;</div><div class="line">        selectedPlayer.IsWinner = <span class="keyword">true</span>;</div><div class="line">        ViewModel.Winner = selectedPlayer;</div><div class="line">    </div><div class="line">        PlayersSelector.ScrollTo(selectedPlayer, ScrollToPosition.MakeVisible, <span class="keyword">true</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="Bring-Material-Design-to-your-Android-application"><a href="#Bring-Material-Design-to-your-Android-application" class="headerlink" title="Bring Material Design to your Android application"></a>Bring Material Design to your Android application</h2><p>Another great feature for Xamarin for Android is ability to easily incorporate <em>Material Design</em> into your Android apps. This can be done by adding the <a href="https://components.xamarin.com/gettingstarted/xamandroidsupportdesign" target="_blank" rel="external">Support Design Library</a> available as a package from NuGet.</p>
+<h2 id="Additional-resources-amp-links"><a href="#Additional-resources-amp-links" class="headerlink" title="Additional resources &amp; links."></a>Additional resources &amp; links.</h2><p><a href="https://blog.xamarin.com/introducing-xamarin-4/" target="_blank" rel="external">Introducing Xamarin 4</a><br><a href="https://blog.xamarin.com/introduction-to-android-material-design/" target="_blank" rel="external">Adding Material Design to Xamarin Apps</a><br><a href="https://github.com/stvansolano/lucky-winner" target="_blank" rel="external">Lucky Winner source code</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Let’s take a look into some of the features and enhancements included in Xamarin 4.0 for developing cross-platform applications including Android, iOS and UWP (Universal Windows Apps). &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
+    
+      <category term="TestCloud" scheme="http://stvansolano.github.io/blog/tags/TestCloud/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Taller de Introducción Xamarin - 2da Fecha</title>
+    <link href="http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/"/>
+    <id>http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/</id>
+    <published>2015-11-24T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.278Z</updated>
+    
+    <content type="html"><![CDATA[<p>Continuamos con los Talleres de Xamarin, esta vez se realizó en la Universidad Americana, Sede San Pedro. ¡Muchas gracias a todos por acompañarnos!</p>
+<a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Continuamos con los Talleres de Xamarin, esta vez se realizó en la Universidad Americana, Sede San Pedro. ¡Muchas gracias a todos por acompañarnos!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Invitación - Comunidad Xamarin Costa Rica Mobile .Net Developers</title>
+    <link href="http://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/"/>
+    <id>http://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/</id>
+    <published>2015-11-14T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.278Z</updated>
+    
+    <content type="html"><![CDATA[<p>Te invitamos a formar parte de la <a href="//www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group">Comunidad Xamarin Costa Rica</a>, somos la primera Meetup oficial de Xamarin en Centroamérica y como parte del lanzamiento tendremos charlas, talleres, rifas, materiales de Xamarin y mucho más. ¡Únete, aprende y comparte!<br><a id="more"></a></p>
+<h3 id="¡Suscribete-y-participa-en-las-rifas-del-lanzamiento-del-grupo"><a href="#¡Suscribete-y-participa-en-las-rifas-del-lanzamiento-del-grupo" class="headerlink" title="¡Suscríbete y participa en las rifas del lanzamiento del grupo!"></a>¡Suscríbete y participa en las rifas del lanzamiento del grupo!</h3><p>Inscríbete en el grupo de <em>Meetup</em> para quedar participando. Estaremos rifando el libro <em>Creating Mobile Apps with Xamarin.Forms</em> de parte del grupo entre todos miembros registrados. </p>
+<p><img src="/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/map.png" alt="" title="Primera Meetup oficial de Xamarin en Centroamérica"></p>
+<p>Suscríbete a nuestra lista de correo para conocer el ganador, recibir más noticias sobre la comunidad y futuras sesiones del Taller de Xamarin que estamos organizando en distintas localidades.</p>
+<p>Por acá los links:</p>
+<p><strong>Meetup:</strong><br><a href="//www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group">http://www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/</a><br><strong>Más información/Newsletter:</strong><br><a href="https://stvansolano.github.io/taller/#suscribe">Registro abierto</a></p>
+<h2 id="Sobre-el-grupo"><a href="#Sobre-el-grupo" class="headerlink" title="Sobre el grupo"></a>Sobre el grupo</h2><p>Nos reunimos para hablar, presentar, compartir conocimiento, eventos, código, experiencias e ideas sobre desarrollo móvil en general y apps multiplataforma con Xamarin, .Net, Azure, Javascript y otras tecnologías. </p>
+<p>Somos un grupo orientado a estudiantes, principiantes, desarrolladores y gente interesada en cómo se construye aplicaciones con Xamarin para Android, iOS y WinPhone con C#/.Net por medio de charlas, talleres, rifas, foros y materiales de Xamarin sin costo alguno.</p>
+<h3 id="Conoce-la-agenda-de-sesiones"><a href="#Conoce-la-agenda-de-sesiones" class="headerlink" title="Conoce la agenda de sesiones"></a>Conoce la agenda de sesiones</h3><p>Ingresa <a href="/taller/eventos">acá</a> para conocer la agenda de temas y talleres, o bien <a href="mailto:stvansolano@outlook.com" target="_blank" rel="external">escríbenos acá</a> si te interesa hospedar una de las fechas en algún lugar y/o fecha, no dudes en contactarnos.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Te invitamos a formar parte de la &lt;a href=&quot;//www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group&quot;&gt;Comunidad Xamarin Costa Rica&lt;/a&gt;, somos la primera Meetup oficial de Xamarin en Centroamérica y como parte del lanzamiento tendremos charlas, talleres, rifas, materiales de Xamarin y mucho más. ¡Únete, aprende y comparte!&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Xamarin Forms" scheme="http://stvansolano.github.io/blog/categories/Xamarin-Forms/"/>
+    
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Taller de Introducción Xamarin - Primera Fecha</title>
+    <link href="http://stvansolano.github.io/2015/10/31/taller-de-introduccion-xamarin-primera-fecha/"/>
+    <id>http://stvansolano.github.io/2015/10/31/taller-de-introduccion-xamarin-primera-fecha/</id>
+    <published>2015-10-31T00:00:00.000Z</published>
+    <updated>2016-09-05T21:19:20.278Z</updated>
+    
+    <content type="html"><![CDATA[<p>El pasado sábado 24 de octubre tuvimos la primera fecha del Taller de Introducción Xamarin en el Colegio Universitario de Cartago. ¡Muchas gracias a todos por acompañarnos!</p>
+<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;El pasado sábado 24 de octubre tuvimos la primera fecha del Taller de Introducción Xamarin en el Colegio Universitario de Cartago. ¡Muchas gracias a todos por acompañarnos!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+  </entry>
+  
+</feed>

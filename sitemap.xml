@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://stvansolano.github.io/2016/09/05/Recap-del-taller-de-apps-conectadas-con-Xamarin-Costa-Rica/</loc>
+    <loc>http://stvansolano.github.io/2016/08/18/Getting-your-next-app--with-azure-mobile-apps/</loc>
     
-    <lastmod>2016-09-06T22:48:17.212Z</lastmod>
+    <lastmod>2016-09-06T23:05:49.252Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/taller/index.html</loc>
+    <loc>http://stvansolano.github.io/2016/09/05/Recap-del-taller-de-apps-conectadas-con-Xamarin-Costa-Rica/</loc>
     
-    <lastmod>2016-09-06T17:50:18.643Z</lastmod>
+    <lastmod>2016-09-06T22:48:17.212Z</lastmod>
     
   </url>
   
@@ -31,6 +31,13 @@
   
   <url>
     <loc>http://stvansolano.github.io/taller/introduccion-xamarin/index.html</loc>
+    
+    <lastmod>2016-09-06T17:50:18.643Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://stvansolano.github.io/taller/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.643Z</lastmod>
     
@@ -58,28 +65,7 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/taller/eventos/index.html</loc>
-    
-    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://stvansolano.github.io/resume/index.html</loc>
-    
-    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://stvansolano.github.io/taller/eventos/diciembre-2015/index.html</loc>
-    
-    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://stvansolano.github.io/resume/education.html</loc>
     
     <lastmod>2016-09-06T17:50:18.623Z</lastmod>
     
@@ -93,7 +79,28 @@
   </url>
   
   <url>
+    <loc>http://stvansolano.github.io/resume/index.html</loc>
+    
+    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://stvansolano.github.io/taller/eventos/index.html</loc>
+    
+    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://stvansolano.github.io/portfolio/index.html</loc>
+    
+    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://stvansolano.github.io/resume/education.html</loc>
     
     <lastmod>2016-09-06T17:50:18.623Z</lastmod>
     
@@ -121,7 +128,7 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/</loc>
+    <loc>http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/</loc>
     
     <lastmod>2016-09-06T17:50:18.619Z</lastmod>
     
@@ -135,14 +142,7 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/blog/index.html</loc>
-    
-    <lastmod>2016-09-06T17:50:18.619Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://stvansolano.github.io/about/index.html</loc>
+    <loc>http://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/</loc>
     
     <lastmod>2016-09-06T17:50:18.619Z</lastmod>
     
@@ -156,7 +156,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/</loc>
+    <loc>http://stvansolano.github.io/about/index.html</loc>
+    
+    <lastmod>2016-09-06T17:50:18.619Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://stvansolano.github.io/blog/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.619Z</lastmod>
     
@@ -177,14 +184,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/</loc>
+    <loc>http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/</loc>
     
     <lastmod>2016-09-06T17:50:18.603Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/</loc>
+    <loc>http://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/</loc>
     
     <lastmod>2016-09-06T17:50:18.603Z</lastmod>
     
@@ -271,13 +278,6 @@
     <loc>http://stvansolano.github.io/2016/05/27/I-m-now-Xamarin-MVP-Soy-Xamarin-MVP-Costa-Rica/</loc>
     
     <lastmod>2016-09-06T17:50:18.579Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://stvansolano.github.io/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/</loc>
-    
-    <lastmod>2016-09-06T17:50:18.571Z</lastmod>
     
   </url>
   

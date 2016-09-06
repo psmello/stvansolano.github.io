@@ -4,7 +4,7 @@
   <url>
     <loc>http://stvansolano.github.io/2016/09/05/Recap-del-taller-de-apps-conectadas-con-Xamarin-Costa-Rica/</loc>
     
-    <lastmod>2016-09-05T23:02:28.191Z</lastmod>
+    <lastmod>2016-09-06T16:01:04.352Z</lastmod>
     
   </url>
   
@@ -37,14 +37,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/taller/eventos/octubre-2015/index.html</loc>
+    <loc>http://stvansolano.github.io/taller/eventos/noviembre-2015/index.html</loc>
     
     <lastmod>2016-09-05T21:19:20.286Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/taller/eventos/noviembre-2015/index.html</loc>
+    <loc>http://stvansolano.github.io/taller/eventos/octubre-2015/index.html</loc>
     
     <lastmod>2016-09-05T21:19:20.286Z</lastmod>
     
@@ -79,13 +79,6 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/resume/education.html</loc>
-    
-    <lastmod>2016-09-05T21:19:20.282Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://stvansolano.github.io/resume/experience.html</loc>
     
     <lastmod>2016-09-05T21:19:20.282Z</lastmod>
@@ -93,14 +86,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/portfolio/index.html</loc>
+    <loc>http://stvansolano.github.io/resume/education.html</loc>
     
     <lastmod>2016-09-05T21:19:20.282Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/community/index.html</loc>
+    <loc>http://stvansolano.github.io/portfolio/index.html</loc>
     
     <lastmod>2016-09-05T21:19:20.282Z</lastmod>
     
@@ -121,14 +114,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/</loc>
+    <loc>http://stvansolano.github.io/community/index.html</loc>
     
-    <lastmod>2016-09-05T21:19:20.278Z</lastmod>
+    <lastmod>2016-09-05T21:19:20.282Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/blog/links.html</loc>
+    <loc>http://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/</loc>
     
     <lastmod>2016-09-05T21:19:20.278Z</lastmod>
     
@@ -136,6 +129,13 @@
   
   <url>
     <loc>http://stvansolano.github.io/about/index.html</loc>
+    
+    <lastmod>2016-09-05T21:19:20.278Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://stvansolano.github.io/blog/links.html</loc>
     
     <lastmod>2016-09-05T21:19:20.278Z</lastmod>
     
@@ -156,7 +156,7 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/</loc>
+    <loc>http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/</loc>
     
     <lastmod>2016-09-05T21:19:20.278Z</lastmod>
     
@@ -219,7 +219,7 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/</loc>
+    <loc>http://stvansolano.github.io/2016/05/10/Opened-discussion-Xamarin-Yeoman-generator-yo-xamarin-in-Xamarin-Forums/</loc>
     
     <lastmod>2016-09-05T21:19:20.250Z</lastmod>
     
@@ -233,9 +233,16 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2016/05/10/Opened-discussion-Xamarin-Yeoman-generator-yo-xamarin-in-Xamarin-Forums/</loc>
+    <loc>http://stvansolano.github.io/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/</loc>
     
     <lastmod>2016-09-05T21:19:20.250Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://stvansolano.github.io/2015/10/17/Intro-Xamarin/</loc>
+    
+    <lastmod>2016-09-05T21:19:20.246Z</lastmod>
     
   </url>
   
@@ -248,13 +255,6 @@
   
   <url>
     <loc>http://stvansolano.github.io/2016/07/09/Invitacion-Bases-de-datos-moviles-Realm-como-alternativa-a-SQLite/</loc>
-    
-    <lastmod>2016-09-05T21:19:20.246Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://stvansolano.github.io/2015/10/17/Intro-Xamarin/</loc>
     
     <lastmod>2016-09-05T21:19:20.246Z</lastmod>
     

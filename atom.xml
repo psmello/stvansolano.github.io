@@ -4,9 +4,9 @@
   <subtitle>Senior Software Engineer | Xamarin MVP, MCP &amp; MCSD</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://stvansolano.github.io/"/>
+  <link href="https://stvansolano.github.io/"/>
   <updated>2016-09-06T16:01:04.352Z</updated>
-  <id>http://stvansolano.github.io/</id>
+  <id>https://stvansolano.github.io/</id>
   
   <author>
     <name>Esteban Solano G.</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Recap - Taller de Apps conectadas con Xamarin - Costa Rica</title>
-    <link href="http://stvansolano.github.io/2016/09/05/Recap-del-taller-de-apps-conectadas-con-Xamarin-Costa-Rica/"/>
-    <id>http://stvansolano.github.io/2016/09/05/Recap-del-taller-de-apps-conectadas-con-Xamarin-Costa-Rica/</id>
+    <link href="https://stvansolano.github.io/2016/09/05/Recap-del-taller-de-apps-conectadas-con-Xamarin-Costa-Rica/"/>
+    <id>https://stvansolano.github.io/2016/09/05/Recap-del-taller-de-apps-conectadas-con-Xamarin-Costa-Rica/</id>
     <published>2016-09-05T00:00:00.000Z</published>
     <updated>2016-09-06T16:01:04.352Z</updated>
     
@@ -54,20 +54,20 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Meetup" scheme="https://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+      <category term="Mobile" scheme="https://stvansolano.github.io/blog/tags/Mobile/"/>
     
-      <category term="Spanish/English" scheme="http://stvansolano.github.io/blog/tags/Spanish-English/"/>
+      <category term="Spanish/English" scheme="https://stvansolano.github.io/blog/tags/Spanish-English/"/>
     
   </entry>
   
   <entry>
     <title>Getting your next mobile app connected with Azure Mobile Apps</title>
-    <link href="http://stvansolano.github.io/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/"/>
-    <id>http://stvansolano.github.io/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/</id>
+    <link href="https://stvansolano.github.io/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/"/>
+    <id>https://stvansolano.github.io/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/</id>
     <published>2016-08-15T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.234Z</updated>
     
@@ -180,18 +180,18 @@
     </summary>
     
     
-      <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
+      <category term="Azure" scheme="https://stvansolano.github.io/blog/tags/Azure/"/>
     
-      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+      <category term="Mobile" scheme="https://stvansolano.github.io/blog/tags/Mobile/"/>
     
-      <category term="Backend" scheme="http://stvansolano.github.io/blog/tags/Backend/"/>
+      <category term="Backend" scheme="https://stvansolano.github.io/blog/tags/Backend/"/>
     
   </entry>
   
   <entry>
     <title>Introducción a Material Design - Google</title>
-    <link href="http://stvansolano.github.io/2016/08/07/Introduccion-a-Material-Design-Google/"/>
-    <id>http://stvansolano.github.io/2016/08/07/Introduccion-a-Material-Design-Google/</id>
+    <link href="https://stvansolano.github.io/2016/08/07/Introduccion-a-Material-Design-Google/"/>
+    <id>https://stvansolano.github.io/2016/08/07/Introduccion-a-Material-Design-Google/</id>
     <published>2016-08-07T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.246Z</updated>
     
@@ -223,24 +223,24 @@
     </summary>
     
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Meetup" scheme="https://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+      <category term="Mobile" scheme="https://stvansolano.github.io/blog/tags/Mobile/"/>
     
-      <category term="Spanish/English" scheme="http://stvansolano.github.io/blog/tags/Spanish-English/"/>
+      <category term="Spanish/English" scheme="https://stvansolano.github.io/blog/tags/Spanish-English/"/>
     
-      <category term="UX / UI" scheme="http://stvansolano.github.io/blog/tags/UX-UI/"/>
+      <category term="UX / UI" scheme="https://stvansolano.github.io/blog/tags/UX-UI/"/>
     
-      <category term="Google" scheme="http://stvansolano.github.io/blog/tags/Google/"/>
+      <category term="Google" scheme="https://stvansolano.github.io/blog/tags/Google/"/>
     
-      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
+      <category term="Android" scheme="https://stvansolano.github.io/blog/tags/Android/"/>
     
   </entry>
   
   <entry>
     <title>Bases de datos móviles: Realm como alternativa a SQLite</title>
-    <link href="http://stvansolano.github.io/2016/07/09/Invitacion-Bases-de-datos-moviles-Realm-como-alternativa-a-SQLite/"/>
-    <id>http://stvansolano.github.io/2016/07/09/Invitacion-Bases-de-datos-moviles-Realm-como-alternativa-a-SQLite/</id>
+    <link href="https://stvansolano.github.io/2016/07/09/Invitacion-Bases-de-datos-moviles-Realm-como-alternativa-a-SQLite/"/>
+    <id>https://stvansolano.github.io/2016/07/09/Invitacion-Bases-de-datos-moviles-Realm-como-alternativa-a-SQLite/</id>
     <published>2016-07-09T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.246Z</updated>
     
@@ -262,20 +262,20 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Meetup" scheme="https://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
-      <category term="Realm" scheme="http://stvansolano.github.io/blog/tags/Realm/"/>
+      <category term="Realm" scheme="https://stvansolano.github.io/blog/tags/Realm/"/>
     
   </entry>
   
   <entry>
     <title>Ganadores de la rifa - Reu de Xamarins Semana TICs en U-Latina de Costa Rica</title>
-    <link href="http://stvansolano.github.io/2016/07/07/Ganadores-de-la-rifa-Reu-de-Xamarins-Semana-TICs-Ulatina/"/>
-    <id>http://stvansolano.github.io/2016/07/07/Ganadores-de-la-rifa-Reu-de-Xamarins-Semana-TICs-Ulatina/</id>
+    <link href="https://stvansolano.github.io/2016/07/07/Ganadores-de-la-rifa-Reu-de-Xamarins-Semana-TICs-Ulatina/"/>
+    <id>https://stvansolano.github.io/2016/07/07/Ganadores-de-la-rifa-Reu-de-Xamarins-Semana-TICs-Ulatina/</id>
     <published>2016-07-07T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.230Z</updated>
     
@@ -301,20 +301,20 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Meetup" scheme="https://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
-      <category term="Rifa" scheme="http://stvansolano.github.io/blog/tags/Rifa/"/>
+      <category term="Rifa" scheme="https://stvansolano.github.io/blog/tags/Rifa/"/>
     
   </entry>
   
   <entry>
     <title>Resumen - Code Camp de Xamarin.Forms + Patrones de navegación móvil</title>
-    <link href="http://stvansolano.github.io/2016/06/21/Resumen-Code-Camp-de-Xamarin-Forms-Patrones-de-navegacion-movil-Costa-Rica/"/>
-    <id>http://stvansolano.github.io/2016/06/21/Resumen-Code-Camp-de-Xamarin-Forms-Patrones-de-navegacion-movil-Costa-Rica/</id>
+    <link href="https://stvansolano.github.io/2016/06/21/Resumen-Code-Camp-de-Xamarin-Forms-Patrones-de-navegacion-movil-Costa-Rica/"/>
+    <id>https://stvansolano.github.io/2016/06/21/Resumen-Code-Camp-de-Xamarin-Forms-Patrones-de-navegacion-movil-Costa-Rica/</id>
     <published>2016-06-21T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.254Z</updated>
     
@@ -341,22 +341,22 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Open Source" scheme="http://stvansolano.github.io/blog/tags/Open-Source/"/>
+      <category term="Open Source" scheme="https://stvansolano.github.io/blog/tags/Open-Source/"/>
     
-      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
+      <category term="Microsoft" scheme="https://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Meetup" scheme="https://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   
   <entry>
     <title>Recommended Asp.Net Core Links for June 2016</title>
-    <link href="http://stvansolano.github.io/2016/06/01/Recommended-Asp-Net-Core-Links-for-June-2016/"/>
-    <id>http://stvansolano.github.io/2016/06/01/Recommended-Asp-Net-Core-Links-for-June-2016/</id>
+    <link href="https://stvansolano.github.io/2016/06/01/Recommended-Asp-Net-Core-Links-for-June-2016/"/>
+    <id>https://stvansolano.github.io/2016/06/01/Recommended-Asp-Net-Core-Links-for-June-2016/</id>
     <published>2016-06-01T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.250Z</updated>
     
@@ -401,18 +401,18 @@
     </summary>
     
     
-      <category term="ASP.NET" scheme="http://stvansolano.github.io/blog/tags/ASP-NET/"/>
+      <category term="ASP.NET" scheme="https://stvansolano.github.io/blog/tags/ASP-NET/"/>
     
-      <category term="Web Apps" scheme="http://stvansolano.github.io/blog/tags/Web-Apps/"/>
+      <category term="Web Apps" scheme="https://stvansolano.github.io/blog/tags/Web-Apps/"/>
     
-      <category term="Web API" scheme="http://stvansolano.github.io/blog/tags/Web-API/"/>
+      <category term="Web API" scheme="https://stvansolano.github.io/blog/tags/Web-API/"/>
     
   </entry>
   
   <entry>
     <title>Woot. I&#39;m now (ahora soy) Xamarin MVP! Costa Rica</title>
-    <link href="http://stvansolano.github.io/2016/05/27/I-m-now-Xamarin-MVP-Soy-Xamarin-MVP-Costa-Rica/"/>
-    <id>http://stvansolano.github.io/2016/05/27/I-m-now-Xamarin-MVP-Soy-Xamarin-MVP-Costa-Rica/</id>
+    <link href="https://stvansolano.github.io/2016/05/27/I-m-now-Xamarin-MVP-Soy-Xamarin-MVP-Costa-Rica/"/>
+    <id>https://stvansolano.github.io/2016/05/27/I-m-now-Xamarin-MVP-Soy-Xamarin-MVP-Costa-Rica/</id>
     <published>2016-05-27T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.238Z</updated>
     
@@ -432,22 +432,22 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Open Source" scheme="http://stvansolano.github.io/blog/tags/Open-Source/"/>
+      <category term="Open Source" scheme="https://stvansolano.github.io/blog/tags/Open-Source/"/>
     
-      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
+      <category term="Microsoft" scheme="https://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
-      <category term="MVP" scheme="http://stvansolano.github.io/blog/tags/MVP/"/>
+      <category term="MVP" scheme="https://stvansolano.github.io/blog/tags/MVP/"/>
     
   </entry>
   
   <entry>
     <title>¿Qué llevar a la próxima sesión de la comunidad Xamarin?</title>
-    <link href="http://stvansolano.github.io/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/"/>
-    <id>http://stvansolano.github.io/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/</id>
+    <link href="https://stvansolano.github.io/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/"/>
+    <id>https://stvansolano.github.io/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/</id>
     <published>2016-05-15T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.250Z</updated>
     
@@ -491,26 +491,26 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Meetup" scheme="https://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
+      <category term="Comunidad" scheme="https://stvansolano.github.io/blog/tags/Comunidad/"/>
     
-      <category term="Charla" scheme="http://stvansolano.github.io/blog/tags/Charla/"/>
+      <category term="Charla" scheme="https://stvansolano.github.io/blog/tags/Charla/"/>
     
-      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
+      <category term="Workshop" scheme="https://stvansolano.github.io/blog/tags/Workshop/"/>
     
-      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
+      <category term="Taller" scheme="https://stvansolano.github.io/blog/tags/Taller/"/>
     
-      <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
+      <category term="XamarinForms" scheme="https://stvansolano.github.io/blog/tags/XamarinForms/"/>
     
   </entry>
   
   <entry>
     <title>Opened discussion: Xamarin Yeoman generator (yo xamarin)</title>
-    <link href="http://stvansolano.github.io/2016/05/10/Opened-discussion-Xamarin-Yeoman-generator-yo-xamarin-in-Xamarin-Forums/"/>
-    <id>http://stvansolano.github.io/2016/05/10/Opened-discussion-Xamarin-Yeoman-generator-yo-xamarin-in-Xamarin-Forums/</id>
+    <link href="https://stvansolano.github.io/2016/05/10/Opened-discussion-Xamarin-Yeoman-generator-yo-xamarin-in-Xamarin-Forums/"/>
+    <id>https://stvansolano.github.io/2016/05/10/Opened-discussion-Xamarin-Yeoman-generator-yo-xamarin-in-Xamarin-Forums/</id>
     <published>2016-05-10T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.250Z</updated>
     
@@ -537,16 +537,16 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Open Source" scheme="http://stvansolano.github.io/blog/tags/Open-Source/"/>
+      <category term="Open Source" scheme="https://stvansolano.github.io/blog/tags/Open-Source/"/>
     
   </entry>
   
   <entry>
     <title>Resumen Sesión #10 - Comunidad Xamarin Costa Rica</title>
-    <link href="http://stvansolano.github.io/2016/04/30/Resumen-Sesion-10-Build-Evolve-Comunidad-Xamarin-Costa-Rica/"/>
-    <id>http://stvansolano.github.io/2016/04/30/Resumen-Sesion-10-Build-Evolve-Comunidad-Xamarin-Costa-Rica/</id>
+    <link href="https://stvansolano.github.io/2016/04/30/Resumen-Sesion-10-Build-Evolve-Comunidad-Xamarin-Costa-Rica/"/>
+    <id>https://stvansolano.github.io/2016/04/30/Resumen-Sesion-10-Build-Evolve-Comunidad-Xamarin-Costa-Rica/</id>
     <published>2016-04-30T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.254Z</updated>
     
@@ -571,22 +571,22 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Open Source" scheme="http://stvansolano.github.io/blog/tags/Open-Source/"/>
+      <category term="Open Source" scheme="https://stvansolano.github.io/blog/tags/Open-Source/"/>
     
-      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
+      <category term="Microsoft" scheme="https://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Meetup" scheme="https://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   
   <entry>
     <title>Xamarin Evolve 2016 + //Build recap: ¡Xamarin para todos!</title>
-    <link href="http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/"/>
-    <id>http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/</id>
+    <link href="https://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/"/>
+    <id>https://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/</id>
     <published>2016-03-18T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.266Z</updated>
     
@@ -618,22 +618,22 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Open Source" scheme="http://stvansolano.github.io/blog/tags/Open-Source/"/>
+      <category term="Open Source" scheme="https://stvansolano.github.io/blog/tags/Open-Source/"/>
     
-      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
+      <category term="Microsoft" scheme="https://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Meetup" scheme="https://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   
   <entry>
     <title>Charla: Desarrollo de aplicaciones móviles con Xamarin y C#/.Net</title>
-    <link href="http://stvansolano.github.io/2016/02/18/Invitacion-Charla-de-C-Sharp-Net-y-Xamarin-Universidad-Fidelitas-Costa-Rica/"/>
-    <id>http://stvansolano.github.io/2016/02/18/Invitacion-Charla-de-C-Sharp-Net-y-Xamarin-Universidad-Fidelitas-Costa-Rica/</id>
+    <link href="https://stvansolano.github.io/2016/02/18/Invitacion-Charla-de-C-Sharp-Net-y-Xamarin-Universidad-Fidelitas-Costa-Rica/"/>
+    <id>https://stvansolano.github.io/2016/02/18/Invitacion-Charla-de-C-Sharp-Net-y-Xamarin-Universidad-Fidelitas-Costa-Rica/</id>
     <published>2016-02-18T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.246Z</updated>
     
@@ -651,22 +651,22 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Meetup" scheme="https://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
-      <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
+      <category term="Comunidad" scheme="https://stvansolano.github.io/blog/tags/Comunidad/"/>
     
-      <category term="Charla" scheme="http://stvansolano.github.io/blog/tags/Charla/"/>
+      <category term="Charla" scheme="https://stvansolano.github.io/blog/tags/Charla/"/>
     
   </entry>
   
   <entry>
     <title>ASP.NET Core 1.0 Talks Costa Rica - Invitación</title>
-    <link href="http://stvansolano.github.io/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/"/>
-    <id>http://stvansolano.github.io/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/</id>
+    <link href="https://stvansolano.github.io/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/"/>
+    <id>https://stvansolano.github.io/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/</id>
     <published>2016-02-09T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.230Z</updated>
     
@@ -687,28 +687,28 @@
     </summary>
     
     
-      <category term="ASP.NET" scheme="http://stvansolano.github.io/blog/tags/ASP-NET/"/>
+      <category term="ASP.NET" scheme="https://stvansolano.github.io/blog/tags/ASP-NET/"/>
     
-      <category term="Web Apps" scheme="http://stvansolano.github.io/blog/tags/Web-Apps/"/>
+      <category term="Web Apps" scheme="https://stvansolano.github.io/blog/tags/Web-Apps/"/>
     
-      <category term="Yeoman" scheme="http://stvansolano.github.io/blog/tags/Yeoman/"/>
+      <category term="Yeoman" scheme="https://stvansolano.github.io/blog/tags/Yeoman/"/>
     
-      <category term="HTML5" scheme="http://stvansolano.github.io/blog/tags/HTML5/"/>
+      <category term="HTML5" scheme="https://stvansolano.github.io/blog/tags/HTML5/"/>
     
-      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
+      <category term="REST" scheme="https://stvansolano.github.io/blog/tags/REST/"/>
     
-      <category term="Web API" scheme="http://stvansolano.github.io/blog/tags/Web-API/"/>
+      <category term="Web API" scheme="https://stvansolano.github.io/blog/tags/Web-API/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Meetup" scheme="https://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   
   <entry>
     <title>Xamarin 4 Workshop code now available!</title>
-    <link href="http://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/"/>
-    <id>http://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/</id>
+    <link href="https://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/"/>
+    <id>https://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/</id>
     <published>2016-02-06T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.266Z</updated>
     
@@ -765,20 +765,20 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
+      <category term="Workshop" scheme="https://stvansolano.github.io/blog/tags/Workshop/"/>
     
-      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
+      <category term="Taller" scheme="https://stvansolano.github.io/blog/tags/Taller/"/>
     
-      <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
+      <category term="XamarinForms" scheme="https://stvansolano.github.io/blog/tags/XamarinForms/"/>
     
   </entry>
   
   <entry>
     <title>Resumen - Arquitectura REST y servicios móviles</title>
-    <link href="http://stvansolano.github.io/2016/02/01/Resumen-Arquitectura-REST-y-servicios-moviles/"/>
-    <id>http://stvansolano.github.io/2016/02/01/Resumen-Arquitectura-REST-y-servicios-moviles/</id>
+    <link href="https://stvansolano.github.io/2016/02/01/Resumen-Arquitectura-REST-y-servicios-moviles/"/>
+    <id>https://stvansolano.github.io/2016/02/01/Resumen-Arquitectura-REST-y-servicios-moviles/</id>
     <published>2016-02-01T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.254Z</updated>
     
@@ -817,20 +817,20 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
-      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
+      <category term="Workshop" scheme="https://stvansolano.github.io/blog/tags/Workshop/"/>
     
-      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
+      <category term="Taller" scheme="https://stvansolano.github.io/blog/tags/Taller/"/>
     
   </entry>
   
   <entry>
     <title>Workshop de Xamarin 4 en BrainStation</title>
-    <link href="http://stvansolano.github.io/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/"/>
-    <id>http://stvansolano.github.io/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/</id>
+    <link href="https://stvansolano.github.io/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/"/>
+    <id>https://stvansolano.github.io/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/</id>
     <published>2016-01-04T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.254Z</updated>
     
@@ -851,22 +851,22 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
-      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
+      <category term="Workshop" scheme="https://stvansolano.github.io/blog/tags/Workshop/"/>
     
-      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
+      <category term="Taller" scheme="https://stvansolano.github.io/blog/tags/Taller/"/>
     
-      <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
+      <category term="XamarinForms" scheme="https://stvansolano.github.io/blog/tags/XamarinForms/"/>
     
   </entry>
   
   <entry>
     <title>Xamarin 4 has everything you need to create great mobile apps!</title>
-    <link href="http://stvansolano.github.io/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/"/>
-    <id>http://stvansolano.github.io/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/</id>
+    <link href="https://stvansolano.github.io/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/"/>
+    <id>https://stvansolano.github.io/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/</id>
     <published>2015-12-01T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.270Z</updated>
     
@@ -904,18 +904,18 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
+      <category term="XamarinForms" scheme="https://stvansolano.github.io/blog/tags/XamarinForms/"/>
     
-      <category term="TestCloud" scheme="http://stvansolano.github.io/blog/tags/TestCloud/"/>
+      <category term="TestCloud" scheme="https://stvansolano.github.io/blog/tags/TestCloud/"/>
     
   </entry>
   
   <entry>
     <title>Taller de Introducción Xamarin - 2da Fecha</title>
-    <link href="http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/"/>
-    <id>http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/</id>
+    <link href="https://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/"/>
+    <id>https://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/</id>
     <published>2015-11-24T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.278Z</updated>
     
@@ -929,16 +929,16 @@
     </summary>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   
   <entry>
     <title>Invitación - Comunidad Xamarin Costa Rica Mobile .Net Developers</title>
-    <link href="http://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/"/>
-    <id>http://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/</id>
+    <link href="https://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/"/>
+    <id>https://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/</id>
     <published>2015-11-14T00:00:00.000Z</published>
     <updated>2016-09-05T21:19:20.278Z</updated>
     
@@ -959,16 +959,16 @@
     
     </summary>
     
-      <category term="Xamarin Forms" scheme="http://stvansolano.github.io/blog/categories/Xamarin-Forms/"/>
+      <category term="Xamarin Forms" scheme="https://stvansolano.github.io/blog/categories/Xamarin-Forms/"/>
     
     
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+      <category term="Xamarin" scheme="https://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Meetup" scheme="https://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+      <category term="Spanish/Español" scheme="https://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
-      <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
+      <category term="Comunidad" scheme="https://stvansolano.github.io/blog/tags/Comunidad/"/>
     
   </entry>
   

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2016-09-06T22:48:17.212Z</updated>
+  <updated>2016-09-07T22:46:14.130Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>¡Nos vemos en Xamarin Dev Days Costa Rica!</title>
+    <link href="http://stvansolano.github.io/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/"/>
+    <id>http://stvansolano.github.io/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/</id>
+    <published>2016-09-07T00:00:00.000Z</published>
+    <updated>2016-09-07T22:46:14.130Z</updated>
+    
+    <content type="html"><![CDATA[<p>¡<em>Mobile Costa Rica Developers</em> se une a la celebración de <em>Xamarin Dev Days</em>! Una serie de eventos a nivel mundial dedicados al desarrollo de aplicaciones móviles con Xamarin. ¡No te lo pierdas!</p>
+<a id="more"></a>
+<p><img src="/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/preview.png" alt="Xamarin Dev-Days"></p>
+<p><em>Xamarin Dev Days</em> consiste en una serie de eventos a nivel mundial el cual proporciona a los asistentes una experiencia intensa de aprendizaje donde puedes explorar aspectos de desarrollo móvil con sesiones de Xamarin guiadas por expertos y profesionales de Xamarin, socios tecnológicos y miembros de la comunidad móvil, complementados con sesiones de codificación durante la tarde.</p>
+<h2 id="Participa-en-Xamarin-Dev-Days-en-tu-ciudad"><a href="#Participa-en-Xamarin-Dev-Days-en-tu-ciudad" class="headerlink" title="Participa en Xamarin Dev-Days en tu ciudad."></a>Participa en Xamarin Dev-Days en tu ciudad.</h2><p>Te invitamos a participar con la comunidad móvil de Xamarin en Costa Rica y estar atento a las próximas fechas y localidades que se irán anunciando. Cada sesión es única y consistente en el recorrido de cómo construir, probar y monitorear aplicaciones nativas para iOS, Android y Windows con Xamarin.</p>
+<h2 id="Xamarin-Dev-Days-Costa-Rica"><a href="#Xamarin-Dev-Days-Costa-Rica" class="headerlink" title="-Xamarin Dev Days Costa Rica"></a>-Xamarin Dev Days Costa Rica</h2><p><strong>Fecha:</strong> 1° de Octubre, 2016 - San Pedro, San José, Costa Rica<br><strong>Lugar:</strong> Universidad Latina De Costa Rica, 203, San José Province, San Pedro, Costa Rica. <a href="https://www.google.com/maps?q=9.93283,-84.0436+(Universidad+Latina+De+Costa+Rica,+203,+San+Jos%C3%A9+Province,+San+Pedro,+Costa+Rica" target="_blank" rel="external">Mapa.</a><br><strong>Agenda, Registro &amp; RSVP</strong>: <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/events/233824154/]" target="_blank" rel="external">Meetup de la comunidad</a></p>
+<p>No olvides registrarte y contarnos si vas en el Meetup de Mobile CR Developers.</p>
+<p><a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers" target="_blank" rel="external"><img src="/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/meetup.png" alt="Meetup"></a></p>
+<p>¡No te lo pierdas!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;¡&lt;em&gt;Mobile Costa Rica Developers&lt;/em&gt; se une a la celebración de &lt;em&gt;Xamarin Dev Days&lt;/em&gt;! Una serie de eventos a nivel mundial dedicados al desarrollo de aplicaciones móviles con Xamarin. ¡No te lo pierdas!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/English" scheme="http://stvansolano.github.io/blog/tags/Spanish-English/"/>
+    
+      <category term="DevDays" scheme="http://stvansolano.github.io/blog/tags/DevDays/"/>
+    
+  </entry>
   
   <entry>
     <title>Recap - Taller de Apps conectadas con Xamarin - Costa Rica</title>
@@ -930,43 +965,6 @@
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Invitación - Comunidad Xamarin Costa Rica Mobile .Net Developers</title>
-    <link href="http://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/"/>
-    <id>http://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/</id>
-    <published>2015-11-14T00:00:00.000Z</published>
-    <updated>2016-09-06T17:50:18.619Z</updated>
-    
-    <content type="html"><![CDATA[<p>Te invitamos a formar parte de la <a href="//www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group">Comunidad Xamarin Costa Rica</a>, somos la primera Meetup oficial de Xamarin en Centroamérica y como parte del lanzamiento tendremos charlas, talleres, rifas, materiales de Xamarin y mucho más. ¡Únete, aprende y comparte!<br><a id="more"></a></p>
-<h3 id="¡Suscribete-y-participa-en-las-rifas-del-lanzamiento-del-grupo"><a href="#¡Suscribete-y-participa-en-las-rifas-del-lanzamiento-del-grupo" class="headerlink" title="¡Suscríbete y participa en las rifas del lanzamiento del grupo!"></a>¡Suscríbete y participa en las rifas del lanzamiento del grupo!</h3><p>Inscríbete en el grupo de <em>Meetup</em> para quedar participando. Estaremos rifando el libro <em>Creating Mobile Apps with Xamarin.Forms</em> de parte del grupo entre todos miembros registrados. </p>
-<p><img src="/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/map.png" alt="" title="Primera Meetup oficial de Xamarin en Centroamérica"></p>
-<p>Suscríbete a nuestra lista de correo para conocer el ganador, recibir más noticias sobre la comunidad y futuras sesiones del Taller de Xamarin que estamos organizando en distintas localidades.</p>
-<p>Por acá los links:</p>
-<p><strong>Meetup:</strong><br><a href="//www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group">http://www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/</a><br><strong>Más información/Newsletter:</strong><br><a href="https://stvansolano.github.io/taller/#suscribe">Registro abierto</a></p>
-<h2 id="Sobre-el-grupo"><a href="#Sobre-el-grupo" class="headerlink" title="Sobre el grupo"></a>Sobre el grupo</h2><p>Nos reunimos para hablar, presentar, compartir conocimiento, eventos, código, experiencias e ideas sobre desarrollo móvil en general y apps multiplataforma con Xamarin, .Net, Azure, Javascript y otras tecnologías. </p>
-<p>Somos un grupo orientado a estudiantes, principiantes, desarrolladores y gente interesada en cómo se construye aplicaciones con Xamarin para Android, iOS y WinPhone con C#/.Net por medio de charlas, talleres, rifas, foros y materiales de Xamarin sin costo alguno.</p>
-<h3 id="Conoce-la-agenda-de-sesiones"><a href="#Conoce-la-agenda-de-sesiones" class="headerlink" title="Conoce la agenda de sesiones"></a>Conoce la agenda de sesiones</h3><p>Ingresa <a href="/taller/eventos">acá</a> para conocer la agenda de temas y talleres, o bien <a href="mailto:stvansolano@outlook.com" target="_blank" rel="external">escríbenos acá</a> si te interesa hospedar una de las fechas en algún lugar y/o fecha, no dudes en contactarnos.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Te invitamos a formar parte de la &lt;a href=&quot;//www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group&quot;&gt;Comunidad Xamarin Costa Rica&lt;/a&gt;, somos la primera Meetup oficial de Xamarin en Centroamérica y como parte del lanzamiento tendremos charlas, talleres, rifas, materiales de Xamarin y mucho más. ¡Únete, aprende y comparte!&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Xamarin Forms" scheme="http://stvansolano.github.io/blog/categories/Xamarin-Forms/"/>
-    
-    
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
-    
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
-      <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
     
   </entry>
   

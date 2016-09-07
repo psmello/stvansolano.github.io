@@ -72,28 +72,14 @@
   </url>
   
   <url>
+    <loc>http://stvansolano.github.io/taller/eventos/index.html</loc>
+    
+    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://stvansolano.github.io/taller/answer/index.html</loc>
-    
-    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://stvansolano.github.io/community/index.html</loc>
-    
-    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://stvansolano.github.io/resume/education.html</loc>
-    
-    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://stvansolano.github.io/bootflat/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.623Z</lastmod>
     
@@ -107,6 +93,13 @@
   </url>
   
   <url>
+    <loc>http://stvansolano.github.io/bootflat/index.html</loc>
+    
+    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://stvansolano.github.io/resume/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.623Z</lastmod>
@@ -114,7 +107,7 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/dashboard/index.html</loc>
+    <loc>http://stvansolano.github.io/resume/education.html</loc>
     
     <lastmod>2016-09-06T17:50:18.623Z</lastmod>
     
@@ -128,28 +121,21 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/taller/eventos/index.html</loc>
+    <loc>http://stvansolano.github.io/dashboard/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.623Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/</loc>
+    <loc>http://stvansolano.github.io/community/index.html</loc>
     
-    <lastmod>2016-09-06T17:50:18.619Z</lastmod>
+    <lastmod>2016-09-06T17:50:18.623Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://stvansolano.github.io/2015/11/14/invitacion-comunidad-oficial-xamarin-costa-rica/</loc>
-    
-    <lastmod>2016-09-06T17:50:18.619Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://stvansolano.github.io/blog/links.html</loc>
     
     <lastmod>2016-09-06T17:50:18.619Z</lastmod>
     
@@ -164,6 +150,20 @@
   
   <url>
     <loc>http://stvansolano.github.io/blog/index.html</loc>
+    
+    <lastmod>2016-09-06T17:50:18.619Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://stvansolano.github.io/blog/links.html</loc>
+    
+    <lastmod>2016-09-06T17:50:18.619Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/</loc>
     
     <lastmod>2016-09-06T17:50:18.619Z</lastmod>
     
@@ -191,14 +191,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/</loc>
+    <loc>http://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/</loc>
     
     <lastmod>2016-09-06T17:50:18.603Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/</loc>
+    <loc>http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/</loc>
     
     <lastmod>2016-09-06T17:50:18.603Z</lastmod>
     
@@ -233,13 +233,6 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2016/06/01/Recommended-Asp-Net-Core-Links-for-June-2016/</loc>
-    
-    <lastmod>2016-09-06T17:50:18.587Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://stvansolano.github.io/2016/05/10/Opened-discussion-Xamarin-Yeoman-generator-yo-xamarin-in-Xamarin-Forums/</loc>
     
     <lastmod>2016-09-06T17:50:18.587Z</lastmod>
@@ -248,6 +241,13 @@
   
   <url>
     <loc>http://stvansolano.github.io/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/</loc>
+    
+    <lastmod>2016-09-06T17:50:18.587Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://stvansolano.github.io/2016/06/01/Recommended-Asp-Net-Core-Links-for-June-2016/</loc>
     
     <lastmod>2016-09-06T17:50:18.587Z</lastmod>
     

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2016-09-09T16:22:22.000Z</updated>
+  <updated>2016-10-07T17:19:48.642Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -16,11 +16,50 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Invitación - Xamarin Bootcamp 2016 en Ulacit Costa Rica</title>
+    <link href="http://stvansolano.github.io/2016/10/03/Invitacion-Xamarin-Bootcamp-2016-en-Ulacit-Costa-Rica/"/>
+    <id>http://stvansolano.github.io/2016/10/03/Invitacion-Xamarin-Bootcamp-2016-en-Ulacit-Costa-Rica/</id>
+    <published>2016-10-03T00:00:00.000Z</published>
+    <updated>2016-10-07T17:19:48.642Z</updated>
+    
+    <content type="html"><![CDATA[<p>Continuamos con los eventos de la comunidad Xamarin Costa Rica! Te invitamos al próximo Xamarin Bootcamp en Ulacit sede Barrio Tournón donde tendremos 3 charlas y sesión de codificación en la tarde. ¡Te esperamos!</p>
+<a id="more"></a>
+<p><img src="/2016/10/03/Invitacion-Xamarin-Bootcamp-2016-en-Ulacit-Costa-Rica/preview.png" alt="Xamarin Bootcamp"></p>
+<p><em>Xamarin Bootcamp</em> consiste en 1 día de entrenamiento dedicado al desarrollo de aplicaciones móviles iOS, Android y Windows (UWP), a través de una serie de sesiones enfocadas en desarrollo móvil con las herramientas de desarrollo Android, XCode, Xamarin y .Net. ¡No te lo pierdas!</p>
+<h2 id="¡Participa-en-el-Bootcamp"><a href="#¡Participa-en-el-Bootcamp" class="headerlink" title="¡Participa en el Bootcamp!"></a>¡Participa en el Bootcamp!</h2><p>Ya seas estudiante o un desarrollador de software, puedes participar y aprender conceptos básicos de desarrollo móvil y ponerlos en práctica en tus primeras aplicaciones móviles desde un nivel inicial e incorporar elementos de arquitectura, diseño y codificación de tus primeras apps móviles .<br>Puedes traer tu Mac o PC con Android/XCode y Xamarin pre-instalado y emuladores respectivos. Más detalles en:</p>
+<p><a href="http://stvansolano.github.io/2016/05/15/Que-llevar-a-la-proxima-sesion-de-la-comunidad-Xamarin/">¿Qué llevar a la próxima sesión de la comunidad Xamarin?</a></p>
+<h2 id="Xamarin-Bootcamp-2016-Costa-Rica"><a href="#Xamarin-Bootcamp-2016-Costa-Rica" class="headerlink" title="Xamarin Bootcamp 2016 Costa Rica"></a>Xamarin Bootcamp 2016 Costa Rica</h2><p><strong>Fecha:</strong> 21 de Octubre, 2016, 9am<br><strong>Lugar:</strong> Sede de la Ulacit en Barrio Tornón, San José, Costa Rica<br><strong>Agenda y Registro.</strong><br>No olvides registrarte en el siguiente link para reservar tu lugar que vas en el Meetup del Evento de Mobile CR Developers.</p>
+<p><a href="http://meetu.ps/2YpXDn" target="_blank" rel="external">&gt;&gt;Registro</a></p>
+<p><em>¡Habrá rifa entre los asistentes!</em></p>
+<h2 id="¡Trae-tu-idea-y-desarrolla-en-el-Bootcamp"><a href="#¡Trae-tu-idea-y-desarrolla-en-el-Bootcamp" class="headerlink" title="¡Trae tu idea y desarrolla en el Bootcamp!"></a>¡Trae tu idea y desarrolla en el Bootcamp!</h2><p>¿Tienes una idea para una app? ¡Tráela y desarrolla en el Bootcamp! Contaremos con 2 laboratorios equipados y asesoría en diferentes temas incluyendo UX, arquitectura, codificación, pruebas y distribución de tu aplicación móvil.</p>
+<h2 id="¿Deseas-organizar-un-evento-Xamarin-¡Contactanos"><a href="#¿Deseas-organizar-un-evento-Xamarin-¡Contactanos" class="headerlink" title="¿Deseas organizar un evento Xamarin? ¡Contáctanos!"></a>¿Deseas organizar un evento Xamarin? ¡Contáctanos!</h2><p>Puedes ponerte en contacto con la comunidad Xamarin y hospedar un evento! Podemos asistirte en lo que necesites para organizarlo ya sea por tu cuenta o por medio del grupo de Meetup de Mobile CR Developers.</p>
+<p><a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers" target="_blank" rel="external"><img src="/2016/10/03/Invitacion-Xamarin-Bootcamp-2016-en-Ulacit-Costa-Rica/meetup.png" alt="Meetup"></a></p>
+<p>No te lo pierdas. ¡Nos vemos en la próxima!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Continuamos con los eventos de la comunidad Xamarin Costa Rica! Te invitamos al próximo Xamarin Bootcamp en Ulacit sede Barrio Tournón donde tendremos 3 charlas y sesión de codificación en la tarde. ¡Te esperamos!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/English" scheme="http://stvansolano.github.io/blog/tags/Spanish-English/"/>
+    
+      <category term="Bootcamp" scheme="http://stvansolano.github.io/blog/tags/Bootcamp/"/>
+    
+  </entry>
+  
+  <entry>
     <title>¡Nos vemos en Xamarin Dev Days Costa Rica!</title>
     <link href="http://stvansolano.github.io/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/"/>
     <id>http://stvansolano.github.io/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/</id>
     <published>2016-09-07T00:00:00.000Z</published>
-    <updated>2016-09-09T16:22:22.000Z</updated>
+    <updated>2016-10-07T17:15:14.890Z</updated>
     
     <content type="html"><![CDATA[<p>¡<em>Mobile Costa Rica Developers</em> se une a la celebración de <em>Xamarin Dev Days</em>! Una serie de eventos a nivel mundial dedicados al desarrollo de aplicaciones móviles con Xamarin. ¡No te lo pierdas!</p>
 <a id="more"></a>
@@ -339,9 +378,9 @@
     
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Rifa" scheme="http://stvansolano.github.io/blog/tags/Rifa/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Rifa" scheme="http://stvansolano.github.io/blog/tags/Rifa/"/>
     
   </entry>
   
@@ -721,10 +760,6 @@
     </summary>
     
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
       <category term="ASP.NET" scheme="http://stvansolano.github.io/blog/tags/ASP-NET/"/>
     
       <category term="Web Apps" scheme="http://stvansolano.github.io/blog/tags/Web-Apps/"/>
@@ -736,6 +771,10 @@
       <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
     
       <category term="Web API" scheme="http://stvansolano.github.io/blog/tags/Web-API/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   
@@ -943,29 +982,6 @@
       <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
     
       <category term="TestCloud" scheme="http://stvansolano.github.io/blog/tags/TestCloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Taller de Introducción Xamarin - 2da Fecha</title>
-    <link href="http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/"/>
-    <id>http://stvansolano.github.io/2015/11/24/taller-de-introduccion-xamarin-2da-fecha/</id>
-    <published>2015-11-24T00:00:00.000Z</published>
-    <updated>2016-09-06T17:50:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Continuamos con los Talleres de Xamarin, esta vez se realizó en la Universidad Americana, Sede San Pedro. ¡Muchas gracias a todos por acompañarnos!</p>
-<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Continuamos con los Talleres de Xamarin, esta vez se realizó en la Universidad Americana, Sede San Pedro. ¡Muchas gracias a todos por acompañarnos!&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
-    
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   

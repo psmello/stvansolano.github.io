@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/</loc>
+    <loc>http://stvansolano.github.io/2015/08/17/XamarinTestCloudSeries/</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/</loc>
+    <loc>http://stvansolano.github.io/2015/06/20/Getting-Started-With-Markdown/</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2015/06/20/Getting-Started-With-Markdown/</loc>
+    <loc>http://stvansolano.github.io/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
@@ -121,14 +121,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/</loc>
+    <loc>http://stvansolano.github.io/2016/04/30/Resumen-Sesion-10-Build-Evolve-Comunidad-Xamarin-Costa-Rica/</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2016/04/30/Resumen-Sesion-10-Build-Evolve-Comunidad-Xamarin-Costa-Rica/</loc>
+    <loc>http://stvansolano.github.io/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
@@ -142,14 +142,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/</loc>
+    <loc>http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/2015/08/17/XamarinTestCloudSeries/</loc>
+    <loc>http://stvansolano.github.io/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
@@ -184,13 +184,6 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/blog/index.html</loc>
-    
-    <lastmod>2016-09-06T17:50:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://stvansolano.github.io/about/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
@@ -198,7 +191,7 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/bootflat/index.html</loc>
+    <loc>http://stvansolano.github.io/blog/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
@@ -212,6 +205,13 @@
   </url>
   
   <url>
+    <loc>http://stvansolano.github.io/bootflat/index.html</loc>
+    
+    <lastmod>2016-09-06T17:50:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://stvansolano.github.io/2015/10/17/Intro-Xamarin/</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
@@ -219,14 +219,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/portfolio/index.html</loc>
+    <loc>http://stvansolano.github.io/dashboard/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/dashboard/index.html</loc>
+    <loc>http://stvansolano.github.io/portfolio/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
@@ -247,14 +247,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/resume/index.html</loc>
+    <loc>http://stvansolano.github.io/taller/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/taller/index.html</loc>
+    <loc>http://stvansolano.github.io/resume/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
@@ -282,14 +282,14 @@
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/taller/recursos/index.html</loc>
+    <loc>http://stvansolano.github.io/taller/introduccion-xamarin/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://stvansolano.github.io/taller/introduccion-xamarin/index.html</loc>
+    <loc>http://stvansolano.github.io/taller/recursos/index.html</loc>
     
     <lastmod>2016-09-06T17:50:18.000Z</lastmod>
     

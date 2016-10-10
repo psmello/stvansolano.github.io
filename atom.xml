@@ -59,9 +59,9 @@
     <link href="http://stvansolano.github.io/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/"/>
     <id>http://stvansolano.github.io/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/</id>
     <published>2016-09-07T00:00:00.000Z</published>
-    <updated>2016-10-07T17:15:14.890Z</updated>
+    <updated>2016-10-10T22:49:12.788Z</updated>
     
-    <content type="html"><![CDATA[<p>¡<em>Mobile Costa Rica Developers</em> se une a la celebración de <em>Xamarin Dev Days</em>! Una serie de eventos a nivel mundial dedicados al desarrollo de aplicaciones móviles con Xamarin. ¡No te lo pierdas!</p>
+    <content type="html"><![CDATA[<p>¡<em>Mobile Costa Rica Developers</em> se une a la celebración de <em>Xamarin Dev Days!</em> Una serie de eventos a nivel mundial dedicados al desarrollo de aplicaciones móviles con Xamarin. ¡No te lo pierdas!</p>
 <a id="more"></a>
 <p><img src="/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/preview.png" alt="Xamarin Dev-Days"></p>
 <p><em>Xamarin Dev Days</em> consiste en una serie de eventos a nivel mundial el cual proporciona a los asistentes una experiencia intensa de aprendizaje donde puedes explorar aspectos de desarrollo móvil con sesiones de Xamarin guiadas por expertos y profesionales de Xamarin, socios tecnológicos y miembros de la comunidad móvil, complementados con sesiones de codificación durante la tarde.</p>
@@ -71,11 +71,40 @@
 <p><a href="/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/map.png"><img src="/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/map.png" alt="Mapa"></a></p>
 <p>¡No te lo pierdas!</p>
 <p><a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers" target="_blank" rel="external"><img src="/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/meetup.png" alt="Meetup"></a></p>
+<h2 id="Actualizado-Ganadores-de-la-rifa"><a href="#Actualizado-Ganadores-de-la-rifa" class="headerlink" title="[Actualizado] - Ganadores de la rifa."></a>[Actualizado] - Ganadores de la rifa.</h2><p>Muchas gracias a todos los asistentes al Xamarin Dev-Day! Por acá los ganadores. Les estaré contactando por Meetup para coordinar la entrega.</p>
+<table>
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Premio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/Premios/ganador1.png" alt="Ganador1"></td>
+<td>1 Libro</td>
+</tr>
+<tr>
+<td><img src="/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/Premios/ganador2.png" alt="Ganador1"></td>
+<td>1 Ximian</td>
+</tr>
+<tr>
+<td><img src="/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/Premios/ganador3.png" alt="Ganador1"></td>
+<td>1 Ximian</td>
+</tr>
+<tr>
+<td><img src="/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/Premios/ganador4.png" alt="Ganador1"></td>
+<td>1 Licencia JetBrains</td>
+</tr>
+</tbody>
+</table>
+<p>Gracias por participar y darnos sus comentarios y sugerencias!</p>
+<p>¡Nos vemos en la próxima!</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;¡&lt;em&gt;Mobile Costa Rica Developers&lt;/em&gt; se une a la celebración de &lt;em&gt;Xamarin Dev Days&lt;/em&gt;! Una serie de eventos a nivel mundial dedicados al desarrollo de aplicaciones móviles con Xamarin. ¡No te lo pierdas!&lt;/p&gt;
+      &lt;p&gt;¡&lt;em&gt;Mobile Costa Rica Developers&lt;/em&gt; se une a la celebración de &lt;em&gt;Xamarin Dev Days!&lt;/em&gt; Una serie de eventos a nivel mundial dedicados al desarrollo de aplicaciones móviles con Xamarin. ¡No te lo pierdas!&lt;/p&gt;
     
     </summary>
     
@@ -143,10 +172,10 @@
   
   <entry>
     <title>Getting your next mobile app connected with Azure Mobile Apps</title>
-    <link href="http://stvansolano.github.io/2016/08/18/Getting-your-next-app--with-azure-mobile-apps/"/>
-    <id>http://stvansolano.github.io/2016/08/18/Getting-your-next-app--with-azure-mobile-apps/</id>
-    <published>2016-08-18T00:00:00.000Z</published>
-    <updated>2016-09-06T23:05:49.000Z</updated>
+    <link href="http://stvansolano.github.io/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/"/>
+    <id>http://stvansolano.github.io/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/</id>
+    <published>2016-08-15T00:00:00.000Z</published>
+    <updated>2016-10-10T22:25:45.468Z</updated>
     
     <content type="html"><![CDATA[<p>New to <em>Azure</em>? Need a backend for your mobile app? Here here are key considerations and tips for start developing mobile apps with <em>Azure Mobile Apps</em>.</p>
 <a id="more"></a>

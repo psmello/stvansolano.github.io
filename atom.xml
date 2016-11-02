@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2016-10-08T02:20:33.076Z</updated>
+  <updated>2016-11-02T02:43:26.043Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -16,11 +16,60 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Cómo desplegar apps para Android en tu dispositivo físico</title>
+    <link href="http://stvansolano.github.io/2016/10/31/Como-desplegar-apps-para-Android-en-tu-dispositivo-fisico/"/>
+    <id>http://stvansolano.github.io/2016/10/31/Como-desplegar-apps-para-Android-en-tu-dispositivo-fisico/</id>
+    <published>2016-10-31T00:00:00.000Z</published>
+    <updated>2016-11-02T02:43:26.043Z</updated>
+    
+    <content type="html"><![CDATA[<p>Les comparto algunas recomendaciones para poder desplegar apps para Android en dispositivos físicos Android por medio de las opciones de desarrollador.</p>
+<a id="more"></a>
+<p>Es posible correr y depurar aplicaciones para Android si tienes un teléfono Android, lo cual es súper útil si has tenido dificultad para correr los emuladores de Android o bien corran muy lento, además, esta opción te permite probar tu aplicación en un dispositivo real y llevarlo a versiones anteriores de Android o bien escenarios no tan comunes con factores como el acceso a internet o bien la ubicación geográfica, entre otros.</p>
+<p><img src="/2016/10/31/Como-desplegar-apps-para-Android-en-tu-dispositivo-fisico/preview.png" alt="Desplegar apps para Android" title="Desplegar y depurar apps para Android"></p>
+<p><strong>Importante:</strong> Ninguno de los pasos a continuación representa un problema para tu dispositivo físico y NO requiere <em>“bootear”</em> tu teléfono. Puedes deshabilitar las opciones de depuración posteriormente luego y continuar usando tu teléfono normalmente.</p>
+<h2 id="Desplegando-una-app-para-Android-en-un-dispositivo-fisico"><a href="#Desplegando-una-app-para-Android-en-un-dispositivo-fisico" class="headerlink" title="Desplegando una app para Android en un dispositivo físico."></a>Desplegando una app para Android en un dispositivo físico.</h2><p>Para lograrlo es necesario habilitar el conocido <em>“Opciones de desarrollador”</em> y poder así orrer tu aplicación, de manera que pueda listarse en tu ambiente de desarrollo y desplegarla, depurarla y hacer las correciones que necesites.</p>
+<p>Es importante revisar la configuracion de nuestro ambiente de desarrollo y asegurarnos de contar con lo siguiente:</p>
+<ul>
+<li>Tener instalado los drivers propios de su teléfono, esto típicamente se obtiene desde la pagina de cada fabricante, o bien algunos son instalados de forma automática cuando conectamos el teléfono mediante USB a nuestra computadora</li>
+<li>Instalar el Google USB driver desde el Manager SDK de Android, esto permite poder el despliegue a las apps a traves del IDE de</li>
+<li>Habilitar las opciones de desarrollador Android y permitir la depuración USB desde el dispositivo.</li>
+</ul>
+<p>A continuación te comparto un video que resume lo anterior:</p>
+<p><a href="https://youtu.be/AvkHwaKEylc" title="Video" target="_blank" rel="external"><img src="/2016/10/31/Como-desplegar-apps-para-Android-en-tu-dispositivo-fisico/video.png" alt="Video"></a></p>
+<h2 id="Automatizacion-y-despliegue-en-dispositivos-reales"><a href="#Automatizacion-y-despliegue-en-dispositivos-reales" class="headerlink" title="Automatización y despliegue en dispositivos reales."></a>Automatización y despliegue en dispositivos reales.</h2><p>También, es posible automatizar el despliegue de aplicaciones móviles y ejecutar casos de prueba sobre la interface gráfica. Para ello existen diversos <em>frameworks</em> de automatización como Appium, Robotium, Expresso y Xamarin Test-Clould.</p>
+<p>Si deseas automatizar pruebas de interfaz gráfica con C# o NodeJS, te recomiendo utilizar *Xamarin Test Cloud, el cual es una herramienta en línea (modalidad de pago, existe período de prueba), el cual permite probar aplicaciones en dispositivos Android y iOS de manera automatizada, tomar capturas de pantallas, videos y más. Te dejo el link por acá y un artículo que escribí anteriormente sobre este tema.</p>
+<p><a href="https://www.xamarin.com/test-cloud" target="_blank" rel="external">&gt;&gt;Xamarin Test Cloud - Pruebas móviles hecho fácil.</a></p>
+<h2 id="Distribucion-de-aplicaciones-moviles"><a href="#Distribucion-de-aplicaciones-moviles" class="headerlink" title="Distribución de aplicaciones móviles."></a>Distribución de aplicaciones móviles.</h2><p>Si bien podemos desplegar aplicaciones de manera local en nuestro dispositivo y es útil para desarrollo “bajo el mismo techo”, también existen otras alternativas que pueden resultar de utilidad para desplegar aplicaciones en múltiples dispositivos para realizar pruebas de rendimiento, calidad e incluso ante un grupo de usuarios “beta”, esto mediante Es posible utilizar servicios de terceros que permiten desplegar aplicaciones ante un grupo específico a través de plataformas especializadas para ello.</p>
+<p>Una de esas plataformas es <em>HockeyApp</em>, en la cual podemos colocar APK/IPA de versiones de prueba para distribuirlos de una manera privada y tener que salir a la tienda. Mejor aún, HockeyApp nos permite gestionar tanto versiones como grupos de usuario de distribución y disponer de métricas, reporte de errores y mucho más.</p>
+<p><a href="https://hockeyapp.net/" target="_blank" rel="external">&gt;&gt;HockeyApp: La plataforma para tus apps.</a></p>
+<p>¿Deseas organizar un evento Xamarin? ¡Contáctanos!</p>
+<h2 id="¿Quieres-aprender-mas-¡Participa-conmigo-y-otros-desarrolladores-moviles"><a href="#¿Quieres-aprender-mas-¡Participa-conmigo-y-otros-desarrolladores-moviles" class="headerlink" title="¿Quieres aprender más? ¡Participa conmigo y otros desarrolladores móviles!"></a>¿Quieres aprender más? ¡Participa conmigo y otros desarrolladores móviles!</h2><p>Si estas cerca de Costa Rica, puedes atender <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/" target="_blank" rel="external">nuestro grupo de desarrollo móvil local</a> y compartir con otros desarrolladores sobre temas de Android, iOS y UWP en el área. Si estás interesado/a en participar con nosotros o bien contactarme, puedes escribirme a <a href="mailto:stvansolano@outlook" target="_blank" rel="external">stvansolano@outlook</a> o bien seguirme a través de mi cuenta de Twitter: <a href="https://twitter.com/stvansolano" target="_blank" rel="external">@stvansolano</a>.</p>
+<h2 id="Links-complementarios-y-de-referencia-sobre-el-despliegue-de-apps-en-Android"><a href="#Links-complementarios-y-de-referencia-sobre-el-despliegue-de-apps-en-Android" class="headerlink" title="Links complementarios y de referencia sobre el despliegue de apps en Android."></a>Links complementarios y de referencia sobre el despliegue de apps en Android.</h2><p><a href="http://programacion-moviles.blogspot.com/2015/08/depuracion-de-aplicaciones-android-studio-en-dispositivo-fisico.html" target="_blank" rel="external">Link 1</a><br><a href="http://academiaandroid.com/depuracion-aplicaciones-android-en-dispositivo-fisico-usb/" target="_blank" rel="external">Link 2</a></p>
+<p>¡No olvides <a href="http://stvansolano.github.io/blog/#suscribe">suscribirte</a> a mi blog! Y recibirás noticias sobre próximos eventos y artículos que estaré publicando.</p>
+<p>Nos vemos en la próxima.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Les comparto algunas recomendaciones para poder desplegar apps para Android en dispositivos físicos Android por medio de las opciones de desarrollador.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Invitación - Xamarin Bootcamp 2016 en Ulacit Costa Rica</title>
     <link href="http://stvansolano.github.io/2016/10/03/Invitacion-Xamarin-Bootcamp-2016-en-Ulacit-Costa-Rica/"/>
     <id>http://stvansolano.github.io/2016/10/03/Invitacion-Xamarin-Bootcamp-2016-en-Ulacit-Costa-Rica/</id>
     <published>2016-10-03T00:00:00.000Z</published>
-    <updated>2016-10-08T02:20:33.076Z</updated>
+    <updated>2016-10-08T02:20:33.000Z</updated>
     
     <content type="html"><![CDATA[<p>Continuamos con más eventos de la comunidad Xamarin Costa Rica. Te invitamos al próximo Xamarin Bootcamp en Ulacit sede Barrio Tournón donde tendremos 3 charlas y sesión de codificación en la tarde. ¡Te esperamos!</p>
 <a id="more"></a>
@@ -59,7 +108,7 @@
     <link href="http://stvansolano.github.io/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/"/>
     <id>http://stvansolano.github.io/2016/09/07/Nos-vemos-en-Xamarin-Dev-Days-Costa-Rica/</id>
     <published>2016-09-07T00:00:00.000Z</published>
-    <updated>2016-10-10T22:49:12.788Z</updated>
+    <updated>2016-10-10T22:49:12.000Z</updated>
     
     <content type="html"><![CDATA[<p>¡<em>Mobile Costa Rica Developers</em> se une a la celebración de <em>Xamarin Dev Days!</em> Una serie de eventos a nivel mundial dedicados al desarrollo de aplicaciones móviles con Xamarin. ¡No te lo pierdas!</p>
 <a id="more"></a>
@@ -175,7 +224,7 @@
     <link href="http://stvansolano.github.io/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/"/>
     <id>http://stvansolano.github.io/2016/08/15/Getting-your-next-app--with-azure-mobile-apps/</id>
     <published>2016-08-15T00:00:00.000Z</published>
-    <updated>2016-10-10T22:52:18.508Z</updated>
+    <updated>2016-10-10T22:52:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>New to <em>Azure</em>? Need a backend for your mobile app? Here here are key considerations and tips for start developing mobile apps with <em>Azure Mobile Apps</em>.</p>
 <a id="more"></a>
@@ -327,6 +376,8 @@
     
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
+      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
+    
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
       <category term="Spanish/English" scheme="http://stvansolano.github.io/blog/tags/Spanish-English/"/>
@@ -334,8 +385,6 @@
       <category term="UX / UI" scheme="http://stvansolano.github.io/blog/tags/UX-UI/"/>
     
       <category term="Google" scheme="http://stvansolano.github.io/blog/tags/Google/"/>
-    
-      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
     
   </entry>
   
@@ -962,55 +1011,6 @@
       <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
     
       <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Xamarin 4 has everything you need to create great mobile apps!</title>
-    <link href="http://stvansolano.github.io/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/"/>
-    <id>http://stvansolano.github.io/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/</id>
-    <published>2015-12-01T00:00:00.000Z</published>
-    <updated>2016-09-06T17:50:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Let’s take a look into some of the features and enhancements included in Xamarin 4.0 for developing cross-platform applications including Android, iOS and UWP (Universal Windows Apps). </p>
-<a id="more"></a>
-<h2 id="Introducing-Xamarin-Forms-2-0"><a href="#Introducing-Xamarin-Forms-2-0" class="headerlink" title="Introducing Xamarin Forms 2.0"></a>Introducing Xamarin Forms 2.0</h2><p>This time I made a simple app called <em>“Lucky Winner”</em> for randomly select a person from a list of participants using the commonly used <em>System.Random</em> class for random numbers just like any other .Net program. </p>
-<p>Here are some screenshots of the app running on different platforms:</p>
-<img src="/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/preview.png" alt="Apps preview" title="Apps preview">
-<p>You can download the full source for this app from my GitHub repository <a href="https://github.com/stvansolano/lucky-winner" target="_blank" rel="external">here</a>.</p>
-<h2 id="Developing-a-Xamarin-Forms-app-from-scratch"><a href="#Developing-a-Xamarin-Forms-app-from-scratch" class="headerlink" title="Developing a Xamarin.Forms app from scratch"></a>Developing a Xamarin.Forms app from scratch</h2><p>By installing Xamarin Platform and geting a valid/trial license you will be able to create a PCL (Portable Class Library) that contains most of the code for you to be shared and compile native apps for Android, iOS and UWP. </p>
-<p>So let’s pick the Xamarin.Forms template from the available list inside Visual Studio:</p>
-<img src="/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/setup.png" alt="Cross-platform app template" title="Cross-platform app template">
-<p>By doing so will get:</p>
-<ul>
-<li>A Xamarin.Forms project for sharing XAML/C# code between platforms</li>
-<li>Android project referencing Xamarin.Forms</li>
-<li>iOS project</li>
-<li>UWP project</li>
-</ul>
-<p>If you are familiar with MVVM, XAML and C# it will be quite familiar to easily include Pages, ViewModels, Views in your project just like the following.</p>
-<img src="/2015/12/01/Xamarin4-has-everything-you-need-to-create-great-mobile-apps/structure.png" alt="Project structure" title="Project structure">
-<h2 id="Building-User-Interfaces-with-MVVM-in-a-cross-platform-way"><a href="#Building-User-Interfaces-with-MVVM-in-a-cross-platform-way" class="headerlink" title="Building User Interfaces with MVVM, in a cross-platform way"></a>Building User Interfaces with MVVM, in a cross-platform way</h2><p>Let’s take a look at the XAML code used for defining the list of participants:<br><br></p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line"><span class="tag">&lt;<span class="name">ListView</span> <span class="attr">x:Name</span>=<span class="string">"PlayersSelector"</span></span></div><div class="line">          <span class="attr">ItemsSource</span>=<span class="string">"&#123;Binding Path=Players&#125;"</span></div><div class="line">          <span class="attr">SeparatorColor</span>=<span class="string">"Gray"</span></div><div class="line">          <span class="attr">SelectedItem</span>=<span class="string">"&#123;Binding Path=Winner, Mode=TwoWay&#125;"</span>&gt;</div><div class="line">	<span class="tag">&lt;<span class="name">ListView.ItemTemplate</span>&gt;</span></div><div class="line">	    <span class="tag">&lt;<span class="name">DataTemplate</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">ViewCell</span>&gt;</span></div><div class="line">    	        <span class="tag">&lt;<span class="name">ViewCell.ContextActions</span>&gt;</span></div><div class="line">		   	<span class="tag">&lt;<span class="name">ToolbarItem</span> <span class="attr">Command</span>=<span class="string">"&#123;Binding DeleteCommand&#125;"</span> <span class="attr">Text</span>=<span class="string">"Borrar"</span> /&gt;</span></div><div class="line">	        <span class="tag">&lt;/<span class="name">ViewCell.ContextActions</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">Grid</span>&gt;</span></div><div class="line">		    <span class="tag">&lt;<span class="name">StackLayout</span> <span class="attr">Orientation</span>=<span class="string">"Horizontal"</span></span></div><div class="line">		        	<span class="attr">HorizontalOptions</span>=<span class="string">"Start"</span>&gt;</div><div class="line">			<span class="tag">&lt;<span class="name">Image</span> <span class="attr">IsVisible</span>=<span class="string">"&#123;Binding Path=IsWinner&#125;"</span></span></div><div class="line">			       <span class="attr">Source</span>=<span class="string">"Prize.png"</span></div><div class="line">			       <span class="attr">HeightRequest</span>=<span class="string">"25"</span> <span class="attr">WidthRequest</span>=<span class="string">"25"</span> /&gt;</div><div class="line">			       </div><div class="line">		       	<span class="tag">&lt;<span class="name">Label</span> <span class="attr">Text</span>=<span class="string">"¡GANADOR!"</span></span></div><div class="line">		       	    <span class="attr">IsVisible</span>=<span class="string">"&#123;Binding Path=IsWinner&#125;"</span></div><div class="line">					<span class="attr">TextColor</span>=<span class="string">"Red"</span></div><div class="line">					<span class="attr">FontAttributes</span>=<span class="string">"Bold"</span></div><div class="line">					<span class="attr">VerticalTextAlignment</span>=<span class="string">"Center"</span></div><div class="line">					/&gt;</div><div class="line">						</div><div class="line">				<span class="tag">&lt;<span class="name">Label</span> <span class="attr">Text</span>=<span class="string">"&#123;Binding Path=PlayerName&#125;"</span></span></div><div class="line">					<span class="attr">VerticalTextAlignment</span>=<span class="string">"Center"</span></div><div class="line">				/&gt;</div><div class="line">		    <span class="tag">&lt;/<span class="name">StackLayout</span>&gt;</span></div><div class="line">		    <span class="tag">&lt;<span class="name">Button</span> <span class="attr">HorizontalOptions</span>=<span class="string">"End"</span> </span></div><div class="line">		    	    <span class="attr">Command</span>=<span class="string">"&#123;Binding Path=DeleteCommand&#125;"</span></div><div class="line">			    <span class="attr">Text</span>=<span class="string">"x"</span> /&gt;</div><div class="line">	       <span class="tag">&lt;/<span class="name">Grid</span>&gt;</span></div><div class="line">	       <span class="tag">&lt;/<span class="name">ViewCell</span>&gt;</span></div><div class="line">	  <span class="tag">&lt;/<span class="name">DataTemplate</span>&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">ListView.ItemTemplate</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ListView</span>&gt;</span></div></pre></td></tr></table></figure>
-<p>The <em>Binding</em> element acts like the glue between your View and ViewModels for allowing you to have clear separation of concerns between them. Other common features supported for Xamarin.Forms with MVVM include <em>Two-way binding</em>, <em>Command Pattern</em> and <em>Value Converters</em>. </p>
-<h2 id="Getting-a-lucky-winner-with-C-just-like-in-any-other-program"><a href="#Getting-a-lucky-winner-with-C-just-like-in-any-other-program" class="headerlink" title="Getting a lucky winner with C# just like in any other program."></a>Getting a lucky winner with C# just like in any other program.</h2><p>Remember how to generate a random number in C# but not sure how do get it done for a mobile app? No worries! You can use standard System core features in C# (even 6.0 features) plus other cool features including lamda expressions, delegates, actions, Linq and async operations.</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Play</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    ...</div><div class="line">    var random = <span class="keyword">new</span> Random(DateTime.Now.Millisecond);</div><div class="line">    </div><div class="line">    var lucky = random.Next(<span class="number">0</span>, ViewModel.Players.Count);</div><div class="line">    var selectedPlayer = ViewModel.Players.ElementAtOrDefault(lucky);</div><div class="line">    </div><div class="line">    <span class="keyword">if</span> (selectedPlayer != <span class="keyword">null</span>)</div><div class="line">    &#123;</div><div class="line">        selectedPlayer.IsWinner = <span class="keyword">true</span>;</div><div class="line">        ViewModel.Winner = selectedPlayer;</div><div class="line">    </div><div class="line">        PlayersSelector.ScrollTo(selectedPlayer, ScrollToPosition.MakeVisible, <span class="keyword">true</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h2 id="Bring-Material-Design-to-your-Android-application"><a href="#Bring-Material-Design-to-your-Android-application" class="headerlink" title="Bring Material Design to your Android application"></a>Bring Material Design to your Android application</h2><p>Another great feature for Xamarin for Android is ability to easily incorporate <em>Material Design</em> into your Android apps. This can be done by adding the <a href="https://components.xamarin.com/gettingstarted/xamandroidsupportdesign" target="_blank" rel="external">Support Design Library</a> available as a package from NuGet.</p>
-<h2 id="Additional-resources-amp-links"><a href="#Additional-resources-amp-links" class="headerlink" title="Additional resources &amp; links."></a>Additional resources &amp; links.</h2><p><a href="https://blog.xamarin.com/introducing-xamarin-4/" target="_blank" rel="external">Introducing Xamarin 4</a><br><a href="https://blog.xamarin.com/introduction-to-android-material-design/" target="_blank" rel="external">Adding Material Design to Xamarin Apps</a><br><a href="https://github.com/stvansolano/lucky-winner" target="_blank" rel="external">Lucky Winner source code</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Let’s take a look into some of the features and enhancements included in Xamarin 4.0 for developing cross-platform applications including Android, iOS and UWP (Universal Windows Apps). &lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
-    
-      <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
-    
-      <category term="TestCloud" scheme="http://stvansolano.github.io/blog/tags/TestCloud/"/>
     
   </entry>
   

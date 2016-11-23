@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2016-11-23T18:53:00.987Z</updated>
+  <updated>2016-11-23T23:44:36.364Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -16,16 +16,16 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Recap: Primer diplomado de Xamarin Latinoamrica de Microsoft!</title>
+    <title>Recap: Primer diplomado de Xamarin Latinoamérica de Microsoft!</title>
     <link href="http://stvansolano.github.io/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/"/>
     <id>http://stvansolano.github.io/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/</id>
     <published>2016-11-23T00:00:00.000Z</published>
-    <updated>2016-11-23T18:53:00.987Z</updated>
+    <updated>2016-11-23T23:44:36.364Z</updated>
     
     <content type="html"><![CDATA[<p>Avisos, material, recursos y links del código del <a href="https://twitter.com/search?q=%23XamarinDiplomado" target="_blank" rel="external">#XamarinDiplomado</a> para Latinoamérica, ¡Gracias a tod@s los participantes y a la comunidad técnica de la región!</p>
 <a id="more"></a>
 <p>Durante el mes de Octubre y Noviembre de 2016 tuve el gusto formar parte del primer diplomado para Latinoamérica en conjunto con Microsoft y los Xamarin MVPs <a href="https://twitter.com/enriqueaguilar" target="_blank" rel="external">Enrique Aguilar</a> y <a href="https://twitter.com/hjaimesdev" target="_blank" rel="external">Humberto Jaimes</a> a través de un diplomado en línea 100% en español a lo largo de 5 semanas y orientado a la audiencia técnica Microsoft en Latinoamérica. Además, estuvo disponible para través del sitio de <a href="/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/msdn.png"><em>MSDN</em></a> en la versión español para la toda la región.</p>
-<p><img src="/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/mvps.png" alt="&quot;XamarinDiplomado para Latinoamérica" title="XamarinDiplomado para Latinoamérica"></p>
+<p><img src="/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/mvps.png" alt="XamarinDiplomado para Latinoamérica" title="XamarinDiplomado para Latinoamérica"></p>
 <p>El diplomado se concentró en el desarrollo de aplicaciones móviles para Xamarin desde el enfoque tradicional de desarrollo móvil para Android/iOS de la mano de Humberto, Enrique y mi persona, abarcando los conceptos nativos de cada plataforma móvil, así como aspectos multi-plataformaa, conectividad, base de datos, XAML, Xamarin.Forms y Microsoft Azure para la creación de aplicaciones conectadas a la nube.</p>
 <p><br><blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">¡Aun puedes inscribirte en el <a href="https://twitter.com/hashtag/XamarinDiplomado?src=hash" target="_blank" rel="external">#XamarinDiplomado</a> en español! Impartido por <a href="https://twitter.com/stvansolano" target="_blank" rel="external">@stvansolano</a> <a href="https://twitter.com/EnriqueAguilar" target="_blank" rel="external">@EnriqueAguilar</a> <a href="https://twitter.com/HJaimesDev" target="_blank" rel="external">@HJaimesDev</a> <a href="https://t.co/aQ6nA312TZ" target="_blank" rel="external">https://t.co/aQ6nA312TZ</a></p>&mdash; Miguel de Icaza (@migueldeicaza) <a href="https://twitter.com/migueldeicaza/status/799626370540339200" target="_blank" rel="external">18 de noviembre de 2016</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br>Invitación cordial de <em>Miguel de Icaza</em> para el diplomado.</p>
 <h2 id="Nota-importante-para-los-participantes"><a href="#Nota-importante-para-los-participantes" class="headerlink" title="Nota importante para los participantes:"></a>Nota importante para los participantes:</h2><p>Les dejo algunos recursos de interés así como algunas notas importantes respecto a los requisitos de aprobación.</p>
@@ -76,7 +76,7 @@
     <link href="http://stvansolano.github.io/2016/10/31/Como-desplegar-apps-para-Android-en-tu-dispositivo-fisico/"/>
     <id>http://stvansolano.github.io/2016/10/31/Como-desplegar-apps-para-Android-en-tu-dispositivo-fisico/</id>
     <published>2016-10-31T00:00:00.000Z</published>
-    <updated>2016-11-02T03:04:11.000Z</updated>
+    <updated>2016-11-23T23:36:06.904Z</updated>
     
     <content type="html"><![CDATA[<p>Les comparto algunas recomendaciones para poder desplegar apps para Android en dispositivos físicos Android por medio de las opciones de desarrollador.</p>
 <a id="more"></a>
@@ -102,7 +102,7 @@
 <h2 id="¿Quieres-aprender-mas-¡Participa-conmigo-y-otros-desarrolladores-moviles"><a href="#¿Quieres-aprender-mas-¡Participa-conmigo-y-otros-desarrolladores-moviles" class="headerlink" title="¿Quieres aprender más? ¡Participa conmigo y otros desarrolladores móviles!"></a>¿Quieres aprender más? ¡Participa conmigo y otros desarrolladores móviles!</h2><p>Si estas cerca de Costa Rica, puedes atender <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/" target="_blank" rel="external">nuestro grupo de desarrollo móvil local</a> y compartir con otros desarrolladores sobre temas de Android, iOS y UWP en el área. </p>
 <p>Si estás interesado/a en participar con nosotros o bien contactarme, puedes escribirme a <a href="mailto:stvansolano@outlook" target="_blank" rel="external">stvansolano@outlook</a> o bien seguirme a través de mi cuenta de Twitter: <a href="https://twitter.com/stvansolano" target="_blank" rel="external">@stvansolano</a></p>
 <h2 id="Links-complementarios-y-de-referencia-sobre-el-despliegue-de-apps-en-Android"><a href="#Links-complementarios-y-de-referencia-sobre-el-despliegue-de-apps-en-Android" class="headerlink" title="Links complementarios y de referencia sobre el despliegue de apps en Android."></a>Links complementarios y de referencia sobre el despliegue de apps en Android.</h2><p><a href="http://programacion-moviles.blogspot.com/2015/08/depuracion-de-aplicaciones-android-studio-en-dispositivo-fisico.html" target="_blank" rel="external">Link 1</a><br><a href="http://academiaandroid.com/depuracion-aplicaciones-android-en-dispositivo-fisico-usb/" target="_blank" rel="external">Link 2</a></p>
-<p>¡No olvides <a href="http://stvansolano.github.io/blog/#suscribe">suscribirte</a> a mi blog! Y recibirás noticias sobre próximos eventos y artículos que estaré publicando.</p>
+<p>¡No olvides <a href="http://stvansolano.github.io/blog/#suscribe">suscribirte</a> a mi blog para recibir noticias sobre próximos eventos y artículos que estaré publicando.</p>
 <p>Nos vemos en la próxima.</p>
 ]]></content>
     
@@ -115,9 +115,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
     
   </entry>
   
@@ -431,9 +431,9 @@
     </summary>
     
     
-      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
-    
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
     
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
@@ -472,9 +472,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
       <category term="Realm" scheme="http://stvansolano.github.io/blog/tags/Realm/"/>
     
@@ -511,9 +511,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
       <category term="Rifa" scheme="http://stvansolano.github.io/blog/tags/Rifa/"/>
     
@@ -555,9 +555,9 @@
     
       <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   
@@ -785,9 +785,9 @@
     
       <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   
@@ -832,9 +832,9 @@
     
       <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   
@@ -861,9 +861,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
       <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
     
@@ -895,8 +895,6 @@
     </summary>
     
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
       <category term="ASP.NET" scheme="http://stvansolano.github.io/blog/tags/ASP-NET/"/>
     
       <category term="Web Apps" scheme="http://stvansolano.github.io/blog/tags/Web-Apps/"/>
@@ -910,6 +908,8 @@
       <category term="Web API" scheme="http://stvansolano.github.io/blog/tags/Web-API/"/>
     
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   

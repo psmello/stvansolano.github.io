@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2016-11-02T03:04:11.894Z</updated>
+  <updated>2016-11-23T17:33:15.292Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -16,11 +16,62 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Recap del primer diplomado de Xamarin Latinoamerica de Microsoft</title>
+    <link href="http://stvansolano.github.io/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/"/>
+    <id>http://stvansolano.github.io/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/</id>
+    <published>2016-11-23T00:00:00.000Z</published>
+    <updated>2016-11-23T17:33:15.292Z</updated>
+    
+    <content type="html"><![CDATA[<p>Avisos, material, recursos y links del código del <a href="https://twitter.com/search?q=%23XamarinDiplomado" target="_blank" rel="external">#XamarinDiplomado</a> para Latinoamérica, ¡Gracias a tod@s por participar!</p>
+<a id="more"></a>
+<p>Durante el mes de Octubre y Noviembre de 2016 tuve el gusto formar parte del primer diplomado para Latinoamérica en conjunto con Microsoft y los Xamarin MVPs <a href="">Enrique Aguilar</a> y <a href="">Humberto Jaimes</a> a través de un diplomado en línea 100% en español y orientado a la audiencia técnica Microsoft en Latinoamérica.</p>
+<p><img src="/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/mvps.png" alt="&quot;XamarinDiplomado para Latinoamérica" title="XamarinDiplomado para Latinoamérica"></p>
+<p>El diplomado se concentró en el desarrollo de aplicaciones móviles para Xamarin desde el enfoque tradicional, de la mano de Humberto y Enrique y mi persona, abarcando los conceptos nativos de cada plataforma, así como aspectos multi-plataforma con XAML, Xamarin.Forms y Microsoft Azure desde Visual Studio y Xamarin Studio.</p>
+<p>Les dejo algunos recursos de interés así como algunas notas importantes respecto a los requisitos de aprobación..</p>
+<h2 id="Nota-importante-para-los-participantes"><a href="#Nota-importante-para-los-participantes" class="headerlink" title="Nota importante para los participantes"></a>Nota importante para los participantes</h2><ul>
+<li>No es obligatorio realizar examen para poder acceder al Diploma. De esta manera se tendrá más tiempo para desarrollar y evidenciar que tu aplicación está conectada a la nube de Azure. </li>
+<li>Únicamente es necesario instalar el <a href="https://azure.microsoft.com/es-es/downloads/" target="_blank" rel="external">Azure Software Develepment Kit</a> completar el diplomado y verdaderamente acceder a todo el poder de la nube. Recuerda que debes subir evidencia de tu aplicación entre el 28 y 2 de diciembre de 2016.  Podrás subirla también entre el 3 de diciembre y 9 de diciembre de 2016, pero sin tener posibilidad de recibir revisión/corrección.</li>
+<li>Todos los participantes podrán recibir asistencia técnica sobre errores durante el desarrollo de su app y sobre la conexión a Azure escribiendo a este email <a href="mailto:xamarindiplomado@mail.ticapacitacion.com" target="_blank" rel="external">xamarindiplomado@mail.ticapacitacion.com</a> desde el 25/11/2016 al 9/12/2016.</li>
+<li>Todos los participantes podrán asistir a sesiones de preguntas con Miguel Muñoz Serafín, Microsoft Certified Trainer los días Lunes, Miércoles y Viernes desde las 7:30pm hasta las 8:30pm para resolver dudas sobre sus aplicaciones. Fechas: 28/11, 30/11, 2/12, 5/12, 7/12, 9/12</li>
+</ul>
+<h2 id="Blogs-de-los-Xamarin-MVPs"><a href="#Blogs-de-los-Xamarin-MVPs" class="headerlink" title="Blogs de los Xamarin MVPs"></a>Blogs de los Xamarin MVPs</h2><p>Enrique Aguilar - <a href="http://www.enriqueaguilarvargas.com/" target="_blank" rel="external">http://www.enriqueaguilarvargas.com/</a><br>Humberto Jaimes - <a href="http://www.hjr.com.mx/" target="_blank" rel="external">http://www.hjr.com.mx/</a></p>
+<h2 id="Sesiones-de-Q-amp-A"><a href="#Sesiones-de-Q-amp-A" class="headerlink" title="Sesiones de Q&amp;A"></a>Sesiones de Q&amp;A</h2><p>Durante el diplomado contamos con sesiones semanales de Q&amp;A en donde los estudiantes pudieron evacuar dudas y aclarar aspectos importantes del diplomado. Por acá los links:</p>
+<ul>
+<li>Sesión 1. <a href="https://www.youtube.com/watch?v=-30aUbXm12w" target="_blank" rel="external">Link</a></li>
+<li>Sesión 2. <a href="https://www.youtube.com/watch?v=n0C5qG1zPys&amp;app=desktop" target="_blank" rel="external">Link</a></li>
+<li>Sesión 3. Pronto.</li>
+<li>Sesión 4. Pronto.</li>
+<li>Sesión 5. Pronto.</li>
+</ul>
+<h2 id="Agradecimiento-especial"><a href="#Agradecimiento-especial" class="headerlink" title="Agradecimiento especial."></a>Agradecimiento especial.</h2><p>Muchísimas gracias a Humberto, Enrique y a todo el equipo de Microsoft en hacer el diplomado posible, sin duda alguna una gran fuente de material en español para todos aquellos que quieran comenzar a desarrollar aplicaciones móviles con C#/.Net y Xamarin</p>
+<h2 id="¿Quieres-aprender-mas-¡Participa-con-la-comunidad-tecnica"><a href="#¿Quieres-aprender-mas-¡Participa-con-la-comunidad-tecnica" class="headerlink" title="¿Quieres aprender más? ¡Participa con la comunidad técnica!"></a>¿Quieres aprender más? ¡Participa con la comunidad técnica!</h2><p>Si estas cerca de Costa Rica, puedes atender <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/" target="_blank" rel="external">nuestro grupo de desarrollo móvil local</a> y compartir con otros desarrolladores sobre temas de Android, iOS y UWP en el área. Si estás interesado/a en participar con nosotros o bien contactarme, puedes escribirme a <a href="mailto:stvansolano@outlook" target="_blank" rel="external">stvansolano@outlook</a> o bien seguirme a través de mi cuenta de Twitter: <a href="https://twitter.com/stvansolano" target="_blank" rel="external">@stvansolano</a></p>
+<h3 id="Suscribete-a-mi-blog"><a href="#Suscribete-a-mi-blog" class="headerlink" title="Suscríbete a mi blog"></a>Suscríbete a mi blog</h3><p>¡No olvides <a href="http://stvansolano.github.io/blog/#suscribe">suscribirte</a> a mi blog para recibir noticias sobre próximos eventos y artículos que estaré publicando.</p>
+<p>Nos vemos en la próxima.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Avisos, material, recursos y links del código del &lt;a href=&quot;https://twitter.com/search?q=%23XamarinDiplomado&quot;&gt;#XamarinDiplomado&lt;/a&gt; para Latinoamérica, ¡Gracias a tod@s por participar!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="XamarinDiplomado" scheme="http://stvansolano.github.io/blog/tags/XamarinDiplomado/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Cómo desplegar apps para Android en tu dispositivo físico</title>
     <link href="http://stvansolano.github.io/2016/10/31/Como-desplegar-apps-para-Android-en-tu-dispositivo-fisico/"/>
     <id>http://stvansolano.github.io/2016/10/31/Como-desplegar-apps-para-Android-en-tu-dispositivo-fisico/</id>
     <published>2016-10-31T00:00:00.000Z</published>
-    <updated>2016-11-02T03:04:11.894Z</updated>
+    <updated>2016-11-02T03:04:11.000Z</updated>
     
     <content type="html"><![CDATA[<p>Les comparto algunas recomendaciones para poder desplegar apps para Android en dispositivos físicos Android por medio de las opciones de desarrollador.</p>
 <a id="more"></a>
@@ -976,42 +1027,6 @@
       <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
     
       <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Workshop de Xamarin 4 en BrainStation</title>
-    <link href="http://stvansolano.github.io/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/"/>
-    <id>http://stvansolano.github.io/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/</id>
-    <published>2016-01-04T00:00:00.000Z</published>
-    <updated>2016-09-06T17:50:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>El próximo Miércoles 13 de Enero de 2016 estaré presentando un Workshop de desarrollo de aplicaciones nativas con C# / .Net y Xamarin de manera gratuita con la empresa <a href="http://www.brainstation.io/" target="_blank" rel="external">BrainStation</a> Costa Rica. ¡Únete al evento!</p>
-<a id="more"></a>
-<h2 id="Xamarin-4-Desarrollo-de-aplicaciones-moviles-nativas-con-C-Net"><a href="#Xamarin-4-Desarrollo-de-aplicaciones-moviles-nativas-con-C-Net" class="headerlink" title="Xamarin 4: Desarrollo de aplicaciones móviles nativas con C# / .Net"></a>Xamarin 4: Desarrollo de aplicaciones móviles nativas con C# / .Net</h2><p>Te invitamos a unirte a esta actividad, participa en la celebración de la más reciente versión de Xamarin 4 y aprende a construir, probar, monitorear y acelerar el desarrollo de aplicaciones móviles de forma nativa con sus conocimientos en C# y .Net</p>
-<p><a href="http://www.brainstation.io/event/-201614162753" target="_blank" rel="external"><img src="/2016/01/04/Workshop-de-Xamarin-4-en-BrainStation/invitation.png" alt="Invitación"></a></p>
-<p>Tendremos demos de aplicaciones, código abierto y rifas entre los asistentes.</p>
-<p><strong>IMPORTANTE</strong>: El cupo es limitado y recomendamos traer computadora (NO es indispensable). Te dejamos la invitación por acá para el registro de la actividad. </p>
-<p>NO HABRÁ RSVP en Meetup en esta ocasión, ya que deberán registrarse y confirmar su espacio directamente con BrainStation por motivos de logística del evento.</p>
-<p><strong>Registro:</strong> <a href="http://www.brainstation.io/event/-201614162753" target="_blank" rel="external">http://www.brainstation.io/event/-201614162753</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;El próximo Miércoles 13 de Enero de 2016 estaré presentando un Workshop de desarrollo de aplicaciones nativas con C# / .Net y Xamarin de manera gratuita con la empresa &lt;a href=&quot;http://www.brainstation.io/&quot;&gt;BrainStation&lt;/a&gt; Costa Rica. ¡Únete al evento!&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
-    
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
-      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
-    
-      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
-    
-      <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
     
   </entry>
   

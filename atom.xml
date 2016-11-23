@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2016-11-23T18:48:32.679Z</updated>
+  <updated>2016-11-23T18:53:00.987Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Recap: Primer diplomado de Xamarin Latinoamerica de Microsoft!</title>
+    <title>Recap: Primer diplomado de Xamarin Latinoamrica de Microsoft!</title>
     <link href="http://stvansolano.github.io/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/"/>
     <id>http://stvansolano.github.io/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/</id>
     <published>2016-11-23T00:00:00.000Z</published>
-    <updated>2016-11-23T18:48:32.679Z</updated>
+    <updated>2016-11-23T18:53:00.987Z</updated>
     
     <content type="html"><![CDATA[<p>Avisos, material, recursos y links del código del <a href="https://twitter.com/search?q=%23XamarinDiplomado" target="_blank" rel="external">#XamarinDiplomado</a> para Latinoamérica, ¡Gracias a tod@s los participantes y a la comunidad técnica de la región!</p>
 <a id="more"></a>
@@ -115,9 +115,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
       <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   
@@ -431,9 +431,9 @@
     </summary>
     
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
@@ -472,9 +472,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Realm" scheme="http://stvansolano.github.io/blog/tags/Realm/"/>
     
@@ -511,9 +511,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Rifa" scheme="http://stvansolano.github.io/blog/tags/Rifa/"/>
     
@@ -555,9 +555,9 @@
     
       <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
   </entry>
   
@@ -785,9 +785,9 @@
     
       <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
   </entry>
   
@@ -832,9 +832,9 @@
     
       <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
   </entry>
   
@@ -861,9 +861,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
     
@@ -895,6 +895,8 @@
     </summary>
     
     
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
       <category term="ASP.NET" scheme="http://stvansolano.github.io/blog/tags/ASP-NET/"/>
     
       <category term="Web Apps" scheme="http://stvansolano.github.io/blog/tags/Web-Apps/"/>
@@ -908,8 +910,6 @@
       <category term="Web API" scheme="http://stvansolano.github.io/blog/tags/Web-API/"/>
     
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   

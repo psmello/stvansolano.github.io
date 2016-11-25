@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2016-11-23T23:44:36.364Z</updated>
+  <updated>2016-11-25T17:03:06.558Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://stvansolano.github.io/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/"/>
     <id>http://stvansolano.github.io/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/</id>
     <published>2016-11-23T00:00:00.000Z</published>
-    <updated>2016-11-23T23:44:36.364Z</updated>
+    <updated>2016-11-25T17:03:06.558Z</updated>
     
     <content type="html"><![CDATA[<p>Avisos, material, recursos y links del código del <a href="https://twitter.com/search?q=%23XamarinDiplomado" target="_blank" rel="external">#XamarinDiplomado</a> para Latinoamérica, ¡Gracias a tod@s los participantes y a la comunidad técnica de la región!</p>
 <a id="more"></a>
@@ -30,10 +30,18 @@
 <p><br><blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">¡Aun puedes inscribirte en el <a href="https://twitter.com/hashtag/XamarinDiplomado?src=hash" target="_blank" rel="external">#XamarinDiplomado</a> en español! Impartido por <a href="https://twitter.com/stvansolano" target="_blank" rel="external">@stvansolano</a> <a href="https://twitter.com/EnriqueAguilar" target="_blank" rel="external">@EnriqueAguilar</a> <a href="https://twitter.com/HJaimesDev" target="_blank" rel="external">@HJaimesDev</a> <a href="https://t.co/aQ6nA312TZ" target="_blank" rel="external">https://t.co/aQ6nA312TZ</a></p>&mdash; Miguel de Icaza (@migueldeicaza) <a href="https://twitter.com/migueldeicaza/status/799626370540339200" target="_blank" rel="external">18 de noviembre de 2016</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br>Invitación cordial de <em>Miguel de Icaza</em> para el diplomado.</p>
 <h2 id="Nota-importante-para-los-participantes"><a href="#Nota-importante-para-los-participantes" class="headerlink" title="Nota importante para los participantes:"></a>Nota importante para los participantes:</h2><p>Les dejo algunos recursos de interés así como algunas notas importantes respecto a los requisitos de aprobación.</p>
 <ul>
-<li>No es obligatorio realizar examen para poder acceder al Diploma. De esta manera se tendrá más tiempo para desarrollar y evidenciar que tu aplicación está conectada a la nube de Azure. </li>
-<li>Únicamente es necesario instalar el <a href="https://azure.microsoft.com/es-es/downloads/" target="_blank" rel="external">Azure Software Develepment Kit</a> completar el diplomado y verdaderamente acceder a todo el poder de la nube. Recuerda que debes subir evidencia de tu aplicación entre el 28 y 2 de diciembre de 2016.  Podrás subirla también entre el 3 de diciembre y 9 de diciembre de 2016, pero sin tener posibilidad de recibir revisión/corrección.</li>
-<li>Todos los participantes podrán recibir asistencia técnica sobre errores durante el desarrollo de su app y sobre la conexión a Azure escribiendo a este email <a href="mailto:xamarindiplomado@mail.ticapacitacion.com" target="_blank" rel="external">xamarindiplomado@mail.ticapacitacion.com</a> desde el 25/11/2016 al 9/12/2016.</li>
-<li>Todos los participantes podrán asistir a sesiones de preguntas con Miguel Muñoz Serafín, Microsoft Certified Trainer los días Lunes, Miércoles y Viernes desde las 7:30pm hasta las 8:30pm para resolver dudas sobre sus aplicaciones. Fechas: 28/11, 30/11, 2/12, 5/12, 7/12, 9/12</li>
+<li><strong>No es obligatorio realizar examen para poder acceder al Diploma.</strong> De esta manera se tendrá más tiempo para desarrollar y evidenciar que tu aplicación está conectada a la nube de Azure. </li>
+<li><strong>Recuerda instalar lo siguiente:</strong></li>
+</ul>
+<ol>
+<li><a href="https://azure.microsoft.com/es-es/downloads/" target="_blank" rel="external">Azure Software Develepment Kit</a></li>
+<li>Instalación de referencia de <a href="https://components.xamarin.com/view/azure-mobile-client" target="_blank" rel="external">Azure Mobile Client SDK</a> a través de NuGet (paquete + referencias)</li>
+</ol>
+<p><img src="/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/sdk.png" alt="SDK" title="SDK"></p>
+<ul>
+<li><strong>Recuerda que debes subir evidencia de tu aplicación entre el 28 y 2 de diciembre de 2016.</strong>  Podrás subirla también entre el 3 de diciembre y 9 de diciembre de 2016, pero sin tener posibilidad de recibir revisión/corrección.</li>
+<li><strong>Todos los participantes podrán recibir asistencia técnica</strong>. Esto para atender sobre errores durante el desarrollo de su app y sobre la conexión a Azure escribiendo a este email <a href="mailto:xamarindiplomado@mail.ticapacitacion.com" target="_blank" rel="external">xamarindiplomado@mail.ticapacitacion.com</a> desde el 25/11/2016 al 9/12/2016.</li>
+<li><strong>Todos los participantes podrán asistir a sesiones de preguntas</strong>. Esto los días Lunes, Miércoles y Viernes desde las 7:30pm hasta las 8:30pm para resolver dudas sobre sus aplicaciones. Fechas: 28/11, 30/11, 2/12, 5/12, 7/12, 9/12 de 2016</li>
 </ul>
 <h2 id="Blogs-de-los-Xamarin-MVPs"><a href="#Blogs-de-los-Xamarin-MVPs" class="headerlink" title="Blogs de los Xamarin MVPs"></a>Blogs de los Xamarin MVPs</h2><p>Enrique Aguilar - <a href="http://www.enriqueaguilarvargas.com/" target="_blank" rel="external">http://www.enriqueaguilarvargas.com/</a><br>Humberto Jaimes - <a href="http://www.hjr.com.mx/" target="_blank" rel="external">http://www.hjr.com.mx/</a></p>
 <h2 id="Recursos-adicionales"><a href="#Recursos-adicionales" class="headerlink" title="Recursos adicionales"></a>Recursos adicionales</h2><ul>

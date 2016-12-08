@@ -830,13 +830,13 @@
     
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
-      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
-    
-      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
-    
       <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
     
       <category term="Charla" scheme="http://stvansolano.github.io/blog/tags/Charla/"/>
+    
+      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
+    
+      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
     
       <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
     

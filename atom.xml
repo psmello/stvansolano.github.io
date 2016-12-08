@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2016-12-01T16:48:45.457Z</updated>
+  <updated>2016-12-08T19:59:48.459Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -14,6 +14,93 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Draft - Creating a shared UI app for Android &amp; iOS with C# and MVVM</title>
+    <link href="http://stvansolano.github.io/2016/12/08/Creating-a-shared-UI-app-for-Android-and-iOS-with-C-Sharp-and-MVVM/"/>
+    <id>http://stvansolano.github.io/2016/12/08/Creating-a-shared-UI-app-for-Android-and-iOS-with-C-Sharp-and-MVVM/</id>
+    <published>2016-12-08T00:00:00.000Z</published>
+    <updated>2016-12-08T19:59:48.459Z</updated>
+    
+    <content type="html"><![CDATA[<p>The MVVM Pattern was Introduced earlier in 2005 as a way of writting WPF applications (‘Classic’ approach these days). However, most of its key concepts remain usable today as other tecnologies are including more support for MVVM-like features including <em>Bindings</em> and <em>Command</em> capabilities as they evolve.</p>
+<a id="more"></a>
+<p>Back in these days, a lot of <em>MV-W(whatever)</em> related tecnologies got some level of MVVM support like former KnockoutJS, Angular, KendoUI and other web and non-web tecnologies and start bringing <em>Bindings</em> as first-class citizens and allow to combine them with <em>Command</em> Pattern and <em>Asynchronous method invocation (AMI)</em> implementations.</p>
+<h2 id="A-practical-MVVM-deep-dive"><a href="#A-practical-MVVM-deep-dive" class="headerlink" title="A practical MVVM deep-dive:"></a>A practical MVVM deep-dive:</h2><p>In a overview, MVVM is highly recommended for:</p>
+<ul>
+<li>Scale-out your views as your project grows and stay organized.</li>
+<li>Separation of concerns between designing UI and focus on logic separately.</li>
+<li>Allowing Testability in your application (mocking, TDD, BDD and beyond).</li>
+</ul>
+<p><img src="/2016/12/08/Creating-a-shared-UI-app-for-Android-and-iOS-with-C-Sharp-and-MVVM/mvvm.png" alt="MVVM overview" title="Preview"></p>
+<p>Let’s see how you can take advantage of MVVM concepts and re-use those practices to develop a cross-platform mobile application and take advantage of Commands, Bindings and more.</p>
+<h2 id="The-View"><a href="#The-View" class="headerlink" title="The View"></a>The View</h2><p><img src="/2016/12/08/Creating-a-shared-UI-app-for-Android-and-iOS-with-C-Sharp-and-MVVM/sharedUI.png" alt="The View" title="The View"></p>
+<p>The view might contain two important elements:</p>
+<ul>
+<li>Bindings (which is the glue to make the View work with our ViewModel)</li>
+<li>Commands (abstracts the main actions of the views, including clicks, taps, gestures and more)</li>
+<li>States (portions of the view capable of reacting depending to the state of the ViewModel)</li>
+</ul>
+<p>Here is the code for the shared UI between iOS and Android<br><br></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line">   <span class="tag">&lt;<span class="name">local:CardView</span> <span class="attr">HeightRequest</span>=<span class="string">"70"</span>&gt;</span></div><div class="line"> 		<span class="tag">&lt;<span class="name">StackLayout</span> <span class="attr">Orientation</span>=<span class="string">"Horizontal"</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">Image</span> <span class="attr">Aspect</span>=<span class="string">"Fill"</span></span></div><div class="line">			   <span class="attr">HeightRequest</span>=<span class="string">"30"</span> <span class="attr">WidthRequest</span>=<span class="string">"70"</span>&gt;</div><div class="line">			<span class="tag">&lt;<span class="name">Image.Source</span>&gt;</span></div><div class="line">				<span class="tag">&lt;<span class="name">UriImageSource</span> <span class="attr">Uri</span>=<span class="string">"&#123;Binding FlagSource&#125;"</span></span></div><div class="line">								<span class="attr">CacheValidity</span>=<span class="string">"3"</span></div><div class="line">								<span class="attr">CachingEnabled</span>=<span class="string">"true"</span>/&gt;</div><div class="line">			<span class="tag">&lt;/<span class="name">Image.Source</span>&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">Image</span>&gt;</span></div><div class="line">	   <span class="tag">&lt;<span class="name">StackLayout</span> <span class="attr">Orientation</span>=<span class="string">"Vertical"</span></span></div><div class="line">					<span class="attr">Margin</span>=<span class="string">"10,0,10,0"</span></div><div class="line">					<span class="attr">VerticalOptions</span>=<span class="string">"FillAndExpand"</span>&gt;</div><div class="line">	   		<span class="tag">&lt;<span class="name">Label</span> <span class="attr">Text</span>=<span class="string">"&#123;Binding Model.Name&#125;"</span></span></div><div class="line">				   <span class="attr">LineBreakMode</span>=<span class="string">"TailTruncation"</span></div><div class="line">	   		       <span class="attr">Margin</span>=<span class="string">"0"</span> <span class="attr">FontSize</span>=<span class="string">"20"</span></div><div class="line">				   <span class="attr">TextColor</span>=<span class="string">"Black"</span> /&gt;</div><div class="line">			<span class="tag">&lt;<span class="name">Label</span> <span class="attr">Text</span>=<span class="string">"&#123;Binding Model.Region&#125;"</span></span></div><div class="line">				   <span class="attr">Margin</span>=<span class="string">"0"</span></div><div class="line">				   <span class="attr">TextColor</span>=<span class="string">"#C0C0C0"</span> /&gt;</div><div class="line">		<span class="tag">&lt;/<span class="name">StackLayout</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">StackLayout.Margin</span>&gt;</span></div><div class="line">			<span class="tag">&lt;<span class="name">OnPlatform</span> <span class="attr">x:TypeArguments</span>=<span class="string">"Thickness"</span>&gt;</span></div><div class="line">				<span class="tag">&lt;<span class="name">OnPlatform.iOS</span>&gt;</span>15,10,0,10<span class="tag">&lt;/<span class="name">OnPlatform.iOS</span>&gt;</span></div><div class="line">				<span class="tag">&lt;<span class="name">OnPlatform.Android</span>&gt;</span>5,5,5,5<span class="tag">&lt;/<span class="name">OnPlatform.Android</span>&gt;</span></div><div class="line">			<span class="tag">&lt;/<span class="name">OnPlatform</span>&gt;</span></div><div class="line">		<span class="tag">&lt;/<span class="name">StackLayout.Margin</span>&gt;</span></div><div class="line">	<span class="tag">&lt;/<span class="name">StackLayout</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">local:CardView.GestureRecognizers</span>&gt;</span></div><div class="line">		<span class="tag">&lt;<span class="name">TapGestureRecognizer</span> <span class="attr">Command</span>=<span class="string">"&#123;Binding BrowseCommand&#125;"</span> </span></div><div class="line">							  <span class="attr">CommandParameter</span>=<span class="string">"&#123;Binding&#125;"</span> </div><div class="line">							  /&gt;</div><div class="line">	<span class="tag">&lt;/<span class="name">local:CardView.GestureRecognizers</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">local:CardView</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>Layout is shared between iOS and Android and rendered native on each platform. Shared functionality includes abstracted controls, layout containers, Commands, Bindings with minimum platform specifics and native control embedding, which are also supported if prefered to use AXAML or XIBs.</p>
+<h2 id="The-ViewModel"><a href="#The-ViewModel" class="headerlink" title="The ViewModel"></a>The ViewModel</h2><p>The ViewModel responsability is to keep properties and data to be served to the view without worrying about how it looks. As mentioned before, it can keep the state of the view and handle observable actions and elements</p>
+<p>There are two important elements here that allows de-coupling your ViewModel and handle the UI in sync:</p>
+<ul>
+<li><strong>ObservableCollection<t></t></strong> - A generic-class that allows our view to be observed and keep in sync with our ViewModel</li>
+<li><strong>PropertyChanged notifications</strong> - Specific notifications that can be attached to the properties to keep Two-Way communication between the View and ViewModel)</li>
+</ul>
+<p>Let’s see a ViewModel class for a Search operation and focus on the results.<br><br></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> CountrySearchViewModel : BindableObject</div><div class="line">&#123;</div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="title">CountrySearchViewModel</span><span class="params">(IEnumerable&lt;CountryViewModel&gt; countries)</span></span></div><div class="line">	&#123;</div><div class="line">		Results = <span class="keyword">new</span> ObservableCollection&lt;CountryViewModel&gt;();</div><div class="line">		Countries = countries;</div><div class="line"></div><div class="line">		OnFilter();</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="keyword">public</span> IEnumerable&lt;CountryViewModel&gt; Countries &#123; get; <span class="keyword">private</span> <span class="built_in">set</span>; &#125;</div><div class="line"></div><div class="line">	<span class="keyword">private</span> <span class="built_in">string</span> <span class="number">_</span>searchText;</div><div class="line">	<span class="keyword">public</span> <span class="built_in">string</span> SearchText</div><div class="line">	&#123;</div><div class="line">		get &#123; <span class="keyword">return</span> <span class="number">_</span>searchText; &#125;</div><div class="line">		<span class="built_in">set</span></div><div class="line">		&#123;</div><div class="line">			<span class="number">_</span>searchText = value;</div><div class="line">			OnPropertyChanged(nameof(SearchText));</div><div class="line">			OnFilter();</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="keyword">public</span> ObservableCollection&lt;CountryViewModel&gt; Results &#123; get; <span class="keyword">private</span> <span class="built_in">set</span>; &#125;</div><div class="line"></div><div class="line">	<span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">OnFilter</span><span class="params">()</span></span></div><div class="line">	&#123;</div><div class="line">		Results.Clear();</div><div class="line"></div><div class="line">		var query = <span class="built_in">string</span>.IsNullOrEmpty(SearchText) ?</div><div class="line">		                  Countries.ToArray()</div><div class="line">						  : Countries.Where(item =&gt; item.Matches(SearchText)).ToArray();</div><div class="line"></div><div class="line">		foreach (var item in query)</div><div class="line">		&#123;</div><div class="line">			Results.Add(item);</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>The <em>ViewModel</em> allows to keep UI in sync with observable collections and properties hooked into the controls. Furthermore, you can take some of the recently C# 6 features.</p>
+<p><img src="/2016/12/08/Creating-a-shared-UI-app-for-Android-and-iOS-with-C-Sharp-and-MVVM/platformSpecifics.png" alt="ViewModel hooked" title="View Model hooked"></p>
+<p>ViewModel interaction built with Commands, Bindings and Navigation.</p>
+<h2 id="The-Model"><a href="#The-Model" class="headerlink" title="The Model"></a>The Model</h2><p>Then the <em>Model</em> class can act like the DTO of your application and come as needed, mean a Database, Web Service, a file, etc with domain-specific logic when required.<br><br></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> Country</div><div class="line">&#123;</div><div class="line">    <span class="keyword">public</span> <span class="built_in">string</span> Name &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line">    <span class="keyword">public</span> <span class="built_in">string</span> Region &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line">    <span class="keyword">public</span> <span class="built_in">string</span> SubRegion &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line">    <span class="keyword">public</span> <span class="keyword">int</span> Population &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line">    <span class="keyword">public</span> <span class="built_in">string</span> NativeName &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line">    <span class="keyword">public</span> <span class="built_in">string</span> Alpha2Code &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line">    <span class="keyword">public</span> <span class="built_in">string</span> Demonym &#123; get; <span class="built_in">set</span>; &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="Handling-Platform-abstractions-amp-specifics"><a href="#Handling-Platform-abstractions-amp-specifics" class="headerlink" title="Handling Platform abstractions &amp; specifics"></a>Handling Platform abstractions &amp; specifics</h3><p>By having this separation of concerns, other important can be abstracted and adapted into the app to provide common functionalities for the application including:</p>
+<ul>
+<li>Screen-to-Screen Navigation (which can be abstracted to have ViewModel-to-ViewModel navigation through the application)</li>
+<li>Third-party communications (Authentication, Local Storage, WebServices, etc)</li>
+<li>Device capabilities &amp; features (Bluetooth, Camera, Accelerometer, etc)</li>
+<li>Asynchronous &amp; backround processing</li>
+</ul>
+<h3 id="Commands-Bindings-and-ViewModel-communication"><a href="#Commands-Bindings-and-ViewModel-communication" class="headerlink" title="Commands, Bindings and ViewModel communication:"></a>Commands, Bindings and ViewModel communication:</h3><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ToolbarItem</span> <span class="attr">Command</span>=<span class="string">"&#123;Binding SearchCommand, Source=&#123;x:Reference RootPage&#125;&#125;"</span></span></div><div class="line">		<span class="attr">Order</span>=<span class="string">"Secondary"</span></div><div class="line">		<span class="attr">Text</span>=<span class="string">"Search"</span> /&gt;</div></pre></td></tr></table></figure>
+<p>By declaring the Bindings they can be filled with the Commands declared in the ViewModel and arrange the navigation as the following:<br><br></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">    SearchCommand = <span class="keyword">new</span> Command(async obj =&gt; await CallSearch());</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">//... later in the code</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">private</span> async Task <span class="title">CallSearch</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    var searchPage = <span class="keyword">new</span> SearchPage(Countries);</div><div class="line"></div><div class="line">    await NavigationService.PushAsync(searchPage);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="MVVM-Highlights-amp-considerations"><a href="#MVVM-Highlights-amp-considerations" class="headerlink" title="MVVM Highlights &amp; considerations."></a>MVVM Highlights &amp; considerations.</h3><ul>
+<li><strong>Understand Mvvm is a key, and a responsability to carry-on</strong>. You still need to consider if MVVM might be good for your application and take advantage of it when necessary and prevent you from overkilling you apps in case you are building a slightly simple application.</li>
+<li><strong>Re-use the concepts you may already know.</strong> Taking ahead of MVVM and can allow you focus on the architecture of your app as you to understand the basics of the underlying technology (desktop, web, mobile) and platform specifics.</li>
+<li><strong>Adopting a MVVM Framework? Keep in mind: Frameworks are optional.</strong> Use them as needed since you might start with a pure MVVM implementation and eventually bring a MVVM toolkit but only for solving a MVVM problem in your app (lots of Views, ViewModels, ViewModel communication, navigation, etc) and flavors vary betweeen different implementations including <a href="http://www.mvvmlight.net/" target="_blank" rel="external">MvvmLight</a>, <a href="https://mvvmcross.com/" target="_blank" rel="external">MvvmCross</a>, <a href="https://github.com/PrismLibrary/Prism" target="_blank" rel="external">Prism</a> as some of them are adding <em>Reactive programming</em> features like <a href="https://github.com/reactiveui/ReactiveUI" target="_blank" rel="external">ReactiveUI</a>.</li>
+<li><strong>Consider starting Mvvm “pure” and your UI/project becomes wide and complex</strong>. A MVVM solution/framework/library and avoid to overhelme your app with stuff that you might not need.</li>
+<li><strong>Bindings are spreading-out. Take them seriously.</strong> Before coding your own screens and UI interactions, you might consider to avoid re-inventing the wheel in the platform as some of the those concepts are been introduced to both Android and iOS. The recent addition of Android’s <a href="https://developer.android.com/topic/libraries/data-binding/index.html" target="_blank" rel="external">Data-Binding Library</a> and <a href="https://github.com/ReactiveCocoa/ReactiveCocoa" target="_blank" rel="external">ReactiveCocoa</a> for iOS, which might be good options to consider before starting to code.</li>
+</ul>
+<h3 id="References"><a href="#References" class="headerlink" title="References"></a>References</h3><ul>
+<li>An MVVM Pattern introduction - <a href="https://msdn.microsoft.com/en-us/library/hh848246.aspx" target="_blank" rel="external">Link</a>.</li>
+<li>Patterns - WPF Apps With The Model-View-ViewModel Design Pattern - <a href="https://blogs.msdn.microsoft.com/johngossman/2005/10/08/introduction-to-modelviewviewmodel-pattern-for-building-wpf-apps/" target="_blank" rel="external">Link</a>.</li>
+<li>Cross-Platform - Share UI Code Across Mobile Platforms - <a href="https://msdn.microsoft.com/en-us/magazine/dn904669.aspx" target="_blank" rel="external">Link</a>.</li>
+<li>Android Binding library - <a href="https://developer.android.com/topic/libraries/data-binding/index.html" target="_blank" rel="external">Link</a>.</li>
+<li>ReactiveCocoa documentation - <a href="https://github.com/ReactiveCocoa/ReactiveCocoa" target="_blank" rel="external">Link</a>.</li>
+<li>Command pattern - <a href="http://www.oodesign.com/command-pattern.html" target="_blank" rel="external">Link</a>.</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;The MVVM Pattern was Introduced earlier in 2005 as a way of writting WPF applications (‘Classic’ approach these days). However, most of its key concepts remain usable today as other tecnologies are including more support for MVVM-like features including &lt;em&gt;Bindings&lt;/em&gt; and &lt;em&gt;Command&lt;/em&gt; capabilities as they evolve.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
+    
+      <category term="MVVM" scheme="http://stvansolano.github.io/blog/tags/MVVM/"/>
+    
+      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+    
+      <category term="iOS" scheme="http://stvansolano.github.io/blog/tags/iOS/"/>
+    
+  </entry>
   
   <entry>
     <title>Introducción a las aplicaciones móviles conectadas con Azure Mobile Apps (traducido)</title>
@@ -124,9 +211,9 @@
     
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
-      <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
-    
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+    
+      <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
     
       <category term="Backend" scheme="http://stvansolano.github.io/blog/tags/Backend/"/>
     
@@ -515,9 +602,9 @@
     
       <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
     
-      <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
-    
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+    
+      <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
     
       <category term="Backend" scheme="http://stvansolano.github.io/blog/tags/Backend/"/>
     
@@ -1037,76 +1124,6 @@
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Xamarin 4 Workshop code now available!</title>
-    <link href="http://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/"/>
-    <id>http://stvansolano.github.io/2016/02/06/Xamarin-4-Workshop-code-now-available/</id>
-    <published>2016-02-06T00:00:00.000Z</published>
-    <updated>2016-09-06T17:50:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Here is the source-code links and additional resources for the Xamarin 4 Worshop that I presented on January 13th, 2006. Thanks everyone for attending!</p>
-<a id="more"></a>
-<h1 id="Xamarin-4-Workshop"><a href="#Xamarin-4-Workshop" class="headerlink" title="Xamarin 4 Workshop"></a>Xamarin 4 Workshop</h1><h2 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h2><p>System requirements:<br><a href="https://developer.xamarin.com/guides/xamarin-forms/getting-started/installation/" target="_blank" rel="external">https://developer.xamarin.com/guides/xamarin-forms/getting-started/installation/</a></p>
-<h2 id="Getting-Xamarin-installed"><a href="#Getting-Xamarin-installed" class="headerlink" title="Getting Xamarin installed"></a>Getting Xamarin installed</h2><p>Install Xamarin platform.</p>
-<ul>
-<li><p>For Windows/Mac: <a href="https://xamarin.com/download" target="_blank" rel="external">https://xamarin.com/download</a></p>
-</li>
-<li><p>Or you can get it by installing Visual Studio 2015</p>
-</li>
-</ul>
-<p>Visual Studio 2015: <a href="https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx" target="_blank" rel="external">https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx</a></p>
-<h3 id="Recommended-Emulators-for-Android"><a href="#Recommended-Emulators-for-Android" class="headerlink" title="Recommended Emulators for Android"></a>Recommended Emulators for Android</h3><p><a href="https://xamarin.com/android-player" target="_blank" rel="external">Xamarin Android Player</a></p>
-<p><a href="https://www.genymotion.com/#!/download" target="_blank" rel="external">Genymotion</a></p>
-<h2 id="Developing-a-Xamarin-Forms-app-from-scratch"><a href="#Developing-a-Xamarin-Forms-app-from-scratch" class="headerlink" title="Developing a Xamarin.Forms app from scratch"></a>Developing a Xamarin.Forms app from scratch</h2><p>In Visual Studio:<br>– <em>New Project -&gt; Installed -&gt; Visual C# -&gt; Cross-Platform -&gt; Blank App (Xamarin.Forms Portable)</em></p>
-<p>In Xamarin Studio:<br>– <em>File -&gt; New -&gt; Solution -&gt; Cross-platform -&gt; App -&gt; Xamarin.Forms App (Use Portable Class Library)</em></p>
-
-<p>Let’s inspect the App.cs main code that which is responsible for supporting the UI for all the platforms running our app:</p>
-<p>By doing so will get:</p>
-<ul>
-<li>A Xamarin.Forms project for sharing XAML/C# code between platforms</li>
-<li>Android project referencing Xamarin.Forms</li>
-<li>iOS project</li>
-<li>UWP project</li>
-</ul>
-<p>Let’s set the project structure to be used later in this tutorial:</p>
-
-<h2 id="Hello-World-Xamarin-Forms"><a href="#Hello-World-Xamarin-Forms" class="headerlink" title="Hello World, Xamarin.Forms!"></a>Hello World, Xamarin.Forms!</h2> 
-<p>This is the single code shared across those platforms:</p>
-
-<h2 id="Adding-more-pages-to-the-app-with-MasterDetailPage"><a href="#Adding-more-pages-to-the-app-with-MasterDetailPage" class="headerlink" title="Adding more pages to the app with MasterDetailPage"></a>Adding more pages to the app with MasterDetailPage</h2><ul>
-<li>Adding a Menu</li>
-<li>Basic Controls page</li>
-<li>Introducing App.xaml</li>
-<li>Customizing your app (<strong>aka</strong> ResourceDictionary/Styles)</li>
-<li></li>
-</ul>
-<h2 id="Additional-resources-amp-links"><a href="#Additional-resources-amp-links" class="headerlink" title="Additional resources &amp; links."></a>Additional resources &amp; links.</h2><ul>
-<li><a href="https://blog.xamarin.com/introducing-xamarin-4/" target="_blank" rel="external">Introducing Xamarin 4</a></li>
-<li><a href="https://developer.xamarin.com/guides/xamarin-forms/controls/" target="_blank" rel="external">Xamarin Forms Reference</a></li>
-<li><a href="https://developer.xamarin.com/guides/cross-platform/getting_started/beginning_a_xamarin_trial/" target="_blank" rel="external">Getting Xamarin license</a></li>
-<li><a href="https://testcloud.xamarin.com/" target="_blank" rel="external">Xamarin Test Cloud</a></li>
-<li><a href="https://blog.xamarin.com/introduction-to-android-material-design/" target="_blank" rel="external">Adding Material Design to Xamarin Apps</a></li>
-<li><a href="http://xamarin.meetup.com/es-ES/" target="_blank" rel="external">Comunidad Xamarin Costa Rica Mobile .Net Dev Group</a></li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Here is the source-code links and additional resources for the Xamarin 4 Worshop that I presented on January 13th, 2006. Thanks everyone for attending!&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
-    
-      <category term="Workshop" scheme="http://stvansolano.github.io/blog/tags/Workshop/"/>
-    
-      <category term="Taller" scheme="http://stvansolano.github.io/blog/tags/Taller/"/>
-    
-      <category term="XamarinForms" scheme="http://stvansolano.github.io/blog/tags/XamarinForms/"/>
     
   </entry>
   

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2017-01-19T22:27:09.364Z</updated>
+  <updated>2017-01-23T04:33:40.700Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -14,6 +14,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Anunciando: ¡Continua XamarinDiplomado Intermediate! Xamarin en español (gratuito)</title>
+    <link href="http://stvansolano.github.io/2017/01/23/Anunciando-Continua-XamarinDiplomado-Intermediate-Xamarin-en-espa%C3%B1ol-gratuito/"/>
+    <id>http://stvansolano.github.io/2017/01/23/Anunciando-Continua-XamarinDiplomado-Intermediate-Xamarin-en-español-gratuito/</id>
+    <published>2017-01-23T00:00:00.000Z</published>
+    <updated>2017-01-23T04:33:40.700Z</updated>
+    
+    <content type="html"><![CDATA[<p>¡Continua la siguiente edición del #XamarinDiplomado nivel intermedio! No te lo pierdas, continuamos en 2017 con más novedades y contenidos.</p>
+<a id="more"></a>
+<p>#XamarinDiplomado consiste en una iniciativa desarrollada con los Xamarin MVP latinoamericanos Humberto Jaimes, Enrique Aguilar y mi persona en conjunto el equipo de Microsoft para Latinoamérica, de manera que podamos llevar contenidos gratuitos sobre desarrollo móvil y principalmente orientados a audiencias en español.</p>
+<p>En 2016 tuvimos una gran respuesta por parte de la comunidad .Net en Latinoamérica al liberar un diplomado de desarrollo de aplicaciones móviles 100% en español y orientado al desarrollo de aplicaciones para Android, iOS y Windows con C# y Xamarin en colaboración con los Xamarin MVP de la región. </p>
+<p><br><blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">¡Aun puedes inscribirte en el <a href="https://twitter.com/hashtag/XamarinDiplomado?src=hash" target="_blank" rel="external">#XamarinDiplomado</a> en español! Impartido por <a href="https://twitter.com/stvansolano" target="_blank" rel="external">@stvansolano</a> <a href="https://twitter.com/EnriqueAguilar" target="_blank" rel="external">@EnriqueAguilar</a> <a href="https://twitter.com/HJaimesDev" target="_blank" rel="external">@HJaimesDev</a> <a href="https://t.co/aQ6nA312TZ" target="_blank" rel="external">https://t.co/aQ6nA312TZ</a></p>&mdash; Miguel de Icaza (@migueldeicaza) <a href="https://twitter.com/migueldeicaza/status/799626370540339200" target="_blank" rel="external">18 de noviembre de 2016</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Si te perdiste la primera edición ¡no te preocupes!. Puedes ponerte al día en esta edición en la sección nivelatoria en donde tendrás acceso al contenido junto con el material del nivel intermedio.</p>
+<p>Además puedes repasar el <a href="/2016/11/23/Recap-del-primer-diplomado-de-Xamarin-Latinoamerica-de-Microsoft/">recap</a> que hice de la edición del año pasado y desarrollar tus primeras aplicaciones móviles.</p>
+<p>Te cuento que para esta nueva edición de nivel intermedio tendrás la oportunidad de aspectos orientados a la integración de herramientas y actividades propias del desarrollo de aplicaciones móviles incluyendo:</p>
+<ul>
+<li>Almacenamiento en la nube con Azure Storage desde Xamarin </li>
+<li>Gestión de versiones betas de aplicaciones con HockeyApp</li>
+<li>Xamarin Test Cloud para la automatización de pruebas de interfaz gráfica y en la nube</li>
+<li>DevOps y Visual Studio Team Services</li>
+</ul>
+<p><img src="/2017/01/23/Anunciando-Continua-XamarinDiplomado-Intermediate-Xamarin-en-español-gratuito/preview.png" alt="XamarinDiplomado" title="XamarinDiplomado"></p>
+<p>Todo el material es completamente gratuito y con la participación de grandes contribuyentes al ecosistema Xamarin/Microsoft en español de la mano de Humberto, Enrique, mi persona y grandes colegas del equipo de Microsoft para Latinoamérica.</p>
+<h2 id="Mantente-sintonizado-al-diplomado"><a href="#Mantente-sintonizado-al-diplomado" class="headerlink" title="Mantente sintonizado al diplomado."></a>Mantente sintonizado al diplomado.</h2><p>Como siempre, puedes mantenerte al día por medio de los blogs de los MVPs a continuación:<br>Enrique Aguilar - <a href="http://www.enriqueaguilarvargas.com/" target="_blank" rel="external">http://www.enriqueaguilarvargas.com/</a><br>Humberto Jaimes - <a href="http://www.hjr.com.mx/" target="_blank" rel="external">http://www.hjr.com.mx/</a><br>Esteban Solano - <a href="http://stvansolano.github.io/blog">http://stvansolano.github.io/blog</a></p>
+<h2 id="¡Reserva-tu-lugar-en-el-XamarinDiplomado"><a href="#¡Reserva-tu-lugar-en-el-XamarinDiplomado" class="headerlink" title="¡Reserva tu lugar en el #XamarinDiplomado!"></a>¡Reserva tu lugar en el #XamarinDiplomado!</h2><p>Te dejo por acá el <a href="http://ticapacitacion.com/curso/xamarinlt2/" target="_blank" rel="external">link de registro</a>. Recuerda que si tienes dudas durante el diplomado puedes hacerlas llegar a los MVPs o por medio nuestras cuentas en Twitter.</p>
+<h2 id="¿Quieres-aprender-mas-¡Participa-con-la-comunidad-tecnica"><a href="#¿Quieres-aprender-mas-¡Participa-con-la-comunidad-tecnica" class="headerlink" title="¿Quieres aprender más? ¡Participa con la comunidad técnica!"></a>¿Quieres aprender más? ¡Participa con la comunidad técnica!</h2><p>Si estas cerca de Costa Rica, puedes atender <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/" target="_blank" rel="external">nuestro grupo de desarrollo móvil local</a> y compartir con otros desarrolladores sobre temas de Android, iOS y UWP en el área. Si estás interesado/a en participar con nosotros o bien contactarme, puedes escribirme a <a href="mailto:stvansolano@outlook" target="_blank" rel="external">stvansolano@outlook</a> o bien seguirme a través de mi cuenta de Twitter: <a href="https://twitter.com/stvansolano" target="_blank" rel="external">@stvansolano</a></p>
+<h3 id="Suscribete-a-mi-blog"><a href="#Suscribete-a-mi-blog" class="headerlink" title="Suscríbete a mi blog"></a>Suscríbete a mi blog</h3><p>También puedes <a href="http://stvansolano.github.io/blog/#suscribe">suscribirte</a> a mi blog para recibir noticias sobre próximos eventos y artículos que estaré publicando.</p>
+<p>Nos vemos en la próxima!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;¡Continua la siguiente edición del #XamarinDiplomado nivel intermedio! No te lo pierdas, continuamos en 2017 con más novedades y contenidos.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
+    
+      <category term="XamarinDiplomado" scheme="http://stvansolano.github.io/blog/tags/XamarinDiplomado/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+  </entry>
   
   <entry>
     <title>Creating a shared UI app for Android &amp; iOS with C# and MVVM</title>
@@ -91,11 +138,11 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
+      <category term="MVVM" scheme="http://stvansolano.github.io/blog/tags/MVVM/"/>
     
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
-      <category term="MVVM" scheme="http://stvansolano.github.io/blog/tags/MVVM/"/>
+      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
     
       <category term="iOS" scheme="http://stvansolano.github.io/blog/tags/iOS/"/>
     
@@ -206,13 +253,13 @@
     </summary>
     
     
-      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
-      <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
-    
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+    
+      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
+    
+      <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
     
       <category term="Backend" scheme="http://stvansolano.github.io/blog/tags/Backend/"/>
     
@@ -279,9 +326,9 @@
     
       <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
       <category term="XamarinDiplomado" scheme="http://stvansolano.github.io/blog/tags/XamarinDiplomado/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   
@@ -482,9 +529,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Spanish/English" scheme="http://stvansolano.github.io/blog/tags/Spanish-English/"/>
     
@@ -599,11 +646,11 @@
     </summary>
     
     
+      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+    
       <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
     
       <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
-    
-      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
       <category term="Backend" scheme="http://stvansolano.github.io/blog/tags/Backend/"/>
     
@@ -644,11 +691,11 @@
     </summary>
     
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
       <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
     
-      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Spanish/English" scheme="http://stvansolano.github.io/blog/tags/Spanish-English/"/>
     
@@ -685,9 +732,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Realm" scheme="http://stvansolano.github.io/blog/tags/Realm/"/>
     
@@ -724,9 +771,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Rifa" scheme="http://stvansolano.github.io/blog/tags/Rifa/"/>
     
@@ -768,9 +815,9 @@
     
       <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
   </entry>
   
@@ -998,9 +1045,9 @@
     
       <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
   </entry>
   
@@ -1045,9 +1092,9 @@
     
       <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
   </entry>
   
@@ -1074,55 +1121,13 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
     
       <category term="Charla" scheme="http://stvansolano.github.io/blog/tags/Charla/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ASP.NET Core 1.0 Talks Costa Rica - Invitación</title>
-    <link href="http://stvansolano.github.io/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/"/>
-    <id>http://stvansolano.github.io/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/</id>
-    <published>2016-02-09T00:00:00.000Z</published>
-    <updated>2016-09-06T17:50:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>El próximo 17 y 27 de febrero de 2016 estaré realizando una serie de charlas sobre desarrollo <em>ASP.NET Core 1.0</em> y Xamarin en las oficinas de Microsoft Costa Rica en Escazú y el Colegio Universitario de Cartago. ¡Quedan cordialmente invitados!</p>
-<a id="more"></a>
-<h2 id="Sobre-ASP-NET-Core-1-0"><a href="#Sobre-ASP-NET-Core-1-0" class="headerlink" title="Sobre ASP.NET Core 1.0:"></a>Sobre ASP.NET Core 1.0:</h2><p>ASP.NET Core 1.0 (anteriormente <em>ASP.NET 5</em> o <em>vNext</em>) incorpora nuevos cambios y mejoras para el desarrollo web y la posibilidad de desarrollar aplicaciones ASP.NET en Linux y OSX, así como la integración a las herramientas más comunes hoy en día para desarrollo web incluyendo <em>NodeJS</em>, <em>Bower</em> y <em>Gulp</em>. </p>
-<p>Conoce más sobre <em>Yeoman</em>, la famosa herramienta de generación de código para <em>NodeJS</em> y aprende a combinarla con Gulp, Bower para crear aplicaciones web con HTML, CSS y JavaScript de forma rápida y sencilla sin salir de tu editor de texto favorito.</p>
-<p><strong>MVC 6 con yeoman/bower/gulp</strong><br><em>Organiza:</em> <em>CR Developers .Net</em><br><strong>Fecha:</strong> Miércoles 17 de febrero de 2016<br><strong>Lugar:</strong> Escazú, Plaza Roble edificio el Patio, piso 2, San José<br>Registro: <a href="http://www.meetup.com/es-ES/Costa-Rica-Developers-NET/events/228701572/" target="_blank" rel="external">Meetup</a></p>
-<p><strong>Xamarin + ASP.NET Core: Servicios REST con Web API</strong><br><em>Organiza:</em> <em>Xamarin Mobile .Net Dev Group</em><br><strong>Fecha:</strong> Sábado 27 de febrero de 2016<br><strong>Lugar:</strong> Sala de Reuniones, Biblioteca del Colegio Universitario de Cartago<br>Registro: <a href="http://www.meetup.com/es-ES/Costa-Rica-Developers-NET/events/228701572/" target="_blank" rel="external">Meetup</a></p>
-<p>Tendremos demos, código abierto y rifas entre todos los asistentes a ambas charlas. Los ganadores serán anunciados el sábado 27 de febrero.</p>
-<p><a href="http://www.meetup.com/es-ES/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/228521961/" target="_blank" rel="external"><img src="/2016/02/09/Asp-Net-Core-1-0-Talks-Costa-Rica-Invitacion/preview.png" alt="Invitación"></a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;El próximo 17 y 27 de febrero de 2016 estaré realizando una serie de charlas sobre desarrollo &lt;em&gt;ASP.NET Core 1.0&lt;/em&gt; y Xamarin en las oficinas de Microsoft Costa Rica en Escazú y el Colegio Universitario de Cartago. ¡Quedan cordialmente invitados!&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="ASP.NET" scheme="http://stvansolano.github.io/blog/tags/ASP-NET/"/>
-    
-      <category term="Web Apps" scheme="http://stvansolano.github.io/blog/tags/Web-Apps/"/>
-    
-      <category term="Yeoman" scheme="http://stvansolano.github.io/blog/tags/Yeoman/"/>
-    
-      <category term="HTML5" scheme="http://stvansolano.github.io/blog/tags/HTML5/"/>
-    
-      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
-    
-      <category term="Web API" scheme="http://stvansolano.github.io/blog/tags/Web-API/"/>
-    
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
   </entry>
   

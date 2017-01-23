@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2017-01-23T04:33:40.700Z</updated>
+  <updated>2017-01-23T14:34:33.325Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://stvansolano.github.io/2017/01/23/Anunciando-Continua-XamarinDiplomado-Intermediate-Xamarin-en-espa%C3%B1ol-gratuito/"/>
     <id>http://stvansolano.github.io/2017/01/23/Anunciando-Continua-XamarinDiplomado-Intermediate-Xamarin-en-español-gratuito/</id>
     <published>2017-01-23T00:00:00.000Z</published>
-    <updated>2017-01-23T04:33:40.700Z</updated>
+    <updated>2017-01-23T14:34:33.325Z</updated>
     
     <content type="html"><![CDATA[<p>¡Continua la siguiente edición del #XamarinDiplomado nivel intermedio! No te lo pierdas, continuamos en 2017 con más novedades y contenidos.</p>
 <a id="more"></a>
@@ -39,7 +39,7 @@
 <p><img src="/2017/01/23/Anunciando-Continua-XamarinDiplomado-Intermediate-Xamarin-en-español-gratuito/preview.png" alt="XamarinDiplomado" title="XamarinDiplomado"></p>
 <p>Todo el material es completamente gratuito y con la participación de grandes contribuyentes al ecosistema Xamarin/Microsoft en español de la mano de Humberto, Enrique, mi persona y grandes colegas del equipo de Microsoft para Latinoamérica.</p>
 <h2 id="Mantente-sintonizado-al-diplomado"><a href="#Mantente-sintonizado-al-diplomado" class="headerlink" title="Mantente sintonizado al diplomado."></a>Mantente sintonizado al diplomado.</h2><p>Como siempre, puedes mantenerte al día por medio de los blogs de los MVPs a continuación:<br>Enrique Aguilar - <a href="http://www.enriqueaguilarvargas.com/" target="_blank" rel="external">http://www.enriqueaguilarvargas.com/</a><br>Humberto Jaimes - <a href="http://www.hjr.com.mx/" target="_blank" rel="external">http://www.hjr.com.mx/</a><br>Esteban Solano - <a href="http://stvansolano.github.io/blog">http://stvansolano.github.io/blog</a></p>
-<h2 id="¡Reserva-tu-lugar-en-el-XamarinDiplomado"><a href="#¡Reserva-tu-lugar-en-el-XamarinDiplomado" class="headerlink" title="¡Reserva tu lugar en el #XamarinDiplomado!"></a>¡Reserva tu lugar en el #XamarinDiplomado!</h2><p>Te dejo por acá el <a href="http://ticapacitacion.com/curso/xamarinlt2/" target="_blank" rel="external">link de registro</a>. Recuerda que si tienes dudas durante el diplomado puedes hacerlas llegar a los MVPs o por medio nuestras cuentas en Twitter.</p>
+<h2 id="¡Reserva-tu-lugar-en-el-XamarinDiplomado"><a href="#¡Reserva-tu-lugar-en-el-XamarinDiplomado" class="headerlink" title="¡Reserva tu lugar en el #XamarinDiplomado!"></a>¡Reserva tu lugar en el #XamarinDiplomado!</h2><p>Te dejo por acá el <a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x1280639bef3" target="_blank" rel="external">link de registro</a>. Recuerda que si tienes dudas durante el diplomado puedes hacerlas llegar a los MVPs o por medio nuestras cuentas en Twitter.</p>
 <h2 id="¿Quieres-aprender-mas-¡Participa-con-la-comunidad-tecnica"><a href="#¿Quieres-aprender-mas-¡Participa-con-la-comunidad-tecnica" class="headerlink" title="¿Quieres aprender más? ¡Participa con la comunidad técnica!"></a>¿Quieres aprender más? ¡Participa con la comunidad técnica!</h2><p>Si estas cerca de Costa Rica, puedes atender <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/" target="_blank" rel="external">nuestro grupo de desarrollo móvil local</a> y compartir con otros desarrolladores sobre temas de Android, iOS y UWP en el área. Si estás interesado/a en participar con nosotros o bien contactarme, puedes escribirme a <a href="mailto:stvansolano@outlook" target="_blank" rel="external">stvansolano@outlook</a> o bien seguirme a través de mi cuenta de Twitter: <a href="https://twitter.com/stvansolano" target="_blank" rel="external">@stvansolano</a></p>
 <h3 id="Suscribete-a-mi-blog"><a href="#Suscribete-a-mi-blog" class="headerlink" title="Suscríbete a mi blog"></a>Suscríbete a mi blog</h3><p>También puedes <a href="http://stvansolano.github.io/blog/#suscribe">suscribirte</a> a mi blog para recibir noticias sobre próximos eventos y artículos que estaré publicando.</p>
 <p>Nos vemos en la próxima!</p>
@@ -138,11 +138,11 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
+      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
+    
       <category term="MVVM" scheme="http://stvansolano.github.io/blog/tags/MVVM/"/>
     
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
-    
-      <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
     
       <category term="iOS" scheme="http://stvansolano.github.io/blog/tags/iOS/"/>
     
@@ -255,9 +255,9 @@
     
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
-      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
-    
       <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
+    
+      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
       <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
     
@@ -529,9 +529,9 @@
     
       <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
     
-      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
-    
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+    
+      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
       <category term="Spanish/English" scheme="http://stvansolano.github.io/blog/tags/Spanish-English/"/>
     
@@ -646,9 +646,9 @@
     </summary>
     
     
-      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
-    
       <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
+    
+      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
       <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
     
@@ -691,11 +691,11 @@
     </summary>
     
     
-      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
+      <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
       <category term="Spanish/English" scheme="http://stvansolano.github.io/blog/tags/Spanish-English/"/>
     

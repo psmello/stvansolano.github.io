@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2017-01-30T04:07:06.970Z</updated>
+  <updated>2017-03-24T14:33:54.255Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -16,11 +16,60 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Próximas actividades - Costa Rica &amp; LATAM, Móviles, Xamarin LATAM, Azure y más!</title>
+    <link href="http://stvansolano.github.io/2017/03/21/Proximas-actividades-Costa-Rica-LATAM-Moviles-Xamarin-LATAM-Azure-y-mas/"/>
+    <id>http://stvansolano.github.io/2017/03/21/Proximas-actividades-Costa-Rica-LATAM-Moviles-Xamarin-LATAM-Azure-y-mas/</id>
+    <published>2017-03-21T00:00:00.000Z</published>
+    <updated>2017-03-24T14:33:54.255Z</updated>
+    
+    <content type="html"><![CDATA[<p>Continuamos con más actividades en línea, presenciales y alrededor del mundo en torno a tecnologías móviles, computación en la nube, integración con servicios y mucho más!</p>
+<a id="more"></a>
+<p>Muchas de ellas disponibles en español para Latinoamérica y disponibles en línea. Por acá algunas de ellas y eventos para los meses de Marzo, Abril y Mayo 2017 en Costa Rica, Latinoamérica y alrededor del mundo:</p>
+<p><img src="/2017/03/21/Proximas-actividades-Costa-Rica-LATAM-Moviles-Xamarin-LATAM-Azure-y-mas/preview.png" alt="Actividades Xamarin Azure y mas" title="Actividades Xamarin Azure y mas"></p>
+<h2 id="ONLINE-Introduccion-a-Visual-Studio-Mobile-Center"><a href="#ONLINE-Introduccion-a-Visual-Studio-Mobile-Center" class="headerlink" title="ONLINE - Introducción a Visual Studio Mobile Center"></a>ONLINE - Introducción a Visual Studio Mobile Center</h2><p><a href="https://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/events/231566487/" target="_blank" rel="external">Registro</a>.</p>
+<p><a href="https://mobile.azure.com/signup?utm_medium=referral_link&amp;utm_source=MeetUp&amp;utm_campaign=MeetUp%20Costa%20Rica" target="_blank" rel="external">Visual Studio Mobile Center</a> permite entregar la aplicación móvil a sus usuarios más rápido y de manera más eficiente, pudiendo invertir más tiempo en desarrollar una app de calidad y con las características que a sus usuarios le importan.</p>
+<p>Mobile Center es la combinación de múltiples servicios, frecuentemente utilizados por desarrolladores de aplicaciones móviles, juntos en la misma herramienta. </p>
+<p>Con Mobile Center, todos los miembros del equipo pueden compilar (“Build”) su código, configurar tests automáticos (“Test Cloud”), distribuir a grupos de colaboradores (“Distribution”). También permite monitorear aplicaciones móviles, viendo los errores que las llevaron a cerrarse inesperadamente (“Crashes”), así como las analíticas sobre quiénes son sus usuarios y qué acciones realizan en la aplicación móvil (“Analytics”).</p>
+<h2 id="Xamarin-Diplomado-LATAM-Nivel-Intermedio"><a href="#Xamarin-Diplomado-LATAM-Nivel-Intermedio" class="headerlink" title="Xamarin Diplomado LATAM - Nivel Intermedio"></a>Xamarin Diplomado LATAM - Nivel Intermedio</h2><p>Este mes concluimos una edición más de XamarinDiplomado para Latinoamérica - Nivel Intermedio, muchas felicidades a tod@s los participantes que obtuvieron su diploma! </p>
+<h2 id="Local-Azure-Bootcamp-en-Santa-Clara-San-Carlos"><a href="#Local-Azure-Bootcamp-en-Santa-Clara-San-Carlos" class="headerlink" title="Local Azure Bootcamp en Santa Clara, San Carlos"></a>Local Azure Bootcamp en Santa Clara, San Carlos</h2><p><a href="https://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/events/238215799/" target="_blank" rel="external">&gt;&gt; Registro abierto</a>.<br>El próximo 27 de marzo de 2017 estaré organizando y hablando sobre Azure y Xamarin como parte de la semana TEC del Instituto Tecnológico de Costa Rica en conjunto con grandes colegas e invitados especiales en San Carlos Alajuela, como previo a la serie de eventos a nivel mundial sobre Azure llamado Global Azure Bootcamp, el cual será el próximo 22 de abril de 2017.</p>
+<p>Puedes conocer más sobre el Global Azure Bootcamp y participar el 22 de abril y registrarte en tu ciudad.</p>
+<h2 id="Hola-Mundo-Hablemos-de-Xamarin-en-Costa-Rica"><a href="#Hola-Mundo-Hablemos-de-Xamarin-en-Costa-Rica" class="headerlink" title="Hola Mundo! Hablemos de Xamarin en Costa Rica"></a>Hola Mundo! Hablemos de Xamarin en Costa Rica</h2><p><a href="https://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/events/231513193/" target="_blank" rel="external">&gt;&gt; Registro abierto</a>.</p>
+<p>Nos reunimos en persona para hablar de aplicaciones móviles con Xamarin. Trae tu código, preguntas y/o problemas que tengas al desarrollar con Xamarin, tips y recomendaciones para construir, probar y monitorear tu aplicación móvil.</p>
+<p>¿Necesitas ayuda para comenzar una aplicación? ¿Estás probando Xamarin.Forms? Trae tu código o bien discutamos ideas para tu próxima aplicación</p>
+<h2 id="Otros-eventos-en-Latinoamerica-y-alrededor-del-mundo"><a href="#Otros-eventos-en-Latinoamerica-y-alrededor-del-mundo" class="headerlink" title="Otros eventos en Latinoamerica y alrededor del mundo"></a>Otros eventos en Latinoamerica y alrededor del mundo</h2><ul>
+<li>Continuan los XamarinDevDays! Xamarin en tu ciudad.</li>
+<li>VS 2017 Laun events</li>
+<li>Global Azure Bootcamp</li>
+<li>Eventos Xamarin alrededor del mundo!</li>
+</ul>
+<h2 id="¿Quieres-aprender-mas-¡Participa-con-la-comunidad-tecnica"><a href="#¿Quieres-aprender-mas-¡Participa-con-la-comunidad-tecnica" class="headerlink" title="¿Quieres aprender más? ¡Participa con la comunidad técnica!"></a>¿Quieres aprender más? ¡Participa con la comunidad técnica!</h2><p>Si estas cerca de Costa Rica, puedes atender <a href="http://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/" target="_blank" rel="external">nuestro grupo de desarrollo móvil local</a> y compartir con otros desarrolladores sobre temas de Android, iOS y UWP en el área. Si estás interesado/a en participar con nosotros o bien contactarme, puedes escribirme a <a href="mailto:stvansolano@outlook" target="_blank" rel="external">stvansolano@outlook</a> o bien seguirme a través de mi cuenta de Twitter: <a href="https://twitter.com/stvansolano" target="_blank" rel="external">@stvansolano</a></p>
+<h3 id="Suscribete-a-mi-blog"><a href="#Suscribete-a-mi-blog" class="headerlink" title="Suscríbete a mi blog"></a>Suscríbete a mi blog</h3><p>También puedes <a href="http://stvansolano.github.io/blog/#suscribe">suscribirte</a> a mi blog para recibir noticias sobre próximos eventos y artículos que estaré publicando.</p>
+<p>Nos vemos en la próxima.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Continuamos con más actividades en línea, presenciales y alrededor del mundo en torno a tecnologías móviles, computación en la nube, integración con servicios y mucho más!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
+    
+      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
+    
+      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
+    
+      <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Anunciando: ¡Continua XamarinDiplomado Intermediate! Xamarin en español (gratuito)</title>
     <link href="http://stvansolano.github.io/2017/01/23/Anunciando-Continua-XamarinDiplomado-Intermediate-Xamarin-en-espa%C3%B1ol-gratuito/"/>
     <id>http://stvansolano.github.io/2017/01/23/Anunciando-Continua-XamarinDiplomado-Intermediate-Xamarin-en-español-gratuito/</id>
     <published>2017-01-23T00:00:00.000Z</published>
-    <updated>2017-01-30T04:07:06.970Z</updated>
+    <updated>2017-01-30T04:07:06.000Z</updated>
     
     <content type="html"><![CDATA[<p>¡Continua la siguiente edición del #XamarinDiplomado nivel intermedio! No te lo pierdas, continuamos en 2017 con más novedades y contenidos.</p>
 <a id="more"></a>
@@ -67,7 +116,7 @@
     <link href="http://stvansolano.github.io/2016/12/08/Creating-a-shared-UI-app-for-Android-and-iOS-with-C-Sharp-and-MVVM/"/>
     <id>http://stvansolano.github.io/2016/12/08/Creating-a-shared-UI-app-for-Android-and-iOS-with-C-Sharp-and-MVVM/</id>
     <published>2016-12-08T00:00:00.000Z</published>
-    <updated>2017-01-19T22:27:09.364Z</updated>
+    <updated>2017-01-19T22:27:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>The <em>Model-View-ViewModel</em> (MVVM) Pattern was introduced earlier in 2005 as a way of developing WPF desktop applications (Windows Presentation Foundation). However, most of its key concepts remain usable today as other technologies are including more support for MVVM-like features including <em>Bindings</em> and <em>Command</em> capabilities as they evolve.</p>
 <a id="more"></a>
@@ -255,13 +304,13 @@
     
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
-      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
-    
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
       <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
     
       <category term="Backend" scheme="http://stvansolano.github.io/blog/tags/Backend/"/>
+    
+      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
     
   </entry>
   
@@ -646,13 +695,13 @@
     </summary>
     
     
-      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
-    
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
       <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
     
       <category term="Backend" scheme="http://stvansolano.github.io/blog/tags/Backend/"/>
+    
+      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
     
   </entry>
   
@@ -1095,39 +1144,6 @@
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
       <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Charla: Desarrollo de aplicaciones móviles con Xamarin y C#/.Net</title>
-    <link href="http://stvansolano.github.io/2016/02/18/Invitacion-Charla-de-C-Sharp-Net-y-Xamarin-Universidad-Fidelitas-Costa-Rica/"/>
-    <id>http://stvansolano.github.io/2016/02/18/Invitacion-Charla-de-C-Sharp-Net-y-Xamarin-Universidad-Fidelitas-Costa-Rica/</id>
-    <published>2016-02-18T00:00:00.000Z</published>
-    <updated>2016-09-06T17:50:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>El próximo 9 de marzo de 2016 estaremos realizando una charla sobre desarrollo de aplicaciones nativas para iOS, Android y Windows Phone (Universal) con C#./Net en la Universidad Fidélitas. ¡No te la pierdas!</p>
-<a id="more"></a>
-<p><strong>Registro:</strong> <a href="http://www.meetup.com/es-ES/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/228750851/" target="_blank" rel="external">Meetup</a></p>
-<p>Participa en la Comunidad Xamarin Costa Rica y aprende a construir, probar, monitorear y acelerar el desarrollo de aplicaciones para iOS, Android y Windows (Universal) Phone de manera nativa con tus conocimientos en C#/.Net y Xamarin.Participa</p>
-<p><a href="http://www.meetup.com/es-ES/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/228521961/" target="_blank" rel="external"><img src="/2016/02/18/Invitacion-Charla-de-C-Sharp-Net-y-Xamarin-Universidad-Fidelitas-Costa-Rica/invitacion.png" alt="Invitación"></a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;El próximo 9 de marzo de 2016 estaremos realizando una charla sobre desarrollo de aplicaciones nativas para iOS, Android y Windows Phone (Universal) con C#./Net en la Universidad Fidélitas. ¡No te la pierdas!&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
-    
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
-      <category term="Comunidad" scheme="http://stvansolano.github.io/blog/tags/Comunidad/"/>
-    
-      <category term="Charla" scheme="http://stvansolano.github.io/blog/tags/Charla/"/>
     
   </entry>
   

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://stvansolano.github.io/"/>
-  <updated>2017-03-24T14:33:54.255Z</updated>
+  <updated>2017-05-09T21:18:51.327Z</updated>
   <id>http://stvansolano.github.io/</id>
   
   <author>
@@ -16,11 +16,56 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Próximas actividades - Costa Rica &amp; LATAM, Móviles, Xamarin LATAM, Azure y más!</title>
+    <title>Recursos gratuitos para aprender Azure</title>
+    <link href="http://stvansolano.github.io/2017/05/09/Recursos-gratuitos-para-aprender-Azure/"/>
+    <id>http://stvansolano.github.io/2017/05/09/Recursos-gratuitos-para-aprender-Azure/</id>
+    <published>2017-05-09T00:00:00.000Z</published>
+    <updated>2017-05-09T21:18:51.327Z</updated>
+    
+    <content type="html"><![CDATA[<p>Para quienes deseen o estén aprendiendo más sobre Azure y computación en la nube, les comparto algunos recursos recomendados con material de primera mano sobre computación en la nube con Azure. ¡Son gratis!</p>
+<a id="more"></a>
+<p><img src="/2017/05/09/Recursos-gratuitos-para-aprender-Azure/preview.png" alt="Hora de aprender Azure gratis"></p>
+<p>Vale mencionar que muchos de ellos han sido liberados de manera gratuita y están disponibles a través de la plataforma de e-learning <a href="https://openedx.microsoft.com" target="_blank" rel="external">edX</a>. Recomendado!</p>
+<h2 id="¡15-cursos-disponibles-y-varios-en-Espanol"><a href="#¡15-cursos-disponibles-y-varios-en-Espanol" class="headerlink" title="¡15+ cursos disponibles y (varios) en Español!"></a>¡15+ cursos disponibles y (varios) en Español!</h2><ul>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZURE214x_LAS+2017_T2/about" target="_blank" rel="external">Azure Fundamentals</a> (disponible en español)</li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+Azure202x_LAS+2017_T2/courseware/a0dd4231e2104e1eaea1d9552e2efc89/" target="_blank" rel="external">Virtual Machines</a> (disponible en español)</li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZURE203x_LAS+2017_T2/about" target="_blank" rel="external">Virtual Networks</a> (disponible en español)</li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZURE204x_LAS+2017_T2/about" target="_blank" rel="external">Azure Identity</a> (disponible en español)</li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZURE205x_LAS+2017_T2/about" target="_blank" rel="external">Azure Storage</a> (disponible en español)</li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+Azure213x+2016_T4/about" target="_blank" rel="external">Azure for AWS experts</a></li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZURE210x+2016_T4/about" target="_blank" rel="external">Automating Azure workloads</a></li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZURE209x_LAS+2017_T2/about" target="_blank" rel="external">Managing Azure workloads</a> (disponible en español)</li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+Azure209x+2016_T4/about" target="_blank" rel="external">Microsoft Azure App Service</a></li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZURE207x+2016_T4/about" target="_blank" rel="external">Databases in Azure</a></li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZURE208x_LAS+2017_T2/about" target="_blank" rel="external">Azure security and compliance</a> (disponible en español)</li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+DEVOPS200.5+2017_T1/about" target="_blank" rel="external">DevOps on Azure pass</a></li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+DevOps200.3+2017_T1/about" target="_blank" rel="external">Continuous integration and continuous deployment</a></li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+DEVOPS200.5+2017_T1/about" target="_blank" rel="external">DevOps Testing</a></li>
+<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZURE211x+2016_T4/about" target="_blank" rel="external">Azure Application Deployment and Management</a></li>
+</ul>
+<p><em>¡Es Hora de aprender Azure y gratis! Regístrate los entrenamientos de <a href="https://twitter.com/search?q=%23AzureSkills&amp;src=typd" target="_blank" rel="external">#AzureSkills</a>! Más info en: <a href="https://aka.ms/azureskillsdx" target="_blank" rel="external">https://aka.ms/azureskillsdx</a></em></p>
+<h2 id="gt-Sesiones-de-Tech-Experts-tambien-disponibles"><a href="#gt-Sesiones-de-Tech-Experts-tambien-disponibles" class="headerlink" title="&gt; Sesiones de Tech+Experts también disponibles"></a>&gt; Sesiones de Tech+Experts también disponibles</h2><p>Además, recuerda que puedes acceder al catálogo de Tech + Experts <a href="https://www.microsoftsessions.com/techexperts/" target="_blank" rel="external">en este link</a> y acceder a webcasts on-demand. ¡No te lo pierdas!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Para quienes deseen o estén aprendiendo más sobre Azure y computación en la nube, les comparto algunos recursos recomendados con material de primera mano sobre computación en la nube con Azure. ¡Son gratis!&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
+    
+      <category term="Cloud" scheme="http://stvansolano.github.io/blog/tags/Cloud/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Próximas actividades - Costa Rica &amp; LATAM, Móviles, Xamarin, Azure y más!</title>
     <link href="http://stvansolano.github.io/2017/03/21/Proximas-actividades-Costa-Rica-LATAM-Moviles-Xamarin-LATAM-Azure-y-mas/"/>
     <id>http://stvansolano.github.io/2017/03/21/Proximas-actividades-Costa-Rica-LATAM-Moviles-Xamarin-LATAM-Azure-y-mas/</id>
     <published>2017-03-21T00:00:00.000Z</published>
-    <updated>2017-03-24T14:33:54.255Z</updated>
+    <updated>2017-03-24T14:40:56.000Z</updated>
     
     <content type="html"><![CDATA[<p>Continuamos con más actividades en línea, presenciales y alrededor del mundo en torno a tecnologías móviles, computación en la nube, integración con servicios y mucho más!</p>
 <a id="more"></a>
@@ -31,12 +76,12 @@
 <p>Mobile Center es la combinación de múltiples servicios, frecuentemente utilizados por desarrolladores de aplicaciones móviles, juntos en la misma herramienta. </p>
 <p>Con Mobile Center, todos los miembros del equipo pueden compilar (“Build”) su código, configurar tests automáticos (“Test Cloud”), distribuir a grupos de colaboradores (“Distribution”). También permite monitorear aplicaciones móviles, viendo los errores que las llevaron a cerrarse inesperadamente (“Crashes”), así como las analíticas sobre quiénes son sus usuarios y qué acciones realizan en la aplicación móvil (“Analytics”).</p>
 <h2 id="Xamarin-Diplomado-LATAM-Nivel-Intermedio"><a href="#Xamarin-Diplomado-LATAM-Nivel-Intermedio" class="headerlink" title="Xamarin Diplomado LATAM - Nivel Intermedio"></a>Xamarin Diplomado LATAM - Nivel Intermedio</h2><p>Este mes concluimos una edición más de XamarinDiplomado para Latinoamérica - Nivel Intermedio, muchas felicidades a tod@s los participantes que obtuvieron su diploma! </p>
-<h2 id="Local-Azure-Bootcamp-en-Santa-Clara-San-Carlos"><a href="#Local-Azure-Bootcamp-en-Santa-Clara-San-Carlos" class="headerlink" title="Local Azure Bootcamp en Santa Clara, San Carlos"></a>Local Azure Bootcamp en Santa Clara, San Carlos</h2><p><a href="https://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/events/238215799/" target="_blank" rel="external">&gt;&gt; Registro abierto</a>.<br>El próximo 27 de marzo de 2017 estaré organizando y hablando sobre Azure y Xamarin como parte de la semana TEC del Instituto Tecnológico de Costa Rica en conjunto con grandes colegas e invitados especiales en San Carlos Alajuela, como previo a la serie de eventos a nivel mundial sobre Azure llamado Global Azure Bootcamp, el cual será el próximo 22 de abril de 2017.</p>
+<h2 id="Local-Azure-Bootcamp-en-Santa-Clara-San-Carlos-Costa-Rica-27-de-marzo-2017"><a href="#Local-Azure-Bootcamp-en-Santa-Clara-San-Carlos-Costa-Rica-27-de-marzo-2017" class="headerlink" title="Local Azure Bootcamp en Santa Clara, San Carlos, Costa Rica. 27 de marzo, 2017"></a>Local Azure Bootcamp en Santa Clara, San Carlos, Costa Rica. 27 de marzo, 2017</h2><p><a href="https://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/events/238215799/" target="_blank" rel="external">&gt;&gt; Registro abierto</a>.<br>El próximo 27 de marzo de 2017 estaré organizando y hablando sobre Azure y Xamarin como parte de la semana TEC del Instituto Tecnológico de Costa Rica en conjunto con grandes colegas e invitados especiales en San Carlos Alajuela, como previo a la serie de eventos a nivel mundial sobre Azure llamado Global Azure Bootcamp, el cual será el próximo 22 de abril de 2017.</p>
 <p>Puedes conocer más sobre el Global Azure Bootcamp y participar el 22 de abril y registrarte en tu ciudad.</p>
 <h2 id="Hola-Mundo-Hablemos-de-Xamarin-en-Costa-Rica"><a href="#Hola-Mundo-Hablemos-de-Xamarin-en-Costa-Rica" class="headerlink" title="Hola Mundo! Hablemos de Xamarin en Costa Rica"></a>Hola Mundo! Hablemos de Xamarin en Costa Rica</h2><p><a href="https://www.meetup.com/es-ES/Costa-Rica-Mobile-Developers/events/231513193/" target="_blank" rel="external">&gt;&gt; Registro abierto</a>.</p>
 <p>Nos reunimos en persona para hablar de aplicaciones móviles con Xamarin. Trae tu código, preguntas y/o problemas que tengas al desarrollar con Xamarin, tips y recomendaciones para construir, probar y monitorear tu aplicación móvil.</p>
 <p>¿Necesitas ayuda para comenzar una aplicación? ¿Estás probando Xamarin.Forms? Trae tu código o bien discutamos ideas para tu próxima aplicación</p>
-<h2 id="Otros-eventos-en-Latinoamerica-y-alrededor-del-mundo"><a href="#Otros-eventos-en-Latinoamerica-y-alrededor-del-mundo" class="headerlink" title="Otros eventos en Latinoamerica y alrededor del mundo"></a>Otros eventos en Latinoamerica y alrededor del mundo</h2><ul>
+<h2 id="Otros-eventos-en-Latinoamerica-y-alrededor-del-mundo"><a href="#Otros-eventos-en-Latinoamerica-y-alrededor-del-mundo" class="headerlink" title="Otros eventos en Latinoamerica y alrededor del mundo."></a>Otros eventos en Latinoamerica y alrededor del mundo.</h2><ul>
 <li>Continuan los XamarinDevDays! Xamarin en tu ciudad.</li>
 <li>VS 2017 Laun events</li>
 <li>Global Azure Bootcamp</li>
@@ -304,13 +349,13 @@
     
       <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
     
+      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
+    
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
       <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
     
       <category term="Backend" scheme="http://stvansolano.github.io/blog/tags/Backend/"/>
-    
-      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
     
   </entry>
   
@@ -695,13 +740,13 @@
     </summary>
     
     
+      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
+    
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
       <category term="Azure" scheme="http://stvansolano.github.io/blog/tags/Azure/"/>
     
       <category term="Backend" scheme="http://stvansolano.github.io/blog/tags/Backend/"/>
-    
-      <category term="REST" scheme="http://stvansolano.github.io/blog/tags/REST/"/>
     
   </entry>
   
@@ -740,9 +785,9 @@
     </summary>
     
     
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
       <category term="Android" scheme="http://stvansolano.github.io/blog/tags/Android/"/>
+    
+      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
     
       <category term="Mobile" scheme="http://stvansolano.github.io/blog/tags/Mobile/"/>
     
@@ -1084,53 +1129,6 @@
     <summary type="html">
     
       &lt;p&gt;¡Celebramos la sesión #10 de la Comunidad Xamarin Costa Rica! En esta ocasión en la sede de la Universidad Estatal a Distancia (UNED) en Cartago. Muchas gracias a tod@s por acompañarnos.&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="Xamarin" scheme="http://stvansolano.github.io/blog/tags/Xamarin/"/>
-    
-      <category term="Open Source" scheme="http://stvansolano.github.io/blog/tags/Open-Source/"/>
-    
-      <category term="Microsoft" scheme="http://stvansolano.github.io/blog/tags/Microsoft/"/>
-    
-      <category term="Spanish/Español" scheme="http://stvansolano.github.io/blog/tags/Spanish-Espanol/"/>
-    
-      <category term="Meetup" scheme="http://stvansolano.github.io/blog/tags/Meetup/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Xamarin Evolve 2016 + //Build recap: ¡Xamarin para todos!</title>
-    <link href="http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/"/>
-    <id>http://stvansolano.github.io/2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/</id>
-    <published>2016-03-18T00:00:00.000Z</published>
-    <updated>2016-09-06T17:50:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>¡Xamarin para todos! Si te perdiste los últimos meetups de la Comunidad Xamarin Costa Rica o bien quieres estar al tanto de las novedades de Xamarin del pasado <a href="https://twitter.com/search?q=%23build2016&amp;src=typd" target="_blank" rel="external">#Build2016</a>, te invitamos al próximo meetup para recapitular sobre los cambios anunciados recientemente para Xamarin y cómo Microsoft encaja en la historia.</p>
-<a id="more"></a>
-<p>Además, abarcaremos lo más destacado del próximo <a href="https://evolve.xamarin.com/" target="_blank" rel="external">Xamarin Evolve 2016</a> el cual será 100% dedicado al desarrollo de apps con Xamarin.</p>
-<p>Si alguna vez has querido empezar a crear aplicaciones móviles con Xamarin / .NET, no hay mejor momento para empezar que ahora! <a href="https://www.xamarin.com/download" target="_blank" rel="external">Descargalo aquí</a>.</p>
-<p>Acompáñanos, comparte y aprende a desarrollar tus primeras apps con Xamarin. Tendremos pizza, bebidas, rifas entre los participantes y más! Cortesía de nuestros patrocinadores. </p>
-<p>Live streaming del Xamarin Evolve <a href="https://blog.xamarin.com/join-the-xamarin-evolve-2016-live-stream" target="_blank" rel="external">aquí</a></p>
-<p><strong>¡No te lo pierdas!</strong> <em>Cupo limitado</em>.</p>
-<p>Reservar <a href="http://www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/229939818/" target="_blank" rel="external"><strong>aquí</strong></a></p>
-<p><a href="https://blog.xamarin.com/xamarin-for-all/" target="_blank" rel="external">Más sobre la noticia</a></p>
-<p><img src="./2016/03/18/Xamarin-Evolve-2016-Build-recap-Xamarin-for-everyone/invitation.png" alt="Invitation - Invitación"></p>
-<p><strong>Transcript:</strong></p>
-<p>Xamarin for everyone! If you missed our latest meetups or you want to catch-up from latest <a href="https://twitter.com/search?q=%23build2016&amp;src=typd" target="_blank" rel="external">#Build2016</a> announcements, we invite you to the next meetup to recap on the changes recently announced for Xamarin and how Microsoft fits into the story. Additionally, we will cover the highlights of next <a href="https://evolve.xamarin.com/" target="_blank" rel="external">Xamarin Evolve 2016</a> which is 100% dedicated to developing apps with Xamarin.</p>
-<p>If you’ve ever wanted to start creating mobile applications with Xamarin / .NET, there is no better time to start than now! <a href="https://www.xamarin.com/download" target="_blank" rel="external">Download it here</a>.</p>
-<p>Join us, share and learn to develop your first apps with Xamarin. We’ll have pizza, drinks, raffles among participants and more! Courtesy of our sponsors.</p>
-<p>Xamarin Evolve Live streaming <a href="https://blog.xamarin.com/join-the-xamarin-evolve-2016-live-stream" target="_blank" rel="external">here</a></p>
-<p>Do not miss it! Limited availability. </p>
-<p>RSVP <a href="http://www.meetup.com/Xamarin-Costa-Rica-Mobile-NET-Developer-Group/events/229939818/" target="_blank" rel="external"><strong>here</strong></a></p>
-<p><a href="https://blog.xamarin.com/xamarin-for-all/" target="_blank" rel="external">About the Xamarin adquisition</a></p>
-<p><strong>IMPORTANT:</strong> This event will be held in spanish</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;¡Xamarin para todos! Si te perdiste los últimos meetups de la Comunidad Xamarin Costa Rica o bien quieres estar al tanto de las novedades de Xamarin del pasado &lt;a href=&quot;https://twitter.com/search?q=%23build2016&amp;amp;src=typd&quot;&gt;#Build2016&lt;/a&gt;, te invitamos al próximo meetup para recapitular sobre los cambios anunciados recientemente para Xamarin y cómo Microsoft encaja en la historia.&lt;/p&gt;
     
     </summary>
     
